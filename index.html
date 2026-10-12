@@ -175,7 +175,7 @@
       transition: transform 0.6s ease-in-out;
     }
     .banner-slide {
-      flex: 0 0 100%; /* <--- Asegura que cada slide ocupe exactamente el 100% del ancho */
+      flex: 0 0 100%;
       width: 100%;
       height: 100%;
     }
@@ -187,12 +187,6 @@
       display: block;
     }
 
-    @media (max-width: 768px) {
-      .seccion-banner {
-        height: 45vh;
-        min-height: 250px;
-      }
-    }
     .banner-dots {
       position: absolute;
       bottom: 15px;
@@ -280,9 +274,19 @@
     .btn-cerrar-modal { background: none; border: none; font-size: 1.6rem; cursor: pointer; color: var(--text-muted); transition: color 0.2s; }
     .btn-cerrar-modal:hover { color: var(--text-main); }
 
+    /* MODAL DE DETALLES ADAPTADO PARA SCROLL VERTICAL Y IMAGEN GRANDE EN MÓVIL */
     .modal-detalle { background: var(--bg-card); width: 95%; max-width: 1050px; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.25); max-height: 90vh; display: flex; flex-direction: column; }
-    .detalle-body { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 35px; padding: 30px; overflow-y: auto; }
-    @media (max-width: 800px) { .detalle-body { grid-template-columns: 1fr; gap: 20px; padding: 20px; } }
+    
+    .detalle-body { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 35px; padding: 30px; overflow-y: auto; flex-grow: 1; }
+    @media (max-width: 800px) { 
+      .detalle-body { 
+        grid-template-columns: 1fr; 
+        gap: 20px; 
+        padding: 15px; 
+        overflow-y: auto; /* Scroll vertical fluido en móviles */
+        max-height: calc(90vh - 65px);
+      } 
+    }
     
     .galeria-contenedor { display: flex; flex-direction: column; gap: 15px; width: 100%; max-width: 100%; overflow: hidden; }
     
@@ -295,9 +299,12 @@
       overflow: hidden;
       cursor: zoom-in;
     }
-    @media (max-width: 800px) { .imagen-principal-wrapper { height: 260px; } }
+    @media (max-width: 800px) { 
+      .imagen-principal-wrapper { 
+        height: 420px; /* Imagen grande y protagonista en celulares */
+      } 
+    }
 
-    /* IMAGEN PRINCIPAL CON TRANSICIÓN SUAVE DE OPACIDAD */
     .imagen-principal {
       width: 100%;
       height: 100%;
@@ -309,7 +316,6 @@
       opacity: 0;
     }
 
-    /* BOTÓN LUPA INTERNO PARA AMPLIAR */
     .zoom-btn-modal {
       position: absolute;
       bottom: 10px;
@@ -330,7 +336,6 @@
     }
     .zoom-btn-modal:hover { background: var(--primary); }
 
-    /* FLECHAS DE NAVEGACIÓN LATERAL EN EL MODAL */
     .btn-nav-galeria {
       position: absolute;
       top: 50%;
@@ -353,7 +358,6 @@
     .btn-nav-galeria.prev { left: 10px; }
     .btn-nav-galeria.next { right: 10px; }
 
-    /* MINIATURAS VISIBLES SOLO EN PC (DESAPARECEN EN MÓVIL) */
     .miniaturas-grid-wrapper {
       width: 100%;
       max-width: 100%;
@@ -932,7 +936,8 @@
 
     function actualizarSlideBanner(totalSlides) {
       const track = document.getElementById('banner-track');
-      track.style.transform = `translateX(-${bannerIndiceActual * 100}%)`;
+      const desplazamiento = bannerIndiceActual * 100;
+      track.style.transform = `translateX(-${desplazamiento}%)`;
 
       const dots = document.querySelectorAll('.banner-dot');
       dots.forEach((dot, idx) => {
@@ -946,7 +951,7 @@
 
     function irASlideBanner(indice) {
       bannerIndiceActual = indice;
-      let listaImagenesBanner = bannerConfig.imagenes || [bannerConfig.url];
+      let listaImagenesBanner = bannerConfig.imagenes && bannerConfig.imagenes.length > 0 ? bannerConfig.imagenes : [bannerConfig.url];
       actualizarSlideBanner(listaImagenesBanner.length);
       if (bannerIntervalo) {
         clearInterval(bannerIntervalo);
@@ -1153,7 +1158,6 @@
       const btnPrev = document.getElementById('btn-galeria-prev');
       const btnNext = document.getElementById('btn-galeria-next');
 
-      // Animación suave de transición de opacidad
       imgPrincipal.classList.add('transicionando');
       setTimeout(() => {
         imgPrincipal.src = galeriaActualModal[indiceModalGaleria];
