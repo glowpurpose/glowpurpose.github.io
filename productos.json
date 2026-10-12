@@ -11,7 +11,14 @@
     "CUIDADO FACIAL",
     "LABIOS",
     "cuidado capilar",
-    "skincare"
+    "skincare",
+    "nuevos lanzamientos"
+  ],
+  "marcas": [
+    "lula",
+    "skala",
+    "guzel",
+    "general"
   ],
   "productos": [
     {
@@ -41,8 +48,8 @@
         "Rostro"
       ],
       "precio": 5612,
-      "agotado": false,
-      "estado": "nuevo",
+      "agotado": true,
+      "estado": "agotado",
       "variantes": [],
       "imagen": "https://lulabeauty.co/cdn/shop/files/OT_00200825_EC_LULA_AGOSTO06822.jpg?v=1762789837&width=3000, https://lulabeauty.co/cdn/shop/files/OT_00200825_EC_LULA_AGOSTO06822.jpg?v=1762789837&width=3000, https://lulabeauty.co/cdn/shop/files/OT_00200825_EC_LULA_AGOSTO06822.jpg?v=1762789837&width=3000 ,https://lulabeauty.co/cdn/shop/files/OT_00200825_EC_LULA_AGOSTO06822.jpg?v=1762789837&width=3000",
       "imagenes": [
@@ -91,6 +98,35 @@
         "https://clickhair.com.co/cdn/shop/files/WhatsApp_Image_2025-02-11_at_08.22.58.jpg?v=1741028397&width=1800"
       ],
       "desc": "El Shampoo de Miel Brillo Intenso de Click Hair ofrece limpieza suave y brillo intenso. Limpia el cabello sin resecar y ayuda a devolverle la hidratación, suavidad y luminosidad al cabello maltratado, opaco o tratado químicamente."
+    },
+    {
+      "id": 1791832399182,
+      "nombre": "aceites para el cuerpo",
+      "categoria": "Corporal",
+      "categorias": [
+        "Corporal",
+        "nuevos lanzamientos"
+      ],
+      "precio": 30000,
+      "agotado": false,
+      "estado": "nuevo",
+      "variantes": [
+        "capuchic",
+        "azul",
+        "morado"
+      ],
+      "imagen": "img/productos/lula/ACEITE DE COCO LIGNE DOR 115 ML.jpg",
+      "imagenes": [
+        "img/productos/lula/ACEITE DE COCO LIGNE DOR 115 ML.jpg",
+        "img/productos/lula/ACEITE DE COCO LIGNE DOR 250 ML.jpg",
+        "img/productos/lula/ACEITE DE ROMERO LISSIA 55 ML.jpg",
+        "img/productos/lula/ACEITE DE ROMERO LISSIA 115 ML.jpg",
+        "img/productos/lula/ACEITE DE_CEBOLLA Y BIOTINA REPARADOR DE PUNTAS 115 ML.jpg",
+        "img/productos/lula/aceitedecebollaybiotina.jpg",
+        "img/productos/lula/Oleo Extraordinario todo tipo de pelo 100 ml Elvive (1).png",
+        "img/productos/lula/Oleo Extraordinario todo tipo de pelo 100 ml Elvive (2).png"
+      ],
+      "desc": "aceites para el cuerpo con excelente aroma"
     }
   ]
 }
