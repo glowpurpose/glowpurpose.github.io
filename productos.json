@@ -1,7 +1,11 @@
 {
   "banner": {
-    "url": "https://bloomshell.co/cdn/shop/files/slider-3_d22861a1-76c5-4b6e-9b82-dac62fc349bb.jpg?v=1788560431&width=1920",
-    "tipo": "imagen"
+    "url": "https://lulabeauty.co/cdn/shop/files/kit-para-labios.gif?v=1786032434&width=1920",
+    "tipo": "imagen",
+    "imagenes": [
+      "https://lulabeauty.co/cdn/shop/files/kit-para-labios.gif?v=1786032434&width=1920",
+      "https://bloomshell.co/cdn/shop/files/slider-3_d22861a1-76c5-4b6e-9b82-dac62fc349bb.jpg?v=1788560431&width=1920"
+    ]
   },
   "categorias": [
     "Rostro",
