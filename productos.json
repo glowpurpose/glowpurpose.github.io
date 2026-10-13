@@ -10,7 +10,632 @@
   "categorias": [
     "Rostro",
     "Cabello",
+    "Corporal",{
+  "banner": {
+    "url": "https://bloomshell.co/cdn/shop/files/slider-3_d22861a1-76c5-4b6e-9b82-dac62fc349bb.jpg?v=1788560431&width=1920",
+    "tipo": "imagen"
+  },
+  "categorias": [
+    "Rostro",
     "Corporal",
+    "Maquillaje",
+    "cuidado capilar",
+    "skincare",
+    "Bloomshell",
+    "shampoo",
+    "cuidado facial",
+    "milagros",
+    "acondicionador",
+    "labios",
+    "cuidado corporal"
+  ],
+  "marcas": [
+    "lula",
+    "skala",
+    "guzel",
+    "general",
+    "bloomshell",
+    "milagros"
+  ],
+  "productos": [
+    {
+      "id": 1791075016395,
+      "nombre": "corrector lula negro",
+      "categoria": "Corporal",
+      "categorias": [
+        "Corporal"
+      ],
+      "precio": 35000,
+      "variantes": [
+        "vainilla",
+        "coco",
+        "fresas"
+      ],
+      "imagen": "https://lulabeauty.co/cdn/shop/files/01_10_9578bd34-d67f-4a55-8c42-770659b2ae91.png?v=1736433402&width=3000",
+      "imagenes": [
+        "https://lulabeauty.co/cdn/shop/files/01_10_9578bd34-d67f-4a55-8c42-770659b2ae91.png?v=1736433402&width=3000"
+      ],
+      "desc": "descripsao"
+    },
+    {
+      "id": 1791075230117,
+      "nombre": "labial",
+      "categoria": "Rostro",
+      "categorias": [
+        "Rostro"
+      ],
+      "precio": 5612,
+      "agotado": false,
+      "estado": "nuevo",
+      "variantes": [],
+      "imagen": "https://lulabeauty.co/cdn/shop/files/OT_00200825_EC_LULA_AGOSTO06822.jpg?v=1762789837&width=3000, https://lulabeauty.co/cdn/shop/files/OT_00200825_EC_LULA_AGOSTO06822.jpg?v=1762789837&width=3000, https://lulabeauty.co/cdn/shop/files/OT_00200825_EC_LULA_AGOSTO06822.jpg?v=1762789837&width=3000 ,https://lulabeauty.co/cdn/shop/files/OT_00200825_EC_LULA_AGOSTO06822.jpg?v=1762789837&width=3000",
+      "imagenes": [
+        "https://lulabeauty.co/cdn/shop/files/OT_00200825_EC_LULA_AGOSTO06822.jpg?v=1762789837&width=3000, https://lulabeauty.co/cdn/shop/files/OT_00200825_EC_LULA_AGOSTO06822.jpg?v=1762789837&width=3000, https://lulabeauty.co/cdn/shop/files/OT_00200825_EC_LULA_AGOSTO06822.jpg?v=1762789837&width=3000 ,https://lulabeauty.co/cdn/shop/files/OT_00200825_EC_LULA_AGOSTO06822.jpg?v=1762789837&width=3000"
+      ],
+      "desc": "descripcion completa del producto"
+    },
+    {
+      "id": 1791078672483,
+      "nombre": "BALSAMO PARA LABIOS GUZEL",
+      "categoria": "CUIDADO FACIAL",
+      "categorias": [
+        "CUIDADO FACIAL",
+        "LABIOS"
+      ],
+      "precio": 5000,
+      "variantes": [
+        "coco",
+        "cainilla",
+        "fresas"
+      ],
+      "imagen": "https://guzelcosmetics.com/cdn/shop/files/D13BA935-9671-458D-94D4-A33F50A7EF3E.png?v=1781587744&width=1200",
+      "imagenes": [
+        "https://guzelcosmetics.com/cdn/shop/files/D13BA935-9671-458D-94D4-A33F50A7EF3E.png?v=1781587744&width=1200",
+        "https://guzelcosmetics.com/cdn/shop/files/911B4156-C930-402B-983D-ECA46FABDCC4.png?v=1781587744&width=1200",
+        "https://guzelcosmetics.com/cdn/shop/files/IMG-4310.png?v=1781639354&width=1200",
+        "https://guzelcosmetics.com/cdn/shop/files/376DF4AD-A3E1-4CC2-8618-583647B1F02A.png?v=1781587744&width=1200",
+        "https://guzelcosmetics.com/cdn/shop/files/6D592ABB-781D-4959-907D-CC14283F1116.png?v=1781587744&width=1200"
+      ],
+      "desc": "Bálsamo hidratante diseñado para nutrir, suavizar y proteger los labios, aportando un brillo natural y una sensación de confort durante todo el día."
+    },
+    {
+      "id": 1791079677216,
+      "nombre": "shampoo de miel click hair 200ml",
+      "categoria": "Cabello",
+      "categorias": [
+        "Cabello",
+        "cuidado capilar"
+      ],
+      "precio": 45900,
+      "imagen": "https://clickhair.com.co/cdn/shop/files/Diseno_sin_titulo_40.png?v=1741028397&width=1800",
+      "imagenes": [
+        "https://clickhair.com.co/cdn/shop/files/Diseno_sin_titulo_40.png?v=1741028397&width=1800",
+        "https://clickhair.com.co/cdn/shop/files/Diseno_sin_titulo_33.png?v=1741028397&width=1800",
+        "https://clickhair.com.co/cdn/shop/files/Beneficios_linea_mieL_X4-02.jpg?v=1741028397&width=1080",
+        "https://clickhair.com.co/cdn/shop/files/WhatsApp_Image_2025-02-11_at_08.22.58.jpg?v=1741028397&width=1800"
+      ],
+      "desc": "El Shampoo de Miel Brillo Intenso de Click Hair ofrece limpieza suave y brillo intenso. Limpia el cabello sin resecar y ayuda a devolverle la hidratación, suavidad y luminosidad al cabello maltratado, opaco o tratado químicamente."
+    },
+    {
+      "id": 1791845619243,
+      "nombre": "Shampoo Professional Reparación intensiva",
+      "categoria": "cuidado capilar",
+      "categorias": [
+        "cuidado capilar",
+        "shampoo",
+        "milagros"
+      ],
+      "precio": 69900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/milagros/Shampoo Professional miracle repair .webp",
+      "imagenes": [
+        "img/productos/milagros/Shampoo Professional miracle repair .webp"
+      ],
+      "desc": "Reparación, fortalecimiento y transformación profesional\n\nRepara, fortalece y transforma tu cabello con el Shampoo Miracle Repair de Milagros Professional, desarrollado con Bio-Bond Peptide Complex, péptidos de avena y activos biotecnológicos que ayudan a reparar la fibra capilar desde la primera aplicación.Combina una limpieza efectiva con una tecnología acondicionante avanzada que protege la fibra mientras elimina las impurezas\n\nIdeal para cabellos extremadamente dañados o sobreprocesados,secos,con frizz,maltratados y propensos al quiebre.Su fórmula ayuda a proteger el color, controlar el frizz y recuperar la fibra capilar, aportando brillo, suavidad y fuerza para un cabello visiblemente más saludable."
+    },
+    {
+      "id": 1791845962822,
+      "nombre": "Shampoo Biorepolarizador",
+      "categoria": "cuidado capilar",
+      "categorias": [
+        "cuidado capilar",
+        "shampoo",
+        "milagros"
+      ],
+      "precio": 35900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/milagros/shampoo bio repolarizador capilar .webp",
+      "imagenes": [
+        "img/productos/milagros/shampoo bio repolarizador capilar .webp"
+      ],
+      "desc": "Reparación profunda, crecimiento y brillo en cada lavado\n\nDevuélvele la vida a tu cabello con el Shampoo Bio-Repolarizador Capilar de Milagros, una fórmula avanzada diseñada para reconstruir, fortalecer y revitalizar el cabello dañado desde la raíz hasta las puntas.\n\nIdeal para cabellos maltratados por tintes, decoloraciones, calor o procesos químicos, este shampoo actúa profundamente en la fibra capilar, ayudando a recuperar su salud, suavidad y brillo natural desde la primera aplicación.\n\n"
+    },
+    {
+      "id": 1791846060295,
+      "nombre": "Shampoo de cebolla (con péptidos)",
+      "categoria": "cuidado capilar",
+      "categorias": [
+        "cuidado capilar",
+        "shampoo",
+        "milagros"
+      ],
+      "precio": 39900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/milagros/shampoo crecimiento con extractos de cebolla y peptidos jpg.webp",
+      "imagenes": [
+        "img/productos/milagros/shampoo crecimiento con extractos de cebolla y peptidos jpg.webp"
+      ],
+      "desc": "¿Sientes tu cabello con frizz, débil, sin vida o con crecimiento lento?\n\nNuestro Shampoo Crecimiento con su fórmula con cebolla morada, jengibre, argán, cafeína y péptidos fortalecedores estimula el crecimiento, fortalece desde la raíz y controla el frizz, dejando el cabello más fuerte, brillante y lleno de movimiento desde la primera aplicación.\n\nIdeal para: cabellos debilitados, sin vida o con crecimiento lento."
+    },
+    {
+      "id": 1791846261763,
+      "nombre": "Shampoo Milagro Herbal (con romero y jengibre)",
+      "categoria": "cuidado capilar",
+      "categorias": [
+        "cuidado capilar",
+        "shampoo",
+        "milagros"
+      ],
+      "precio": 35900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/milagros/shampoo milagro herbal .webp",
+      "imagenes": [
+        "img/productos/milagros/shampoo milagro herbal .webp"
+      ],
+      "desc": "¿Tienes el cabello graso y se cae con facilidad? El Shampoo Milagro Herbal es nuestro shampoo de romero sin sal: limpia en profundidad, controla el exceso de grasa y fortalece el cabello desde la raíz.\n\nSu fórmula combina romero y jengibre 100% naturales con cebolla roja, ginseng, niacinamida y un cóctel de aminoácidos. El romero estimula el cuero cabelludo y, junto con la cebolla y el jengibre, ayuda a reducir la caída y a promover un crecimiento más saludable, mientras los aminoácidos y el pantenol cuidan la fibra para dejar el cabello fresco, ligero y suave.\n\nIdeal para: cabello graso, con caída o de crecimiento lento. Libre de sal y siliconas. Complétalo con el acondicionador de romero Milagro Herbal para potenciar los resultados."
+    },
+    {
+      "id": 1791846381666,
+      "nombre": "Shampoo Ultra Nutritivo Premium (con aloe vera)",
+      "categoria": "cuidado capilar",
+      "categorias": [
+        "cuidado capilar",
+        "shampoo",
+        "milagros"
+      ],
+      "precio": 35900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/milagros/shampoo ultranutritivo premium .webp",
+      "imagenes": [
+        "img/productos/milagros/shampoo ultranutritivo premium .webp"
+      ],
+      "desc": "¿Buscas un shampoo nutritivo y suave para el lavado diario?\n\nNuestro Shampoo Ultra Nutritivo, formulado con cristales de aloe vera 100% natural y extracto de romero, hidrata profundamente, reduce el frizz y estimula el crecimiento saludable. Fortalece la fibra capilar desde la raíz, devolviendo al cabello suavidad, brillo y vitalidad.\n\nIdeal para: cabellos que requieren lavado diario, secos, decolorados, dañados o con caída."
+    },
+    {
+      "id": 1791846458738,
+      "nombre": "Shampoo Emergencia Capilar (con biotina y queratina)",
+      "categoria": "cuidado capilar",
+      "categorias": [
+        "cuidado capilar",
+        "shampoo",
+        "milagros"
+      ],
+      "precio": 35900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/milagros/shampoo emergencia capilar jpg.webp",
+      "imagenes": [
+        "img/productos/milagros/shampoo emergencia capilar jpg.webp"
+      ],
+      "desc": "¿Tu cabello está dañado por procesos químicos o decoloraciones?\n\nEl Shampoo Emergencia Capilar repara la fibra capilar desde el interior gracias a su fórmula con biotina, queratina y 10 ingredientes activos. Fortalece, hidrata y mejora la elasticidad, ayudando a recuperar un cabello más sano, brillante y con mayor densidad.\n\nIdeal para: cabellos mixtos o grasos con crecimiento lento, caída, porosidad, puntas secas, poco volumen y daño por procesos químicos o decoloraciones."
+    },
+    {
+      "id": 1791846528865,
+      "nombre": "Shampoo Magia Capilar (con ácido hialurónico)",
+      "categoria": "cuidado capilar",
+      "categorias": [
+        "cuidado capilar",
+        "shampoo",
+        "milagros"
+      ],
+      "precio": 35900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/milagros/shampoo magia capilar .webp",
+      "imagenes": [
+        "img/productos/milagros/shampoo magia capilar .webp"
+      ],
+      "desc": "¿Tu cabello necesita hidratación intensa y no lo lavas con frecuencia?\n\nSu fórmula con ácido hialurónico hidrata profundamente, revitaliza la fibra capilar y deja el cabello sedoso, brillante y saludable. Fortalece desde la raíz y estimula el crecimiento.\n\nIdeal para: cabellos secos o rizados, con lavado poco frecuente y necesidad de hidratación profunda."
+    },
+    {
+      "id": 1791846623589,
+      "nombre": "Shampoo Anticaspa Pro Crecimiento",
+      "categoria": "cuidado capilar",
+      "categorias": [
+        "cuidado capilar",
+        "shampoo",
+        "milagros"
+      ],
+      "precio": 35900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/milagros/shampoo Anti-caspa-webp.webp",
+      "imagenes": [
+        "img/productos/milagros/shampoo Anti-caspa-webp.webp"
+      ],
+      "desc": "¿Luchas con la caspa y un cabello debilitado?\n\nFortalece el cabello desde la raíz y estimula el crecimiento, mientras actúa eficazmente contra la caspa. Su fórmula cuenta con estudios clínicos que comprueban su eficacia, ayudando a reducir la caspa hasta en un 43,6%.\n\nIdeal para: cabellos con caspa, cuero cabelludo sensible o con debilitamiento capilar."
+    },
+    {
+      "id": 1791846733396,
+      "nombre": "Shampoo Natural Fortalecedor Kids (sin químicos)",
+      "categoria": "cuidado capilar",
+      "categorias": [
+        "cuidado capilar",
+        "shampoo",
+        "milagros"
+      ],
+      "precio": 35900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/milagros/shampoo natural fortalecedor kids.webp",
+      "imagenes": [
+        "img/productos/milagros/shampoo natural fortalecedor kids.webp"
+      ],
+      "desc": "¿Buscas una limpieza suave y segura para el cabello de los más pequeños?\n\nLimpia delicadamente y fortalece el cabello gracias a su fórmula con extractos naturales que hidratan, suavizan y mejoran la resistencia del cabello frágil o seco. Es hipoalergénico y dermatológicamente comprobado, dejando el cabello fuerte, brillante y sedoso con una limpieza segura.\n\nIdeal para: niños y niñas mayores de 3 años, con cabello frágil, seco o delicado"
+    },
+    {
+      "id": 1791847155255,
+      "nombre": "Acondicionador Professional Reparación Intensiva",
+      "categoria": "cuidado capilar",
+      "categorias": [
+        "cuidado capilar",
+        "milagros",
+        "acondicionador"
+      ],
+      "precio": 72900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/milagros/Acondicionador profesional 2 .webp",
+      "imagenes": [
+        "img/productos/milagros/Acondicionador profesional 2 .webp"
+      ],
+      "desc": "Nutre, repara y transforma tu cabello con el Acondicionador Miracle Repair de Milagros Professional, desarrollado con Bio-Bond Peptide Complex, péptidos biomiméticos y activos como keratina, proteína de arroz, aminoácidos y vitamina E que ayudan a reconstruir la fibra capilar desde la primera aplicación.\n\nIdeal para cabellos extremadamente dañados o sobreprocesados, su fórmula ayuda a desenredar, controlar el frizz y recuperar la fibra capilar, aportando hidratación, suavidad y brillo para un cabello visiblemente más saludable.\n\n"
+    },
+    {
+      "id": 1791847246547,
+      "nombre": "Acondicionador Ultra Nutritivo Premium",
+      "categoria": "cuidado capilar",
+      "categorias": [
+        "cuidado capilar",
+        "milagros",
+        "acondicionador"
+      ],
+      "precio": 36900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/milagros/acondicionador ultranutritivo premium .webp",
+      "imagenes": [
+        "img/productos/milagros/acondicionador ultranutritivo premium .webp"
+      ],
+      "desc": "¿Tu cabello necesita nutrición profunda y reparación inmediata?\n\nEste acondicionador nutre intensamente gracias a su cóctel de aminoácidos y extractos naturales, fortaleciendo la fibra capilar, mejorando la textura y ayudando a reducir la caída. Deja el cabello mas hidratado,nutritivo suave, brillante y sedoso desde el primer uso.\n\nIdeal para: cabellos decolorados, porosos, dañados o extremadamente secos."
+    },
+    {
+      "id": 1791847422854,
+      "nombre": "Tratamiento Bio Repolarizador Capilar",
+      "categoria": "cuidado capilar",
+      "categorias": [
+        "cuidado capilar"
+      ],
+      "precio": 36900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/milagros/bio repolarizador capilar fondo blanco  .webp",
+      "imagenes": [
+        "img/productos/milagros/bio repolarizador capilar fondo blanco  .webp"
+      ],
+      "desc": "¿Cabello sin brillo y vitalidad después de procesos químicos?\n\nEste Tratamiento con fórmula avanzada repolariza la fibra capilar, creando una capa protectora frente a agresiones externas y rayos UV. Hidrata intensamente, nutre y devuelve suavidad, elasticidad y brillo, dejando el cabello manejable, sedoso y visiblemente saludable desde la primera aplicación.\n\nIdeal para: cabellos teñidos, alisados o tratados químicamente que necesitan protección, hidratación profunda y recuperación del brillo."
+    },
+    {
+      "id": 1791847617840,
+      "nombre": "Acondicionador Antifrizz y Fortalecedor Con Extracto de Cebolla y Péptidos",
+      "categoria": "cuidado capilar",
+      "categorias": [
+        "cuidado capilar",
+        "milagros",
+        "acondicionador"
+      ],
+      "precio": 36900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/milagros/Acondicionador Antifrizz y Fortalecedor Con Extracto de Cebolla y Péptidos .webp",
+      "imagenes": [
+        "img/productos/milagros/Acondicionador Antifrizz y Fortalecedor Con Extracto de Cebolla y Péptidos .webp"
+      ],
+      "desc": "¿Tu cabello tiene frizz, se quiebra, pierde brillo y se enreda con facilidad?\n\nEste acondicionador restaura y fortalece la fibra capilar gracias a su fórmula con cebolla morada y péptidos, ayudando a prevenir la caída por quiebre y mejorando la resistencia del cabello debilitado. Combate el frizz y desenreda al instante, dejando el cabello sedoso, manejable y con brillo natural desde el primer uso.\n\nIdeal para: cabellos debilitados, sin brillo, con frizz o tendencia al quiebre."
+    },
+    {
+      "id": 1791847678509,
+      "nombre": "Acondicionador Milagro Herbal",
+      "categoria": "cuidado capilar",
+      "categorias": [
+        "cuidado capilar",
+        "milagros",
+        "acondicionador"
+      ],
+      "precio": 36900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/milagros/acondicionador milagro herbal .webp",
+      "imagenes": [
+        "img/productos/milagros/acondicionador milagro herbal .webp"
+      ],
+      "desc": "¿Tu cabello se enreda fácilmente y necesita hidratación profunda?\n\nEste acondicionador hidrata y desenreda intensamente gracias a su fórmula con romero, arroz y aminoácidos, que fortalecen la fibra capilar y ayudan a reducir la caída. Facilita el desenredado hasta 16 veces en húmedo y 9 veces en seco, controla el frizz y deja el cabello suave, brillante y manejable desde el primer uso.\n\nIdeal para: cabellos dañados, porosos o resecos."
+    },
+    {
+      "id": 1791847851873,
+      "nombre": "Tratamiento Capilar a base de Frutas",
+      "categoria": "cuidado capilar",
+      "categorias": [
+        "cuidado capilar"
+      ],
+      "precio": 36900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/milagros/tratamiento frutas fondo blanco .webp",
+      "imagenes": [
+        "img/productos/milagros/tratamiento frutas fondo blanco .webp"
+      ],
+      "desc": "¿Cabello opaco, débil o sin vitalidad?\n\nNuestro tratamiento nutritivo artesanal con provitamina B5, frutas, más de 10 extractos naturales, aceites y mantequillas vegetales nutre profundamente, fortalece la fibra capilar y ayuda a estimular el crecimiento mientras reduce la caída. Ideal como rutina pre-shampoo, deja el cabello suave, brillante y manejable.\n\nIdeal para: Cabellos naturales, especialmente opacos, dañados o debilitados."
+    },
+    {
+      "id": 1791848140582,
+      "nombre": "Tratamiento Emergencia Capilar",
+      "categoria": "cuidado capilar",
+      "categorias": [
+        "cuidado capilar"
+      ],
+      "precio": 36900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/milagros/tratamiento emergencia capilar .webp",
+      "imagenes": [
+        "img/productos/milagros/tratamiento emergencia capilar .webp"
+      ],
+      "desc": "¿Tu cabello está dañado por procesos químicos o decoloraciones?\n\nEste tratamiento intensivo repara, fortalece y revitaliza el cabello en solo 20 minutos, actuando profundamente sobre la fibra capilar para restaurar el cabello dañado, estimular el crecimiento y reducir la caída. Hidrata y nutre intensamente, dejando el cabello sedoso, manejable y con brillo inmediato.\n\nIdeal para: todo tipo de cabello, incluso aquellos con procesos químicos."
+    },
+    {
+      "id": 1791848408097,
+      "nombre": "Mascarilla Professional Reparación Intensiva",
+      "categoria": "cuidado capilar",
+      "categorias": [
+        "cuidado capilar",
+        "milagros"
+      ],
+      "precio": 75900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/milagros/mascarilla reparacion intensiva 1.webp",
+      "imagenes": [
+        "img/productos/milagros/mascarilla reparacion intensiva 1.webp"
+      ],
+      "desc": "¿Tu cabello se quiebra y perdió fuerza tras una decoloración o alisado?\n\nLa Mascarilla Professional revierte el daño interno del cabello y restaura sus propiedades gracias a su fórmula con aminoácidos y péptidos, que fortalecen la fibra capilar y promueven un crecimiento más saludable. Ayuda a reparar enlaces dañados y reduce significativamente el quiebre, dejando el cabello más fuerte, resistente y recuperado.\n\n96% menos caída por quiebre en cada uso\n\nRestaura hasta el 69% de los enlaces perdidos por la decoloración\n\n51% de reparación de la cistina en cada uso\n\nIdeal para: cabellos secos, maltratados y dañados por procesos químicos como decoloraciones, tinturas o alisados."
+    },
+    {
+      "id": 1791850199475,
+      "nombre": "Mascarilla milagro herbal milagros",
+      "categoria": "cuidado capilar",
+      "categorias": [
+        "cuidado capilar",
+        "milagros"
+      ],
+      "precio": 38900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/milagros/Mascarilla herbal fondo blanco .webp",
+      "imagenes": [
+        "img/productos/milagros/Mascarilla herbal fondo blanco .webp"
+      ],
+      "desc": "¿Cabello debilitado por el calor, procesos químicos o resequedad extrema?\n\nLa Mascarilla Herbal es una fórmula de alto desempeño con provitamina B5, péptidos de avena, keratina, microesferas de vitamina E y polisacáridos de lino y chía que fortalece, protege y ayuda a recuperar la fibra capilar. Deja el cabello visiblemente más saludable desde la primera aplicación, con mayor resistencia, suavidad y vitalidad.\n\nIdeal para: cabellos dañados por procesos químicos, herramientas de calor o resequedad extremal."
+    },
+    {
+      "id": 1791850383828,
+      "nombre": "Mascarilla Capilar Reparadora Intensiva Con Extracto De Cebolla y Péptidos",
+      "categoria": "cuidado capilar",
+      "categorias": [
+        "cuidado capilar",
+        "milagros"
+      ],
+      "precio": 38900,
+      "agotado": true,
+      "estado": "agotado",
+      "variantes": [],
+      "imagen": "img/productos/milagros/Mascarilla cebolla fondo blanco 1.webp",
+      "imagenes": [
+        "img/productos/milagros/Mascarilla cebolla fondo blanco 1.webp"
+      ],
+      "desc": "¿Tu cabello se siente áspero, con frizz y sin vida después de procesos químicos?\n\nEsta Mascarilla Capilar Reparadora con cebolla roja y péptidos de avena repara profundamente la fibra capilar, sella las cutículas y reduce el frizz. Hidrata intensamente, devuelve suavidad, brillo y manejabilidad, fortalece el cabello y ayuda a estimular un crecimiento más saludable desde la primera aplicación.\n\nIdeal para: cabellos dañados por procesos químicos, decoloraciones, tintes o alisados."
+    },
+    {
+      "id": 1791850936962,
+      "nombre": "Desenredante Termoprotector Multibeneficios",
+      "categoria": "cuidado capilar",
+      "categorias": [
+        "cuidado capilar",
+        "milagros"
+      ],
+      "precio": 33900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/milagros/Desenredante fondo blanco 2.webp",
+      "imagenes": [
+        "img/productos/milagros/Desenredante fondo blanco 2.webp"
+      ],
+      "desc": "¿Usas secador o plancha y quieres proteger tu cabello del calor?\n\nNuestro Desenredante Termoprotector protege el cabello del calor hasta 230 °C, facilita el desenredado y deja el cabello hasta 91% más manejable. Su fórmula dermatológicamente probada e hipoalergénica aporta suavidad, brillo y protección térmica desde la raíz hasta las puntas, para un peinado más fácil y seguro.\n\nIdeal para: cabellos expuestos al calor de secadores, planchas o rizadores, de todo tipo.\n\nAroma: Suaves notas orientales y frutales."
+    },
+    {
+      "id": 1791851733669,
+      "nombre": "Desenredante Termoprotector Multibeneficios Martina",
+      "categoria": "cuidado capilar",
+      "categorias": [
+        "cuidado capilar",
+        "milagros",
+        "acondicionador"
+      ],
+      "precio": 33900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/milagros/Desenredante Martina fondo blanco 1.webp",
+      "imagenes": [
+        "img/productos/milagros/Desenredante Martina fondo blanco 1.webp"
+      ],
+      "desc": "¿Usas secador o plancha y quieres proteger tu cabello?\n\nNuestro Desenredante Termoprotector protege el cabello del calor hasta 230 °C, facilita el desenredado y deja el cabello hasta 91% más manejable. Su fórmula dermatológicamente probada e hipoalergénica aporta suavidad, brillo y protección térmica desde la raíz hasta las puntas, para un peinado más fácil y seguro.\n\nIdeal para: cabellos expuestos al calor de secadores, planchas o rizadores, de todo tipo.\n\nAroma: Frutos del bosque y notas dulces. \n\n"
+    },
+    {
+      "id": 1791852168108,
+      "nombre": "Sérum Revitalizante",
+      "categoria": "cuidado capilar",
+      "categorias": [
+        "cuidado capilar",
+        "milagros"
+      ],
+      "precio": 34900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/milagros/Serum Fondo blanco 1.webp",
+      "imagenes": [
+        "img/productos/milagros/Serum Fondo blanco 1.webp"
+      ],
+      "desc": "¿Tus puntas están secas y tu cabello necesita nutrición profunda sin sensación grasa?\n\nEste tratamiento de alta nutrición con óleos 100% naturales repara, fortalece y revitaliza el cabello sin dejar sensación pesada. Deja la fibra capilar suave, sedosa y visiblemente saludable desde la primera aplicación.\n\nIdeal para: puntas secas, cabellos decolorados o tratados con keratina que necesitan nutrición intensa y brillo."
+    },
+    {
+      "id": 1791852304639,
+      "nombre": "Tratamiento Capilar Rescate Instantáneo El Elixir Revitalizante",
+      "categoria": "cuidado capilar",
+      "categorias": [
+        "cuidado capilar",
+        "milagros"
+      ],
+      "precio": 13900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/milagros/Elixir revitalizante 1.webp",
+      "imagenes": [
+        "img/productos/milagros/Elixir revitalizante 1.webp"
+      ],
+      "desc": "¿Tu cabello está extremadamente dañado y necesita reparación inmediata?\n\nEste tratamiento con tecnología Plex repara y fortalece al instante al sellar la cutícula aumentando el brillo. Penetra profundamente en la fibra capilar para devolver suavidad, vitalidad y manejabilidad desde la primera aplicación.\n\nIdeal para: cabellos muy dañados por decoloraciones, alisados o procesos químicos intensivos."
+    },
+    {
+      "id": 1791852561570,
+      "nombre": "Tratamiento Capilar Rescate Instantáneo El Experto en Rescate",
+      "categoria": "cuidado capilar",
+      "categorias": [
+        "cuidado capilar",
+        "milagros"
+      ],
+      "precio": 13900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/milagros/rescate instantaneo .webp",
+      "imagenes": [
+        "img/productos/milagros/rescate instantaneo .webp"
+      ],
+      "desc": "¿Cabello sin vida, maltratado y con frizz?\n\nEste tratamiento con tecnología Plex repara y fortalece el cabello al instante, sellando la cutícula y aumentando el brillo hasta un 20%. Penetra profundamente en la fibra capilar para devolver suavidad, vitalidad y manejabilidad desde la primera aplicación.\n\nIdeal para: cabellos muy dañados por decoloraciones, alisados o procesos químicos intensivos.\n\n"
+    },
+    {
+      "id": 1791853110208,
+      "nombre": "Loción Hidratante Corporal 1L",
+      "categoria": "milagros",
+      "categorias": [
+        "milagros",
+        "cuidado corporal"
+      ],
+      "precio": 37900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/milagros/Locion corporal fono blanco 1.webp",
+      "imagenes": [
+        "img/productos/milagros/Locion corporal fono blanco 1.webp"
+      ],
+      "desc": "¿Tu piel necesita hidratación diaria y una sensación de suavidad duradera?\n\nEsta fórmula rica y delicada hidrata, nutre y suaviza la piel, ayudando a mantenerla tonificada y saludable durante todo el día. Deja una textura sedosa y un aspecto radiante en cada aplicación.\n\nIdeal para: piel normal a seca que busca hidratación diaria y confort prolongado."
+    },
+    {
+      "id": 1791853347339,
+      "nombre": "Perfume Capilar y Corporal Majestuosa",
+      "categoria": "cuidado capilar",
+      "categorias": [
+        "cuidado capilar",
+        "milagros",
+        "cuidado corporal"
+      ],
+      "precio": 33900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/milagros/Perfume majestuosa 1.webp",
+      "imagenes": [
+        "img/productos/milagros/Perfume majestuosa 1.webp"
+      ],
+      "desc": " (Notas Citricas y Frescas) 120ml \n\nRealza el color natural del cabello y aporta brillo inmediato. Su fórmula con extractos 100% naturales deja un aroma fresco y cítrico de larga duración, sin aportar grasa, para un cabello radiante y perfumado todo el día."
+    },
+    {
+      "id": 1791853633503,
+      "nombre": "Perfume Capilar y Corporal Irresistible",
+      "categoria": "cuidado capilar",
+      "categorias": [
+        "cuidado capilar",
+        "milagros",
+        "cuidado corporal"
+      ],
+      "precio": 33900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/milagros/Perfume irresistible 1.webp",
+      "imagenes": [
+        "img/productos/milagros/Perfume irresistible 1.webp"
+      ],
+      "desc": " (Notas Florales) 120ml\nRealza el color natural del cabello y aporta brillo inmediato. Su fórmula con extractos 100% naturales deja un aroma fresco con notas florales de larga duración, sin aportar grasa, para un cabello radiante y perfumado todo el día."
+    },
+    {
+      "id": 1791853806395,
+      "nombre": "Perfume Capilar y corporal Martina ",
+      "categoria": "cuidado capilar",
+      "categorias": [
+        "cuidado capilar",
+        "milagros",
+        "cuidado corporal"
+      ],
+      "precio": 33900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/milagros/Perfume martina 1.webp",
+      "imagenes": [
+        "img/productos/milagros/Perfume martina 1.webp"
+      ],
+      "desc": "(Notas Frutales y Dulces) 120ml\n\nIdeal para todo tipo de cabello, especialmente opaco y sin brillo. Su fragancia combina notas de mora silvestre, fresa, frambuesa, sandía, lirio del valle, almizcles y vainilla, dejando una estela dulce, fresca y seductora."
+    }
+  ]
+}
     "Maquillaje",
     "CUIDADO FACIAL",
     "LABIOS",
