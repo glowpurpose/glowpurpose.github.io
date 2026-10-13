@@ -1,6 +1,6 @@
 {
   "banner": {
-    "url": "https://bloomshell.co/cdn/shop/files/slider-3_d22861a1-76c5-4b6e-9b82-dac62fc349bb.jpg?v=1788560431&width=1920",
+    "url": "https://lulabeauty.co/cdn/shop/files/kit-para-labios.gif?v=1786032434&width=1920, https://bloomshell.co/cdn/shop/files/slider-3_d22861a1-76c5-4b6e-9b82-dac62fc349bb.jpg?v=1788560431&width=1920",
     "tipo": "imagen"
   },
   "categorias": [
@@ -15,7 +15,8 @@
     "milagros",
     "acondicionador",
     "labios",
-    "cuidado corporal"
+    "cuidado corporal",
+    "Lula"
   ],
   "marcas": [
     "lula",
@@ -27,40 +28,23 @@
   ],
   "productos": [
     {
-      "id": 1791075016395,
-      "nombre": "corrector lula negro",
-      "categoria": "Corporal",
-      "categorias": [
-        "Corporal"
-      ],
-      "precio": 35000,
-      "variantes": [
-        "vainilla",
-        "coco",
-        "fresas"
-      ],
-      "imagen": "https://lulabeauty.co/cdn/shop/files/01_10_9578bd34-d67f-4a55-8c42-770659b2ae91.png?v=1736433402&width=3000",
-      "imagenes": [
-        "https://lulabeauty.co/cdn/shop/files/01_10_9578bd34-d67f-4a55-8c42-770659b2ae91.png?v=1736433402&width=3000"
-      ],
-      "desc": "descripsao"
-    },
-    {
       "id": 1791075230117,
-      "nombre": "labial",
+      "nombre": "Sérum facial con Aloe Vera ",
       "categoria": "Rostro",
       "categorias": [
-        "Rostro"
+        "Rostro",
+        "skincare",
+        "Lula"
       ],
-      "precio": 5612,
+      "precio": 19800,
       "agotado": false,
-      "estado": "nuevo",
+      "estado": "disponible",
       "variantes": [],
       "imagen": "https://lulabeauty.co/cdn/shop/files/OT_00200825_EC_LULA_AGOSTO06822.jpg?v=1762789837&width=3000, https://lulabeauty.co/cdn/shop/files/OT_00200825_EC_LULA_AGOSTO06822.jpg?v=1762789837&width=3000, https://lulabeauty.co/cdn/shop/files/OT_00200825_EC_LULA_AGOSTO06822.jpg?v=1762789837&width=3000 ,https://lulabeauty.co/cdn/shop/files/OT_00200825_EC_LULA_AGOSTO06822.jpg?v=1762789837&width=3000",
       "imagenes": [
         "https://lulabeauty.co/cdn/shop/files/OT_00200825_EC_LULA_AGOSTO06822.jpg?v=1762789837&width=3000, https://lulabeauty.co/cdn/shop/files/OT_00200825_EC_LULA_AGOSTO06822.jpg?v=1762789837&width=3000, https://lulabeauty.co/cdn/shop/files/OT_00200825_EC_LULA_AGOSTO06822.jpg?v=1762789837&width=3000 ,https://lulabeauty.co/cdn/shop/files/OT_00200825_EC_LULA_AGOSTO06822.jpg?v=1762789837&width=3000"
       ],
-      "desc": "descripcion completa del producto"
+      "desc": "Sérum ultraligero que refresca, hidrata y revitaliza tu piel desde el primer uso. Su textura de rápida absorción te brinda una sensación de frescura inmediata, estimulando la producción natural de colágeno y ayudándote a mantener la piel más firme, elástica y luminosa."
     },
     {
       "id": 1791078672483,
@@ -85,24 +69,6 @@
         "https://guzelcosmetics.com/cdn/shop/files/6D592ABB-781D-4959-907D-CC14283F1116.png?v=1781587744&width=1200"
       ],
       "desc": "Bálsamo hidratante diseñado para nutrir, suavizar y proteger los labios, aportando un brillo natural y una sensación de confort durante todo el día."
-    },
-    {
-      "id": 1791079677216,
-      "nombre": "shampoo de miel click hair 200ml",
-      "categoria": "Cabello",
-      "categorias": [
-        "Cabello",
-        "cuidado capilar"
-      ],
-      "precio": 45900,
-      "imagen": "https://clickhair.com.co/cdn/shop/files/Diseno_sin_titulo_40.png?v=1741028397&width=1800",
-      "imagenes": [
-        "https://clickhair.com.co/cdn/shop/files/Diseno_sin_titulo_40.png?v=1741028397&width=1800",
-        "https://clickhair.com.co/cdn/shop/files/Diseno_sin_titulo_33.png?v=1741028397&width=1800",
-        "https://clickhair.com.co/cdn/shop/files/Beneficios_linea_mieL_X4-02.jpg?v=1741028397&width=1080",
-        "https://clickhair.com.co/cdn/shop/files/WhatsApp_Image_2025-02-11_at_08.22.58.jpg?v=1741028397&width=1800"
-      ],
-      "desc": "El Shampoo de Miel Brillo Intenso de Click Hair ofrece limpieza suave y brillo intenso. Limpia el cabello sin resecar y ayuda a devolverle la hidratación, suavidad y luminosidad al cabello maltratado, opaco o tratado químicamente."
     },
     {
       "id": 1791845619243,
@@ -621,6 +587,63 @@
         "img/productos/milagros/Perfume martina 1.webp"
       ],
       "desc": "(Notas Frutales y Dulces) 120ml\n\nIdeal para todo tipo de cabello, especialmente opaco y sin brillo. Su fragancia combina notas de mora silvestre, fresa, frambuesa, sandía, lirio del valle, almizcles y vainilla, dejando una estela dulce, fresca y seductora."
+    },
+    {
+      "id": 1791856208707,
+      "nombre": "Perfume Capilar y Corporal Gold ",
+      "categoria": "cuidado capilar",
+      "categorias": [
+        "cuidado capilar",
+        "milagros",
+        "cuidado corporal"
+      ],
+      "precio": 33900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/milagros/Perfume gold 1.webp",
+      "imagenes": [
+        "img/productos/milagros/Perfume gold 1.webp"
+      ],
+      "desc": "(Notas Herbales y Frescas) 120ml\nRealza el color natural del cabello y aporta brillo inmediato. Su fórmula con activos 100% vegetales ofrece excelente proyección y larga duración, sin dejar residuos grasos. Enriquecido con extractos naturales que hidratan y cuidan el cabello y la piel, deja un aroma sofisticado con notas de rosa, vainilla, romero, bergamota y salvia."
+    },
+    {
+      "id": 1791856359189,
+      "nombre": "Perfume Capilar y Corporal Sublime ",
+      "categoria": "cuidado capilar",
+      "categorias": [
+        "cuidado capilar",
+        "milagros",
+        "cuidado corporal"
+      ],
+      "precio": 33900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/milagros/Perfume sublime 1.webp",
+      "imagenes": [
+        "img/productos/milagros/Perfume sublime 1.webp"
+      ],
+      "desc": "(Notas Frutales y Dulces) 120ml\nRealza el color natural del cabello y potencia su brillo con una fragancia frutal con un toque dulce de larga duración. Su fórmula con extractos 100% naturales perfuma sin aportar grasa, dejando el cabello fresco, radiante y delicadamente aromatizado durante todo el día."
+    },
+    {
+      "id": 1791856481064,
+      "nombre": "Perfume Capilar y Corporal Bali ",
+      "categoria": "cuidado capilar",
+      "categorias": [
+        "cuidado capilar",
+        "milagros",
+        "cuidado corporal"
+      ],
+      "precio": 33900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/milagros/Perfume bali 1.webp",
+      "imagenes": [
+        "img/productos/milagros/Perfume bali 1.webp"
+      ],
+      "desc": "(Notas Dulces y Relajantes) 120ml\nRealza el color natural del cabello y aporta brillo inmediato, dejando una fragancia envolvente con notas relajantes y de crema batida. Su fórmula con extractos 100% naturales hidrata la piel, ofrece excelente duración y no aporta grasa, para un cabello radiante y delicadamente perfumado todo el día."
     }
   ]
 }
