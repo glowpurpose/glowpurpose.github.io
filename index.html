@@ -1521,6 +1521,25 @@
     }
 
     cargarCatalogo();
+    // --- EFECTO DE PESTAÑA ALERTA (VOLVER) ---
+    let tituloOriginal = document.title;
+    let temporizadorPestaña = null;
+
+    document.addEventListener('visibilitychange', () => {
+      if (document.hidden) {
+        // El usuario salió de la pestaña
+        document.title = "¡Vuelve pronto! ✨ Magalys Berna te espera";
+      } else {
+        // El usuario regresó a la pestaña
+        document.title = "¡Qué bueno que volviste! ❤️ - " + tituloOriginal;
+        
+        // Después de 3 segundos, restaura el título original limpio
+        if (temporizadorPestaña) clearTimeout(temporizadorPestaña);
+        temporizadorPestaña = setTimeout(() => {
+          document.title = tituloOriginal;
+        }, 3500);
+      }
+    });
   </script>
 </body>
 </html>
