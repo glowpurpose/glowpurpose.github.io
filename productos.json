@@ -1,48 +1,54 @@
 {
   "banner": {
-    "url": "https://lulabeauty.co/cdn/shop/files/kit-para-labios.gif?v=1786032434&width=1920",
-    "tipo": "imagen",
     "imagenes": [
       "https://lulabeauty.co/cdn/shop/files/kit-para-labios.gif?v=1786032434&width=1920",
       "https://bloomshell.co/cdn/shop/files/slider-3_d22861a1-76c5-4b6e-9b82-dac62fc349bb.jpg?v=1788560431&width=1920"
-    ]
+    ],
+    "url": "https://lulabeauty.co/cdn/shop/files/kit-para-labios.gif?v=1786032434&width=1920",
+    "tipo": "imagen"
   },
+  "portadas_secciones": {},
   "categorias": [
-    "Rostro",
     "Corporal",
     "Maquillaje",
-    "cuidado capilar",
-    "skincare",
-    "Bloomshell",
     "shampoo",
-    "cuidado facial",
-    "milagros",
     "acondicionador",
     "labios",
-    "cuidado corporal",
-    "Lula"
+    "Kit",
+    "Capilar",
+    "Tratamientos",
+    "Correctores",
+    "Bases",
+    "Cuidado facial",
+    "Tratamiento",
+    "Gel",
+    "Cremas",
+    "Splah",
+    "Locion",
+    "Exfoliantes",
+    "Serúm",
+    "Balsamo labial"
   ],
   "marcas": [
-    "lula",
     "skala",
     "guzel",
     "general",
     "bloomshell",
-    "milagros"
+    "milagros",
+    "lula"
   ],
   "productos": [
     {
       "id": 1791845619243,
       "nombre": "Shampoo Professional Reparación intensiva",
-      "categoria": "cuidado capilar",
+      "categoria": "shampoo",
       "categorias": [
-        "cuidado capilar",
         "shampoo",
-        "milagros"
+        "Capilar"
       ],
       "precio": 69900,
       "agotado": false,
-      "estado": "disponible",
+      "estado": "nuevo",
       "variantes": [],
       "imagen": "img/productos/milagros/Shampoo Professional miracle repair .webp",
       "imagenes": [
@@ -53,11 +59,10 @@
     {
       "id": 1791845962822,
       "nombre": "Shampoo Biorepolarizador",
-      "categoria": "cuidado capilar",
+      "categoria": "shampoo",
       "categorias": [
-        "cuidado capilar",
         "shampoo",
-        "milagros"
+        "Capilar"
       ],
       "precio": 35900,
       "agotado": false,
@@ -72,11 +77,10 @@
     {
       "id": 1791846060295,
       "nombre": "Shampoo de cebolla (con péptidos)",
-      "categoria": "cuidado capilar",
+      "categoria": "shampoo",
       "categorias": [
-        "cuidado capilar",
         "shampoo",
-        "milagros"
+        "Capilar"
       ],
       "precio": 39900,
       "agotado": false,
@@ -91,11 +95,9 @@
     {
       "id": 1791846261763,
       "nombre": "Shampoo Milagro Herbal (con romero y jengibre)",
-      "categoria": "cuidado capilar",
+      "categoria": "Capilar",
       "categorias": [
-        "cuidado capilar",
-        "shampoo",
-        "milagros"
+        "Capilar"
       ],
       "precio": 35900,
       "agotado": false,
@@ -110,11 +112,10 @@
     {
       "id": 1791846381666,
       "nombre": "Shampoo Ultra Nutritivo Premium (con aloe vera)",
-      "categoria": "cuidado capilar",
+      "categoria": "shampoo",
       "categorias": [
-        "cuidado capilar",
         "shampoo",
-        "milagros"
+        "Capilar"
       ],
       "precio": 35900,
       "agotado": false,
@@ -129,11 +130,10 @@
     {
       "id": 1791846458738,
       "nombre": "Shampoo Emergencia Capilar (con biotina y queratina)",
-      "categoria": "cuidado capilar",
+      "categoria": "shampoo",
       "categorias": [
-        "cuidado capilar",
         "shampoo",
-        "milagros"
+        "Capilar"
       ],
       "precio": 35900,
       "agotado": false,
@@ -148,11 +148,10 @@
     {
       "id": 1791846528865,
       "nombre": "Shampoo Magia Capilar (con ácido hialurónico)",
-      "categoria": "cuidado capilar",
+      "categoria": "shampoo",
       "categorias": [
-        "cuidado capilar",
         "shampoo",
-        "milagros"
+        "Capilar"
       ],
       "precio": 35900,
       "agotado": false,
@@ -167,11 +166,9 @@
     {
       "id": 1791846623589,
       "nombre": "Shampoo Anticaspa Pro Crecimiento",
-      "categoria": "cuidado capilar",
+      "categoria": "Capilar",
       "categorias": [
-        "cuidado capilar",
-        "shampoo",
-        "milagros"
+        "Capilar"
       ],
       "precio": 35900,
       "agotado": false,
@@ -186,11 +183,9 @@
     {
       "id": 1791846733396,
       "nombre": "Shampoo Natural Fortalecedor Kids (sin químicos)",
-      "categoria": "cuidado capilar",
+      "categoria": "Capilar",
       "categorias": [
-        "cuidado capilar",
-        "shampoo",
-        "milagros"
+        "Capilar"
       ],
       "precio": 35900,
       "agotado": false,
@@ -205,15 +200,14 @@
     {
       "id": 1791847155255,
       "nombre": "Acondicionador Professional Reparación Intensiva",
-      "categoria": "cuidado capilar",
+      "categoria": "acondicionador",
       "categorias": [
-        "cuidado capilar",
-        "milagros",
-        "acondicionador"
+        "acondicionador",
+        "Capilar"
       ],
       "precio": 72900,
       "agotado": false,
-      "estado": "disponible",
+      "estado": "nuevo",
       "variantes": [],
       "imagen": "img/productos/milagros/Acondicionador profesional 2 .webp",
       "imagenes": [
@@ -224,11 +218,10 @@
     {
       "id": 1791847246547,
       "nombre": "Acondicionador Ultra Nutritivo Premium",
-      "categoria": "cuidado capilar",
+      "categoria": "acondicionador",
       "categorias": [
-        "cuidado capilar",
-        "milagros",
-        "acondicionador"
+        "acondicionador",
+        "Capilar"
       ],
       "precio": 36900,
       "agotado": false,
@@ -243,9 +236,10 @@
     {
       "id": 1791847422854,
       "nombre": "Tratamiento Bio Repolarizador Capilar",
-      "categoria": "cuidado capilar",
+      "categoria": "Capilar",
       "categorias": [
-        "cuidado capilar"
+        "Capilar",
+        "Tratamientos"
       ],
       "precio": 36900,
       "agotado": false,
@@ -260,11 +254,10 @@
     {
       "id": 1791847617840,
       "nombre": "Acondicionador Antifrizz y Fortalecedor Con Extracto de Cebolla y Péptidos",
-      "categoria": "cuidado capilar",
+      "categoria": "acondicionador",
       "categorias": [
-        "cuidado capilar",
-        "milagros",
-        "acondicionador"
+        "acondicionador",
+        "Capilar"
       ],
       "precio": 36900,
       "agotado": false,
@@ -279,11 +272,10 @@
     {
       "id": 1791847678509,
       "nombre": "Acondicionador Milagro Herbal",
-      "categoria": "cuidado capilar",
+      "categoria": "acondicionador",
       "categorias": [
-        "cuidado capilar",
-        "milagros",
-        "acondicionador"
+        "acondicionador",
+        "Capilar"
       ],
       "precio": 36900,
       "agotado": false,
@@ -298,9 +290,10 @@
     {
       "id": 1791847851873,
       "nombre": "Tratamiento Capilar a base de Frutas",
-      "categoria": "cuidado capilar",
+      "categoria": "Capilar",
       "categorias": [
-        "cuidado capilar"
+        "Capilar",
+        "Tratamientos"
       ],
       "precio": 36900,
       "agotado": false,
@@ -315,9 +308,10 @@
     {
       "id": 1791848140582,
       "nombre": "Tratamiento Emergencia Capilar",
-      "categoria": "cuidado capilar",
+      "categoria": "Capilar",
       "categorias": [
-        "cuidado capilar"
+        "Capilar",
+        "Tratamientos"
       ],
       "precio": 36900,
       "agotado": false,
@@ -332,14 +326,14 @@
     {
       "id": 1791848408097,
       "nombre": "Mascarilla Professional Reparación Intensiva",
-      "categoria": "cuidado capilar",
+      "categoria": "Capilar",
       "categorias": [
-        "cuidado capilar",
-        "milagros"
+        "Capilar",
+        "Tratamientos"
       ],
       "precio": 75900,
       "agotado": false,
-      "estado": "disponible",
+      "estado": "nuevo",
       "variantes": [],
       "imagen": "img/productos/milagros/mascarilla reparacion intensiva 1.webp",
       "imagenes": [
@@ -350,10 +344,10 @@
     {
       "id": 1791850199475,
       "nombre": "Mascarilla milagro herbal milagros",
-      "categoria": "cuidado capilar",
+      "categoria": "Capilar",
       "categorias": [
-        "cuidado capilar",
-        "milagros"
+        "Capilar",
+        "Tratamientos"
       ],
       "precio": 38900,
       "agotado": false,
@@ -368,10 +362,10 @@
     {
       "id": 1791850383828,
       "nombre": "Mascarilla Capilar Reparadora Intensiva Con Extracto De Cebolla y Péptidos",
-      "categoria": "cuidado capilar",
+      "categoria": "Capilar",
       "categorias": [
-        "cuidado capilar",
-        "milagros"
+        "Capilar",
+        "Tratamientos"
       ],
       "precio": 38900,
       "agotado": true,
@@ -386,10 +380,10 @@
     {
       "id": 1791850936962,
       "nombre": "Desenredante Termoprotector Multibeneficios",
-      "categoria": "cuidado capilar",
+      "categoria": "Capilar",
       "categorias": [
-        "cuidado capilar",
-        "milagros"
+        "Capilar",
+        "Tratamientos"
       ],
       "precio": 33900,
       "agotado": false,
@@ -404,11 +398,10 @@
     {
       "id": 1791851733669,
       "nombre": "Desenredante Termoprotector Multibeneficios Martina",
-      "categoria": "cuidado capilar",
+      "categoria": "Capilar",
       "categorias": [
-        "cuidado capilar",
-        "milagros",
-        "acondicionador"
+        "Capilar",
+        "Tratamientos"
       ],
       "precio": 33900,
       "agotado": false,
@@ -423,10 +416,10 @@
     {
       "id": 1791852168108,
       "nombre": "Sérum Revitalizante",
-      "categoria": "cuidado capilar",
+      "categoria": "Capilar",
       "categorias": [
-        "cuidado capilar",
-        "milagros"
+        "Capilar",
+        "Tratamientos"
       ],
       "precio": 34900,
       "agotado": false,
@@ -441,10 +434,10 @@
     {
       "id": 1791852304639,
       "nombre": "Tratamiento Capilar Rescate Instantáneo El Elixir Revitalizante",
-      "categoria": "cuidado capilar",
+      "categoria": "Capilar",
       "categorias": [
-        "cuidado capilar",
-        "milagros"
+        "Capilar",
+        "Tratamientos"
       ],
       "precio": 13900,
       "agotado": false,
@@ -459,10 +452,10 @@
     {
       "id": 1791852561570,
       "nombre": "Tratamiento Capilar Rescate Instantáneo El Experto en Rescate",
-      "categoria": "cuidado capilar",
+      "categoria": "Capilar",
       "categorias": [
-        "cuidado capilar",
-        "milagros"
+        "Capilar",
+        "Tratamientos"
       ],
       "precio": 13900,
       "agotado": false,
@@ -477,10 +470,10 @@
     {
       "id": 1791853110208,
       "nombre": "Loción Hidratante Corporal 1L",
-      "categoria": "milagros",
+      "categoria": "Corporal",
       "categorias": [
-        "milagros",
-        "cuidado corporal"
+        "Corporal",
+        "Cremas"
       ],
       "precio": 37900,
       "agotado": false,
@@ -493,118 +486,423 @@
       "desc": "¿Tu piel necesita hidratación diaria y una sensación de suavidad duradera?\n\nEsta fórmula rica y delicada hidrata, nutre y suaviza la piel, ayudando a mantenerla tonificada y saludable durante todo el día. Deja una textura sedosa y un aspecto radiante en cada aplicación.\n\nIdeal para: piel normal a seca que busca hidratación diaria y confort prolongado."
     },
     {
-      "id": 1791853347339,
-      "nombre": "Perfume Capilar y Corporal Majestuosa",
-      "categoria": "cuidado capilar",
+      "id": 1791859714441,
+      "nombre": "Kit Miniperfumes x 5 Milagros",
+      "categoria": "Corporal",
       "categorias": [
-        "cuidado capilar",
-        "milagros",
-        "cuidado corporal"
+        "Corporal",
+        "Kit",
+        "Capilar"
       ],
-      "precio": 33900,
+      "precio": 49900,
       "agotado": false,
       "estado": "disponible",
       "variantes": [],
-      "imagen": "img/productos/milagros/Perfume majestuosa 1.webp",
+      "imagen": "img/productos/lula/a a Kit Miniperfumes x 5 Milagros (3).png",
       "imagenes": [
-        "img/productos/milagros/Perfume majestuosa 1.webp"
+        "img/productos/lula/a a Kit Miniperfumes x 5 Milagros (3).png",
+        "img/productos/lula/a aKit Miniperfumes x 5 Milagros (1).png"
       ],
-      "desc": " (Notas Citricas y Frescas) 120ml \n\nRealza el color natural del cabello y aporta brillo inmediato. Su fórmula con extractos 100% naturales deja un aroma fresco y cítrico de larga duración, sin aportar grasa, para un cabello radiante y perfumado todo el día."
+      "desc": "El Kit Miniperfumes x5 Milagros reúne cinco exquisitas fragancias para el cabello en un práctico formato mini, ideal para llevar en el bolso, de viaje o para retocar tu aroma en cualquier momento del día. Cada perfume está elaborado con extractos de origen natural que ayudan a mantener el cabello fresco, brillante y con una fragancia duradera sin dejar sensación grasosa.\n\nSu fórmula libre de parabenos aporta un delicado brillo a la fibra capilar mientras perfuma el cabello con aromas únicos para cada ocasión. Gracias a su excelente proyección y duración, disfrutarás de una experiencia sensorial que acompaña tu estilo durante horas."
     },
     {
-      "id": 1791853633503,
-      "nombre": "Perfume Capilar y Corporal Irresistible",
-      "categoria": "cuidado capilar",
+      "id": 1792032277887,
+      "nombre": "Brillo Labial Lula",
+      "categoria": "Maquillaje",
       "categorias": [
-        "cuidado capilar",
-        "milagros",
-        "cuidado corporal"
+        "Maquillaje",
+        "labios"
       ],
-      "precio": 33900,
+      "precio": 15000,
       "agotado": false,
       "estado": "disponible",
-      "variantes": [],
-      "imagen": "img/productos/milagros/Perfume irresistible 1.webp",
-      "imagenes": [
-        "img/productos/milagros/Perfume irresistible 1.webp"
+      "variantes": [
+        {
+          "nombre": "Tono 1 - BL",
+          "imagen": "img/productos/lula/balsamo para labios brillo con vita E 1.webp"
+        },
+        {
+          "nombre": "Tono 2 - BL",
+          "imagen": "img/productos/lula/balsamo para labios brillo con vita E 2.webp"
+        },
+        {
+          "nombre": "Tono 3 - BL",
+          "imagen": "img/productos/lula/balsamo para labios brillo con vita E 3.webp"
+        },
+        {
+          "nombre": "Tono 4 - BL",
+          "imagen": "img/productos/lula/balsamo para labios brillo con vita E 4.webp"
+        },
+        {
+          "nombre": "Tono 5 - BL",
+          "imagen": "img/productos/lula/balsamo para labios brillo con vita E 5.webp"
+        },
+        {
+          "nombre": "Tono 6 - BL",
+          "imagen": "img/productos/lula/balsamo para labios brillo con vita E 6.webp"
+        }
       ],
-      "desc": " (Notas Florales) 120ml\nRealza el color natural del cabello y aporta brillo inmediato. Su fórmula con extractos 100% naturales deja un aroma fresco con notas florales de larga duración, sin aportar grasa, para un cabello radiante y perfumado todo el día."
+      "imagen": "img/productos/lula/Balsamo para labios brillo con vita E 0Complementario-36.webp",
+      "imagenes": [
+        "img/productos/lula/Balsamo para labios brillo con vita E 0Complementario-36.webp",
+        "img/productos/lula/balsamo para labios brillo con vita E 1.webp",
+        "img/productos/lula/balsamo para labios brillo con vita E 2.webp",
+        "img/productos/lula/balsamo para labios brillo con vita E 3.webp",
+        "img/productos/lula/balsamo para labios brillo con vita E 4.webp",
+        "img/productos/lula/balsamo para labios brillo con vita E 5.webp",
+        "img/productos/lula/balsamo para labios brillo con vita E 6.webp"
+      ],
+      "desc": "Brillo, hidratación y efecto juicy en un solo producto. Nuestro nuevo brillo labial tiene una textura ligera y cómoda que deja los labios suaves, luminosos y con un acabado glossy irresistible.\n\nDisponible en 6 tonos diferentes, desde destellos brillantes hasta colores cremosos y naturales, pensados para acompañar cualquier mood, look u ocasión. Además, su fórmula con Vitamina E ayuda a mantener los labios hidratados y con apariencia saludable todo el día."
     },
     {
-      "id": 1791853806395,
-      "nombre": "Perfume Capilar y corporal Martina ",
-      "categoria": "cuidado capilar",
+      "id": 1792033005896,
+      "nombre": "Bálsamo de labios Lula",
+      "categoria": "Maquillaje",
       "categorias": [
-        "cuidado capilar",
-        "milagros",
-        "cuidado corporal"
+        "Maquillaje",
+        "labios"
       ],
-      "precio": 33900,
+      "precio": 13000,
       "agotado": false,
       "estado": "disponible",
-      "variantes": [],
-      "imagen": "img/productos/milagros/Perfume martina 1.webp",
-      "imagenes": [
-        "img/productos/milagros/Perfume martina 1.webp"
+      "variantes": [
+        {
+          "nombre": "pitaya",
+          "imagen": "img/productos/lula/Bálsamo de labios tono 1 Complementario-25.webp"
+        },
+        {
+          "nombre": "Frutos del bosque",
+          "imagen": "img/productos/lula/Bálsamo de labios tono 2 Complementario-25.webp"
+        },
+        {
+          "nombre": "Melón",
+          "imagen": "img/productos/lula/Bálsamo de labios tono 3 Complementario-25.webp"
+        }
       ],
-      "desc": "(Notas Frutales y Dulces) 120ml\n\nIdeal para todo tipo de cabello, especialmente opaco y sin brillo. Su fragancia combina notas de mora silvestre, fresa, frambuesa, sandía, lirio del valle, almizcles y vainilla, dejando una estela dulce, fresca y seductora."
+      "imagen": "img/productos/lula/Bálsamo de labios tono 0 Complementario-25.webp",
+      "imagenes": [
+        "img/productos/lula/Bálsamo de labios tono 0 Complementario-25.webp",
+        "img/productos/lula/Bálsamo de labios tono 1 Complementario-25.webp",
+        "img/productos/lula/Bálsamo de labios tono 2 Complementario-25.webp",
+        "img/productos/lula/Bálsamo de labios tono 3 Complementario-25.webp"
+      ],
+      "desc": "Hidratación, suavidad y glow natural en un solo básico. Nuestros nuevos bálsamos labiales en barra están hechos para acompañarte todos los días, dejando tus labios suaves, protegidos y con un brillo natural súper lindo.\n\nDisponibles en aromas de Pitaya, Frutos del Bosque y Melón, se deslizan fácilmente y aportan una sensación cómoda y ligera durante el día. No añaden color, porque la idea es resaltar la belleza natural de tus labios con un acabado fresh, saludable y effortless."
     },
     {
-      "id": 1791856208707,
-      "nombre": "Perfume Capilar y Corporal Gold ",
-      "categoria": "cuidado capilar",
+      "id": 1792034119736,
+      "nombre": "Bálsamo labial Jelly PH Lula",
+      "categoria": "Maquillaje",
       "categorias": [
-        "cuidado capilar",
-        "milagros",
-        "cuidado corporal"
+        "Maquillaje",
+        "labios"
       ],
-      "precio": 33900,
+      "precio": 15000,
       "agotado": false,
       "estado": "disponible",
-      "variantes": [],
-      "imagen": "img/productos/milagros/Perfume gold 1.webp",
-      "imagenes": [
-        "img/productos/milagros/Perfume gold 1.webp"
+      "variantes": [
+        {
+          "nombre": "No.1",
+          "imagen": "img/productos/lula/Bálsamo de labial Jelly PH tono 00 1 Complementario-25.webp"
+        },
+        {
+          "nombre": "No.2",
+          "imagen": "img/productos/lula/Bálsamo de labial Jelly PH tono 00 2 Complementario-25.webp"
+        },
+        {
+          "nombre": "No.3",
+          "imagen": "img/productos/lula/Bálsamo de labial Jelly PH tono 00 3 Complementario-25.webp"
+        },
+        {
+          "nombre": "No.4",
+          "imagen": "img/productos/lula/Bálsamo de labial Jelly PH tono 00 4 Complementario-25.webp"
+        }
       ],
-      "desc": "(Notas Herbales y Frescas) 120ml\nRealza el color natural del cabello y aporta brillo inmediato. Su fórmula con activos 100% vegetales ofrece excelente proyección y larga duración, sin dejar residuos grasos. Enriquecido con extractos naturales que hidratan y cuidan el cabello y la piel, deja un aroma sofisticado con notas de rosa, vainilla, romero, bergamota y salvia."
+      "imagen": "img/productos/lula/Bálsamo de labial Jelly PH tono 00 .webp",
+      "imagenes": [
+        "img/productos/lula/Bálsamo de labial Jelly PH tono 00 .webp",
+        "img/productos/lula/Bálsamo de labial Jelly PH tono 00 1 Complementario-25.webp",
+        "img/productos/lula/Bálsamo de labial Jelly PH tono 00 2 Complementario-25.webp",
+        "img/productos/lula/Bálsamo de labial Jelly PH tono 00 3 Complementario-25.webp",
+        "img/productos/lula/Bálsamo de labial Jelly PH tono 00 4 Complementario-25.webp"
+      ],
+      "desc": "Nuestro nuevo Bálsamo Labial Jelly pH transforma la forma en la que usas color en los labios. Su textura en gel reacciona con el pH de tu piel para revelar un tono rosado único, mientras hidrata y deja un acabado luminoso y natural que se siente tan tuyo como si siempre hubiera estado ahí."
     },
     {
-      "id": 1791856359189,
-      "nombre": "Perfume Capilar y Corporal Sublime ",
-      "categoria": "cuidado capilar",
+      "id": 1792034978765,
+      "nombre": "Corrector liquido Lula",
+      "categoria": "Maquillaje",
       "categorias": [
-        "cuidado capilar",
-        "milagros",
-        "cuidado corporal"
+        "Maquillaje",
+        "Correctores"
       ],
-      "precio": 33900,
+      "precio": 17000,
       "agotado": false,
       "estado": "disponible",
-      "variantes": [],
-      "imagen": "img/productos/milagros/Perfume sublime 1.webp",
-      "imagenes": [
-        "img/productos/milagros/Perfume sublime 1.webp"
+      "variantes": [
+        {
+          "nombre": "1 - CR",
+          "imagen": "img/productos/lula/Corrector liquido Lula 000 1 .webp"
+        },
+        {
+          "nombre": "2 - CR",
+          "imagen": "img/productos/lula/Corrector liquido Lula 000 2 .webp"
+        },
+        {
+          "nombre": "3 - CR",
+          "imagen": "img/productos/lula/Corrector liquido Lula 000 3 .webp"
+        },
+        {
+          "nombre": "4 - CR",
+          "imagen": "img/productos/lula/Corrector liquido Lula 000 4 .webp"
+        },
+        {
+          "nombre": "5 - CR",
+          "imagen": "img/productos/lula/Corrector liquido Lula 000 5 .webp"
+        },
+        {
+          "nombre": "6 - CR",
+          "imagen": "img/productos/lula/Corrector liquido Lula 000 6 .webp"
+        },
+        {
+          "nombre": "7 - CR",
+          "imagen": "img/productos/lula/Corrector liquido Lula 000 7 .webp"
+        }
       ],
-      "desc": "(Notas Frutales y Dulces) 120ml\nRealza el color natural del cabello y potencia su brillo con una fragancia frutal con un toque dulce de larga duración. Su fórmula con extractos 100% naturales perfuma sin aportar grasa, dejando el cabello fresco, radiante y delicadamente aromatizado durante todo el día."
+      "imagen": "img/productos/lula/Corrector liquido Lula 000 .webp",
+      "imagenes": [
+        "img/productos/lula/Corrector liquido Lula 000 .webp",
+        "img/productos/lula/Corrector liquido Lula 000 1 .webp",
+        "img/productos/lula/Corrector liquido Lula 000 2 .webp",
+        "img/productos/lula/Corrector liquido Lula 000 3 .webp",
+        "img/productos/lula/Corrector liquido Lula 000 4 .webp",
+        "img/productos/lula/Corrector liquido Lula 000 5 .webp",
+        "img/productos/lula/Corrector liquido Lula 000 6 .webp",
+        "img/productos/lula/Corrector liquido Lula 000 7 .webp"
+      ],
+      "desc": "✨ Alta cobertura para ojeras, granitos y manchas.\n💧 Fórmula ligera y de larga duración.\n👌 Se difumina fácilmente para un acabado natural.\n\n\nEste corrector es todo lo que necesitas para cubrir lo que no quieres que se note o lo que sientes que necesita una ayudita extra: ojeras, manchitas, granitos... lo que quieras.\n\nBye bye ojeras, hello piel perfecta ✨"
     },
     {
-      "id": 1791856481064,
-      "nombre": "Perfume Capilar y Corporal Bali ",
-      "categoria": "cuidado capilar",
+      "id": 1792035566266,
+      "nombre": "Base líquida mate Lula",
+      "categoria": "Maquillaje",
       "categorias": [
-        "cuidado capilar",
-        "milagros",
-        "cuidado corporal"
+        "Maquillaje",
+        "Bases"
+      ],
+      "precio": 28000,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [
+        {
+          "nombre": "1 - BA",
+          "imagen": "img/productos/lula/Base líquida mate Lula 000 1 .webp"
+        },
+        {
+          "nombre": "2 - BA",
+          "imagen": "img/productos/lula/Base líquida mate Lula 000 2 .webp"
+        },
+        {
+          "nombre": "3 - BA",
+          "imagen": "img/productos/lula/Base líquida mate Lula 000 3 .webp"
+        },
+        {
+          "nombre": "4 - BA",
+          "imagen": "img/productos/lula/Base líquida mate Lula 000 4 .webp"
+        },
+        {
+          "nombre": "5 - BA",
+          "imagen": "img/productos/lula/Base líquida mate Lula 000 5 .webp"
+        },
+        {
+          "nombre": "6 - BA",
+          "imagen": "img/productos/lula/Base líquida mate Lula 000 6 .webp"
+        }
+      ],
+      "imagen": "img/productos/lula/Base líquida mate Lula 000 .webp",
+      "imagenes": [
+        "img/productos/lula/Base líquida mate Lula 000 .webp",
+        "img/productos/lula/Base líquida mate Lula 000 1 .webp",
+        "img/productos/lula/Base líquida mate Lula 000 2 .webp",
+        "img/productos/lula/Base líquida mate Lula 000 3 .webp",
+        "img/productos/lula/Base líquida mate Lula 000 4 .webp",
+        "img/productos/lula/Base líquida mate Lula 000 5 .webp",
+        "img/productos/lula/Base líquida mate Lula 000 6 .webp"
+      ],
+      "desc": "🌟 Controla el brillo y dura todo el día.\n💖 Cobertura construible, ideal para looks casuales o glamurosos.\n😍 *Efecto mate, viene en 6 tonos.\n\nNuestra base líquida mate es todo lo que necesitas para un acabado perfecto que dura todo el día. Está diseñado para controlar el brillo sin resecar la hidratación natural de la piel. Es ideal para esas largas jornadas que empiezan en clase y terminan en fiesta . \n\nPiel mate, pero jamás aburrida ✨"
+    },
+    {
+      "id": 1792372967603,
+      "nombre": "Gel corporal hidratante aloe vera Lula",
+      "categoria": "Corporal",
+      "categorias": [
+        "Corporal",
+        "Gel"
+      ],
+      "precio": 32000,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/lula/Gel corporal hidratante aloe vera Lula .webp",
+      "imagenes": [
+        "img/productos/lula/Gel corporal hidratante aloe vera Lula .webp",
+        "img/productos/lula/Gel corporal hidratante aloe vera Lula.webp"
+      ],
+      "desc": "Gel de aloe vera funciona como humectante, retiene la humedad, potencializando la hidratación de tu cuerpo. Puedes usarlo después de una depilación, quemadura o cuando tu piel se sienta irritada o insolada, al tener extractos naturales como el aloe vera nos brinda un efecto calmante."
+    },
+    {
+      "id": 1792374803039,
+      "nombre": "Crema corporal con aroma 30 ml Lula",
+      "categoria": "Corporal",
+      "categorias": [
+        "Corporal",
+        "Cremas"
+      ],
+      "precio": 6000,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [
+        {
+          "nombre": "Agata morada",
+          "imagen": "img/productos/lula/Crema corporal agata LULA.webp"
+        },
+        {
+          "nombre": "Amatista lila",
+          "imagen": "img/productos/lula/Crema corporal amatista LULA.webp"
+        },
+        {
+          "nombre": "Ambar naranja",
+          "imagen": "img/productos/lula/Crema corporal ambar  LULA.webp"
+        },
+        {
+          "nombre": "Rubí fucsia",
+          "imagen": "img/productos/lula/Crema corporal rubi LULA.webp"
+        }
+      ],
+      "imagen": "img/productos/lula/Crema corporal agata LULA.webp",
+      "imagenes": [
+        "img/productos/lula/Crema corporal agata LULA.webp",
+        "img/productos/lula/Crema corporal amatista LULA.webp",
+        "img/productos/lula/Crema corporal ambar  LULA.webp",
+        "img/productos/lula/Crema corporal rubi LULA.webp"
+      ],
+      "desc": "Fórmula hidratante deja la piel suave mientras prolonga el aroma por más tiempo.\nDisponible en cuatro fragancias diseñadas para diferentes estilos:\n❤️Rubí: Notas dulces, afrutadas y tropicales. Ideal para personas románticas y coquetas, que aman lo femenino y lo vibrante.\n🧡Ámbar: Notas dulces, cítricas y amaderadas. Ideal para quien busca un aroma sofisticado, con un toque cálido.\n💜Ágata: Notas afrutadas, florales y frescas. Ideal para personas dinámicas, espontáneas y llenas de energía positiva.\n🤍Amatista: Notas citricas, florales con jazmín. Ideal para quien busca un balance entre frescura y delicadeza. Contenido: 30Ml"
+    },
+    {
+      "id": 1792375760398,
+      "nombre": "Loción corporal Lula",
+      "categoria": "Corporal",
+      "categorias": [
+        "Corporal",
+        "Locion"
+      ],
+      "precio": 19000,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/lula/Loción corporal Lula   .webp",
+      "imagenes": [
+        "img/productos/lula/Loción corporal Lula   .webp",
+        "img/productos/lula/Loción corporal Lula  .jpg"
+      ],
+      "desc": "La practicidad de un formato en bruma con el poder nutritivo de una crema líquida.\n\nSu textura ultra ligera y de rápida absorción deja la piel suave, fresca y con un sutil aroma a limpio que acompaña todo el día.\nIdeal para quienes buscan hidratación efectiva sin sensación grasosa."
+    },
+    {
+      "id": 1792376785870,
+      "nombre": "Exfoliante Corporal",
+      "categoria": "Corporal",
+      "categorias": [
+        "Corporal",
+        "Exfoliantes"
+      ],
+      "precio": 36000,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [
+        {
+          "nombre": "naranja",
+          "imagen": "img/productos/lula/Exfoliante naranja .webp"
+        },
+        {
+          "nombre": "uva",
+          "imagen": "img/productos/lula/Exfoliante uva .webp"
+        },
+        {
+          "nombre": "mora azul",
+          "imagen": "img/productos/lula/Exfoliante mora azul .webp"
+        }
+      ],
+      "imagen": "img/productos/lula/Exfoliante mora azul .webp",
+      "imagenes": [
+        "img/productos/lula/Exfoliante mora azul .webp",
+        "img/productos/lula/Exfoliante mora azul.webp",
+        "img/productos/lula/Exfoliante naranja .webp",
+        "img/productos/lula/Exfoliante naranja.webp",
+        "img/productos/lula/Exfoliante uva .webp",
+        "img/productos/lula/Exfoliante uva.webp"
+      ],
+      "desc": "El Exfoliante Corporal de Mora Azul Lula renueva la piel eliminando impurezas y células muertas para dejarla suave, luminosa y con un delicioso aroma frutal. Su textura es ideal para usar en la ducha y lograr una piel más lisa y fresca al instante."
+    },
+    {
+      "id": 1792377649250,
+      "nombre": "Sérum facial con Aloe Vera",
+      "categoria": "Cuidado facial",
+      "categorias": [
+        "Cuidado facial",
+        "Serúm"
+      ],
+      "precio": 19000,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/lula/Sérum facial con Aloe Vera  .webp",
+      "imagenes": [
+        "img/productos/lula/Sérum facial con Aloe Vera  .webp",
+        "img/productos/lula/Sérum facial con Aloe Vera .webp"
+      ],
+      "desc": "La Esencia Dual Aloe Vera Verde Lula combina extractos hidratantes y calmantes que refrescan y revitalizan la piel. Su fórmula ligera se absorbe rápido, aportando suavidad, luminosidad y un efecto calmante perfecto para el día a día. Ideal para todo tipo de piel."
+    },
+    {
+      "id": 1792543406518,
+      "nombre": "Perfume milagros",
+      "categoria": "Corporal",
+      "categorias": [
+        "Corporal",
+        "Capilar"
       ],
       "precio": 33900,
       "agotado": false,
       "estado": "disponible",
-      "variantes": [],
+      "variantes": [
+        {
+          "nombre": "Gold",
+          "imagen": "img/productos/milagros/Perfume gold 1.webp"
+        },
+        {
+          "nombre": "Martina",
+          "imagen": "img/productos/milagros/Perfume martina 1.webp"
+        },
+        {
+          "nombre": "Irresistible",
+          "imagen": "img/productos/milagros/Perfume irresistible 1.webp"
+        },
+        {
+          "nombre": "Bali",
+          "imagen": "img/productos/milagros/Perfume bali 1.webp"
+        },
+        {
+          "nombre": "majestuosa",
+          "imagen": "img/productos/milagros/Perfume majestuosa 1.webp"
+        }
+      ],
       "imagen": "img/productos/milagros/Perfume bali 1.webp",
       "imagenes": [
-        "img/productos/milagros/Perfume bali 1.webp"
+        "img/productos/milagros/Perfume bali 1.webp",
+        "img/productos/milagros/Perfume gold 1.webp",
+        "img/productos/milagros/Perfume irresistible 1.webp",
+        "img/productos/milagros/Perfume majestuosa 1.webp",
+        "img/productos/milagros/Perfume martina 1.webp"
       ],
-      "desc": "(Notas Dulces y Relajantes) 120ml\nRealza el color natural del cabello y aporta brillo inmediato, dejando una fragancia envolvente con notas relajantes y de crema batida. Su fórmula con extractos 100% naturales hidrata la piel, ofrece excelente duración y no aporta grasa, para un cabello radiante y delicadamente perfumado todo el día."
+      "desc": "Perfumes Milagros, fragancias cautivadoras que acompañan tu estilo con frescura, dulzura y elegancia."
     }
   ]
 }
