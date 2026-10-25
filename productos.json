@@ -27,7 +27,11 @@
     "Locion",
     "Exfoliantes",
     "Serúm",
-    "Balsamo labial"
+    "Balsamo labial",
+    "Cejas",
+    "Rubor",
+    "polvo",
+    "Iluminador"
   ],
   "marcas": [
     "skala",
@@ -35,7 +39,9 @@
     "general",
     "bloomshell",
     "milagros",
-    "lula"
+    "lula",
+    "atenea",
+    "pocion"
   ],
   "productos": [
     {
@@ -368,8 +374,8 @@
         "Tratamientos"
       ],
       "precio": 38900,
-      "agotado": true,
-      "estado": "agotado",
+      "agotado": false,
+      "estado": "disponible",
       "variantes": [],
       "imagen": "img/productos/milagros/Mascarilla cebolla fondo blanco 1.webp",
       "imagenes": [
@@ -903,6 +909,822 @@
         "img/productos/milagros/Perfume martina 1.webp"
       ],
       "desc": "Perfumes Milagros, fragancias cautivadoras que acompañan tu estilo con frescura, dulzura y elegancia."
+    },
+    {
+      "id": 1792544575051,
+      "nombre": "Gel de cejas Lula",
+      "categoria": "Maquillaje",
+      "categorias": [
+        "Maquillaje",
+        "Cejas"
+      ],
+      "precio": 12000,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [
+        {
+          "nombre": "claro",
+          "imagen": "img/productos/lula/Gel de cejas Lula claro .webp"
+        },
+        {
+          "nombre": "medio",
+          "imagen": "img/productos/lula/Gel de cejas Lula medio .webp"
+        },
+        {
+          "nombre": "oscuro",
+          "imagen": "img/productos/lula/Gel de cejas Lula oscuro .webp"
+        },
+        {
+          "nombre": "cafe",
+          "imagen": "img/productos/lula/Gel de cejas Lula cafe .webp"
+        },
+        {
+          "nombre": "negro",
+          "imagen": "img/productos/lula/Gel de cejas Lula negro .webp"
+        }
+      ],
+      "imagen": "img/productos/lula/Gel de cejas Lula .jpg",
+      "imagenes": [
+        "img/productos/lula/Gel de cejas Lula .jpg",
+        "img/productos/lula/Gel de cejas Lula cafe .webp",
+        "img/productos/lula/Gel de cejas Lula claro .webp",
+        "img/productos/lula/Gel de cejas Lula medio .webp",
+        "img/productos/lula/Gel de cejas Lula negro .webp",
+        "img/productos/lula/Gel de cejas Lula oscuro .webp"
+      ],
+      "desc": "Precisión, Definición y Larga Duración 💕\n\nConsigue una mirada intensa y unas cejas perfectamente definidas con nuestro delineador para ojos y cejas. Su fórmula de larga duración, resistente a la humedad y al roce, permite una aplicación suave y precisa, sin dejar sensación pegajosa. \n\nIdeal para looks naturales o para salir de fiesta, este delineador se desliza sin esfuerzo y se mantiene intacto durante horas."
+    },
+    {
+      "id": 1792544981978,
+      "nombre": "Lápiz de cejas Lula",
+      "categoria": "Maquillaje",
+      "categorias": [
+        "Maquillaje",
+        "Cejas"
+      ],
+      "precio": 10000,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [
+        {
+          "nombre": "arequipe",
+          "imagen": "img/productos/lula/Lapiz definidor para cejas arequipe .webp"
+        },
+        {
+          "nombre": "expreso",
+          "imagen": "img/productos/lula/Lapiz definidor para cejas expreso .webp"
+        },
+        {
+          "nombre": "nuez",
+          "imagen": "img/productos/lula/Lapiz definidor para cejas nuez .webp"
+        }
+      ],
+      "imagen": "img/productos/lula/Lapiz definidor para cejas  .jpg",
+      "imagenes": [
+        "img/productos/lula/Lapiz definidor para cejas  .jpg",
+        "img/productos/lula/Lapiz definidor para cejas arequipe .webp",
+        "img/productos/lula/Lapiz definidor para cejas expreso .webp",
+        "img/productos/lula/Lapiz definidor para cejas nuez .webp"
+      ],
+      "desc": "El toque justo de definición para unas cejas con actitud. ✨👌\nEl Lápiz definidor de cejas de Lula es un producto multifuncional diseñado para dar forma, rellenar y definir con precisión. Su textura cremosa y fácil de difuminar permite lograr desde un acabado natural hasta un look más estructurado y detallado. 😉\nIdeal para uso diario, este lápiz se adapta a distintos tonos de piel y cabello con 4 tonos versátiles y una fórmula que se desliza sin esfuerzo. ¡Una herramienta completa con sacapuntas y spoolie integrados para una experiencia pro en casa! 👏🏻✅"
+    },
+    {
+      "id": 1792545618822,
+      "nombre": "Rubor compacto Lula",
+      "categoria": "Maquillaje",
+      "categorias": [
+        "Maquillaje",
+        "Rubor"
+      ],
+      "precio": 15000,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [
+        {
+          "nombre": "1 - RB",
+          "imagen": "img/productos/lula/Rubor compacto lula01.webp"
+        },
+        {
+          "nombre": "2 - RB",
+          "imagen": "img/productos/lula/Rubor compacto lula02.webp"
+        },
+        {
+          "nombre": "3 - RB",
+          "imagen": "img/productos/lula/Rubor compacto lula03.webp"
+        },
+        {
+          "nombre": "4 - RB",
+          "imagen": "img/productos/lula/Rubor compacto lula04.webp"
+        },
+        {
+          "nombre": "5 - RB",
+          "imagen": "img/productos/lula/Rubor compacto lula05.webp"
+        },
+        {
+          "nombre": "6 - RB",
+          "imagen": "img/productos/lula/Rubor compacto lula06.webp"
+        }
+      ],
+      "imagen": "img/productos/lula/Rubor compacto lula.webp",
+      "imagenes": [
+        "img/productos/lula/Rubor compacto lula.webp",
+        "img/productos/lula/Rubor compacto lula01.webp",
+        "img/productos/lula/Rubor compacto lula02.webp",
+        "img/productos/lula/Rubor compacto lula03.webp",
+        "img/productos/lula/Rubor compacto lula04.webp",
+        "img/productos/lula/Rubor compacto lula05.webp",
+        "img/productos/lula/Rubor compacto lula06.webp"
+      ],
+      "desc": "💕 6 Tonos vibrantes con acabado mate o satinado.\n🎨Pigmentación construible para looks naturales o intensos.\n😍 Textura suave, fácil de aplicar y de larga duración.\n\nUn rubor que es todo lo que buscas: tonos vibrantes, textura suave y acabado que se adapta a cualquier look. \n\nCheeks stole my look  💕"
+    },
+    {
+      "id": 1792546381821,
+      "nombre": "Polvo Suelto Traslúcido Banana",
+      "categoria": "Maquillaje",
+      "categorias": [
+        "Maquillaje",
+        "polvo"
+      ],
+      "precio": 16000,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/lula/Polvo suelto Lula.jpg",
+      "imagenes": [
+        "img/productos/lula/Polvo suelto Lula.jpg",
+        "img/productos/lula/Polvo suelto Lulawebp.webp"
+      ],
+      "desc": " Acabado Mate y Suave ☁️\n\nEs el aliado perfecto para sellar tu maquillaje, controlar el brillo y unificar el tono de la piel. Gracias a su fórmula, proporciona un acabado sedoso, difumina imperfecciones y mantiene la piel matte durante todo el día. ✨"
+    },
+    {
+      "id": 1792547722155,
+      "nombre": "Polvo suelto traslucido1st scene",
+      "categoria": "Maquillaje",
+      "categorias": [
+        "Maquillaje",
+        "polvo"
+      ],
+      "precio": 39000,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/atenea/POLVO SUELTO TRASLUCIDO 1ST SCENE 9g.webp",
+      "imagenes": [
+        "img/productos/atenea/POLVO SUELTO TRASLUCIDO 1ST SCENE 9g.webp",
+        "img/productos/atenea/POLVO SUELTO TRASLUCIDO 1ST SCENE9g.webp"
+      ],
+      "desc": "El polvo suelto translúcido es el aliado favorito en la rutina de maquillaje ya que tiene diferentes beneficios que te permiten conseguir un acabado perfecto. Es ideal para sellar maquillaje cremoso y matificar el brillo de la piel.\nEl favorito para usar todos los días y está disponible en 2 tamaños. Este polvo de proporcionará un acabado mate y te ayuda a controlar el brillo durante horas."
+    },
+    {
+      "id": 1792548895362,
+      "nombre": "Base 1st scene 50 ml Atenea",
+      "categoria": "Maquillaje",
+      "categorias": [
+        "Maquillaje",
+        "Bases"
+      ],
+      "precio": 68000,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [
+        {
+          "nombre": "Light",
+          "imagen": "img/productos/atenea/BASE 1ST SCENE TONO LIGHT.webp"
+        },
+        {
+          "nombre": "Porcelain",
+          "imagen": "img/productos/atenea/BASE 1ST SCENE TONO PORCELAIN.webp"
+        },
+        {
+          "nombre": "Cream",
+          "imagen": "img/productos/atenea/BASE 1ST SCENE TONO CREAM.webp"
+        },
+        {
+          "nombre": "Vainilla",
+          "imagen": "img/productos/atenea/BASE 1ST SCENE TONO VAINILLA.webp"
+        },
+        {
+          "nombre": "Almond",
+          "imagen": "img/productos/atenea/BASE 1ST SCENE TONO ALMOND .webp"
+        },
+        {
+          "nombre": "Olive",
+          "imagen": "img/productos/atenea/BASE 1ST SCENE TONO OLIVE.webp"
+        },
+        {
+          "nombre": "Temple",
+          "imagen": "img/productos/atenea/BASE 1ST SCENE TONO TEMPLE.webp"
+        },
+        {
+          "nombre": "Sand",
+          "imagen": "img/productos/atenea/BASE 1ST SCENE TONO SAND.webp"
+        },
+        {
+          "nombre": "Eboky",
+          "imagen": "img/productos/atenea/BASE 1ST SCENE TONO EBOKY.webp"
+        }
+      ],
+      "imagen": "img/productos/atenea/BASE1ST SCENE TONO A.webp",
+      "imagenes": [
+        "img/productos/atenea/BASE1ST SCENE TONO A.webp",
+        "img/productos/atenea/EMPAQUE BASE 1ST SCENE .webp"
+      ],
+      "desc": "¡Descubre el secreto para una piel luminosa! La base de maquillaje líquida 1ST. Scene viene en 9 tonos, es de acabado luminoso y aspecto natural; su textura es fluida lo que permite construirla y tener un control de su cobertura. Esta base es ideal para un día largo de trabajo o una noche especial."
+    },
+    {
+      "id": 1792551112443,
+      "nombre": "Corrector líquido 1s scene",
+      "categoria": "Maquillaje",
+      "categorias": [
+        "Maquillaje",
+        "Correctores"
+      ],
+      "precio": 47000,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [
+        {
+          "nombre": "Cutcrease",
+          "imagen": "img/productos/atenea/Atenea CUTCREASE .webp"
+        },
+        {
+          "nombre": "Neutralizer",
+          "imagen": "img/productos/atenea/Atenea NEUTRALIZER webp.webp"
+        },
+        {
+          "nombre": "Vainilla",
+          "imagen": "img/productos/atenea/Atenea VANILLA webp.webp"
+        },
+        {
+          "nombre": "Nude",
+          "imagen": "img/productos/atenea/Atenea NUDE webp.webp"
+        },
+        {
+          "nombre": "Beige",
+          "imagen": "img/productos/atenea/Atenea BEIGE webp.webp"
+        },
+        {
+          "nombre": "Cinnamon",
+          "imagen": "img/productos/atenea/Atenea CINNAMON .webp"
+        },
+        {
+          "nombre": "Maple",
+          "imagen": "img/productos/atenea/Atenea MAPLE .webp"
+        },
+        {
+          "nombre": "Caramel",
+          "imagen": "img/productos/atenea/Atenea CARAMEL .webp"
+        },
+        {
+          "nombre": "Cacao",
+          "imagen": "img/productos/atenea/Atenea CACAO .webp"
+        }
+      ],
+      "imagen": "img/productos/atenea/Atenea a .webp",
+      "imagenes": [
+        "img/productos/atenea/Atenea a .webp",
+        "img/productos/atenea/Atenea b webp .webp",
+        "img/productos/atenea/Atenea BEIGE webp.webp",
+        "img/productos/atenea/Atenea CACAO .webp",
+        "img/productos/atenea/Atenea CARAMEL .webp",
+        "img/productos/atenea/Atenea CINNAMON .webp",
+        "img/productos/atenea/Atenea CUTCREASE .webp",
+        "img/productos/atenea/Atenea MAPLE .webp",
+        "img/productos/atenea/Atenea NEUTRALIZER webp.webp",
+        "img/productos/atenea/Atenea NUDE webp.webp",
+        "img/productos/atenea/Atenea VANILLA webp.webp"
+      ],
+      "desc": "Alta cobertura y acabado natural consigue una piel con apariencia uniforme. Su textura cremosa se difumina fácilmente sobre la piel, ayudando a cubrir ojeras, manchas, rojeces e imperfecciones sin dejar una sensación pesada.\nSu fórmula combina pigmentos de alta calidad con ingredientes acondicionadores como aceite de jojoba, cafeína, vitamina E y ácido hialurónico, proporcionando una aplicación suave y confortable. Además, incorpora polímeros y siliconas que ayudan a difuminar visualmente líneas finas y textura para un acabado más uniforme y de larga duración."
+    },
+    {
+      "id": 1792631156623,
+      "nombre": "Rubor cuadrado sublime Atenea",
+      "categoria": "Maquillaje",
+      "categorias": [
+        "Maquillaje",
+        "Rubor"
+      ],
+      "precio": 44000,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [
+        {
+          "nombre": "Dusk",
+          "imagen": "img/productos/atenea/RUBOR EN POLVO TONO DUSK.webp"
+        },
+        {
+          "nombre": "Radiant",
+          "imagen": "img/productos/atenea/RUBOR EN POLVO TONO RADIANT.webp"
+        },
+        {
+          "nombre": "Sundown",
+          "imagen": "img/productos/atenea/RUBOR EN POLVO TONO SUNDOWN.webp"
+        },
+        {
+          "nombre": "Sunset",
+          "imagen": "img/productos/atenea/RUBOR EN POLVO TONO SUNSET.webp"
+        }
+      ],
+      "imagen": "img/productos/atenea/POLVO SUELTO TRASLUCIDO 1ST.webp",
+      "imagenes": [
+        "img/productos/atenea/POLVO SUELTO TRASLUCIDO 1ST.webp",
+        "img/productos/atenea/RUBOR EN POLVO TONO DUSK.webp",
+        "img/productos/atenea/RUBOR EN POLVO TONO RADIANT.webp",
+        "img/productos/atenea/RUBOR EN POLVO TONO SUNDOWN.webp",
+        "img/productos/atenea/RUBOR EN POLVO TONO SUNSET.webp"
+      ],
+      "desc": "El Rubor Compacto Sublime aporta color, frescura y dimensión con una textura sedosa que se integra perfectamente a la piel. Su fórmula de alta calidad permite construir intensidad sin efecto parchoso, logrando desde un acabado natural hasta un look vibrante y sofisticado.\n\nDiseñado para trabajar en capas (crema + polvo), este blush en polvo sella el maquillaje, prolonga la duración y aporta un acabado profesional con efecto piel real.\n"
+    },
+    {
+      "id": 1792632107742,
+      "nombre": "Iluminador cuadrado sublime Atenea",
+      "categoria": "Maquillaje",
+      "categorias": [
+        "Maquillaje",
+        "Iluminador"
+      ],
+      "precio": 44000,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [
+        {
+          "nombre": "Gleam",
+          "imagen": "img/productos/atenea/ILUMINADOR EN POLVO TONO GLEAM.webp"
+        },
+        {
+          "nombre": "Ivory",
+          "imagen": "img/productos/atenea/ILUMINADOR EN POLVO TONO IVORY.webp"
+        },
+        {
+          "nombre": "Petal",
+          "imagen": "img/productos/atenea/ILUMINADOR_EN_POLVO_TONO_PETAL.webp"
+        },
+        {
+          "nombre": "LILY",
+          "imagen": "img/productos/atenea/ILUMINADOR EN POLVO TONO LILY.webp"
+        }
+      ],
+      "imagen": "img/productos/atenea/ILUMINADOR .webp",
+      "imagenes": [
+        "img/productos/atenea/ILUMINADOR .webp",
+        "img/productos/atenea/ILUMINADOR EN POLVO TONO GLEAM.webp",
+        "img/productos/atenea/ILUMINADOR EN POLVO TONO IVORY.webp",
+        "img/productos/atenea/ILUMINADOR EN POLVO TONO LILY.webp",
+        "img/productos/atenea/ILUMINADOR_EN_POLVO_TONO_PETAL.webp"
+      ],
+      "desc": "El Iluminador Compacto Sublime aporta brillo vibrante con una textura fina y sedosa que se integra sin marcar textura ni poros. Su pigmentación construible permite crear desde un glow sutil hasta un efecto luminoso intenso y sofisticado.\n\nPerfecto para trabajar en capas sobre productos cremosos, su acabado glowy eleva cualquier look con luz estratégica y dimensión natural."
+    },
+    {
+      "id": 1792633438746,
+      "nombre": "Rubor en barra sublime Atenea",
+      "categoria": "Maquillaje",
+      "categorias": [
+        "Maquillaje",
+        "Rubor"
+      ],
+      "precio": 44000,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [
+        {
+          "nombre": "Ref Caoba Dream",
+          "imagen": "img/productos/atenea/RUBOR-STICK-SUBLIME-CAOBADREAM_TEXTURA.webp"
+        },
+        {
+          "nombre": "Ref Cranberry Juice",
+          "imagen": "img/productos/atenea/RUBOR-STICK-SUBLIME-CRANBERRYJUICE_TEXTURA.webp"
+        },
+        {
+          "nombre": "Ref Oasm Flame",
+          "imagen": "img/productos/atenea/RUBOR-STICK-SUBLIME-OASMFLAME_TEXTURA.webp"
+        },
+        {
+          "nombre": "Ref Sun Baked",
+          "imagen": "img/productos/atenea/RUBOR-STICK-SUBLIME-SUNBAKED_TEXTURA.webp"
+        }
+      ],
+      "imagen": "img/productos/atenea/RUBORSTICKSUBLIME.webp",
+      "imagenes": [
+        "img/productos/atenea/RUBORSTICKSUBLIME.webp",
+        "img/productos/atenea/RUBOR-STICKSUBLIME.webp",
+        "img/productos/atenea/RUBOR-STICK-SUBLIME-CAOBADREAM_TEXTURA.webp",
+        "img/productos/atenea/RUBOR-STICK-SUBLIME-CRANBERRYJUICE_TEXTURA.webp",
+        "img/productos/atenea/RUBOR-STICK-SUBLIME-OASMFLAME_TEXTURA.webp",
+        "img/productos/atenea/RUBOR-STICK-SUBLIME-SUNBAKED_TEXTURA.webp"
+      ],
+      "desc": "El Rubor Cremoso en Stick Sublime combina textura cremosa, alta pigmentación y fácil difuminación para aportar color, frescura y vitalidad al rostro en segundos. Su fórmula se funde con la piel sin esfuerzo, permitiendo construir la intensidad deseada en capas y lograr un acabado uniforme y natural.\n\nDiseñado para crear desde looks sutiles hasta acabados vibrantes, este blush en crema no deja efecto parchoso ni levanta la base. Además, su formato práctico lo convierte en el aliado perfecto para retocar en cualquier momento."
+    },
+    {
+      "id": 1792635076059,
+      "nombre": "Lip Oil Atenea",
+      "categoria": "Maquillaje",
+      "categorias": [
+        "Maquillaje",
+        "labios"
+      ],
+      "precio": 28700,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [
+        {
+          "nombre": "Candy Pink",
+          "imagen": "img/productos/atenea/LIP OIL CANDYPINKATENEA_07410.webp"
+        },
+        {
+          "nombre": "Soft Red",
+          "imagen": "img/productos/atenea/LIP OIL SOFTREDATENEA_07410.webp"
+        },
+        {
+          "nombre": "Deep Plum",
+          "imagen": "img/productos/atenea/LIP OIL DEEPPLUMATENEA_07410.webp"
+        },
+        {
+          "nombre": "Sugar Kiss",
+          "imagen": "img/productos/atenea/LIP OIL SUGARKISSATENEA_07410.webp"
+        },
+        {
+          "nombre": "Cherry Bliss",
+          "imagen": "img/productos/atenea/LIP OIL CHERRYBLISSATENEA_07410.webp"
+        }
+      ],
+      "imagen": "img/productos/atenea/LIP OIL AAA ATENEA.webp",
+      "imagenes": [
+        "img/productos/atenea/LIP OIL AAA ATENEA.webp",
+        "img/productos/atenea/LIP OIL ATENEA AA .webp",
+        "img/productos/atenea/LIP OIL CANDYPINKATENEA_07410.webp",
+        "img/productos/atenea/LIP OIL CHERRYBLISSATENEA_07410.webp",
+        "img/productos/atenea/LIP OIL DEEPPLUMATENEA_07410.webp",
+        "img/productos/atenea/LIP OIL SOFTREDATENEA_07410.webp",
+        "img/productos/atenea/LIP OIL SUGARKISSATENEA_07410.webp"
+      ],
+      "desc": "Aceites labiales diseñados para nutrir profundamente los labios.\nAportar brillo  y un toque de color suave.\nFórmula ligera y no pegajosa, los labios más suaves, saludables y visiblemente jugosos. "
+    },
+    {
+      "id": 1792635664181,
+      "nombre": "Lip Mask Atenea",
+      "categoria": "Maquillaje",
+      "categorias": [
+        "Maquillaje",
+        "labios"
+      ],
+      "precio": 29800,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [
+        {
+          "nombre": "Watermelon",
+          "imagen": "img/productos/atenea/Atenea   WATERMELON.webp"
+        },
+        {
+          "nombre": "Cherry",
+          "imagen": "img/productos/atenea/Atenea  CHERRY.webp"
+        }
+      ],
+      "imagen": "img/productos/atenea/Atenea    CHERRY.webp",
+      "imagenes": [
+        "img/productos/atenea/Atenea    CHERRY.webp",
+        "img/productos/atenea/Atenea   CHERRY.webp",
+        "img/productos/atenea/Atenea   WATERMELON.webp",
+        "img/productos/atenea/Atenea  CHERRY.webp"
+      ],
+      "desc": "¡Hidratación profunda en un solo paso! Una mascarilla que transforma los labios, dejándolos suaves, nutridos y con mayor elasticidad. Su fórmula cuenta con extracto de semilla de uva, con hialuronato de sodio que ayuda a proteger e hidratar los labios."
+    },
+    {
+      "id": 1792637016127,
+      "nombre": "Shampoo crecimiento y caída la Poción",
+      "categoria": "shampoo",
+      "categorias": [
+        "shampoo",
+        "Capilar"
+      ],
+      "precio": 48900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/pocion/la  pocion shampoo crecimiento y control caida front .webp",
+      "imagenes": [
+        "img/productos/pocion/la  pocion shampoo crecimiento y control caida front .webp",
+        "img/productos/pocion/la pocion shampoo crecimiento y control caida .webp"
+      ],
+      "desc": "Es un shampoo estimulante con tecnología bioactiva que actúa directamente sobre el cuero cabelludo para reactivar los folículos capilares, detener la caída en un 81% y promover un crecimiento continuo, fuerte y saludable. \nSu fórmula está enriquecida con activos naturales como Ají, Jengibre y Trébol Rojo y cuenta con un alto índice de biodegradabilidad, siendo eficaz y respetuoso con el medio ambiente."
+    },
+    {
+      "id": 1792814767821,
+      "nombre": "Tratamientos skala 1000g",
+      "categoria": "Capilar",
+      "categorias": [
+        "Capilar",
+        "Tratamientos"
+      ],
+      "precio": 30000,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [
+        {
+          "nombre": "Tratamiento mais cachos Skala",
+          "imagen": "img/productos/skala/Tratamiento-Capilar-Skala-Mais-Cachos-.webp"
+        },
+        {
+          "nombre": "Tratamiento babosa Skala",
+          "imagen": "img/productos/skala/Tratamiento-Capilar-Skala-Babosa-x1.webp"
+        },
+        {
+          "nombre": "Tratamiento mais lisos Skala",
+          "imagen": "img/productos/skala/TRATA-SKALA-MAIS-LISOS-X1000GR.webp"
+        },
+        {
+          "nombre": "Tratamiento Melancia (Watermelon) Skala",
+          "imagen": "img/productos/skala/Tratamiento-Skala-Melancia-Frutastica-x1000gr_jpg.webp"
+        },
+        {
+          "nombre": "Tratamiento divino potao Skala",
+          "imagen": "img/productos/skala/Tratamiento-skala-divino-potao-x1000ml.webp"
+        },
+        {
+          "nombre": "Tratamiento dona Skala",
+          "imagen": "img/productos/skala/Tratamiento-Capilar-Skala-2-en-1-Dona-x1.webp"
+        },
+        {
+          "nombre": "Tratamiento mais crespos Skala",
+          "imagen": "img/productos/skala/Tratamiento-Capilar-Skala-Mais-Crespos-x1.webp"
+        },
+        {
+          "nombre": "Tratamiento Skala Uva",
+          "imagen": "img/productos/skala/Tratamiento-Uva-Frutastica-x1000g-Skala.webp"
+        },
+        {
+          "nombre": "Tratamiento Skala Morango",
+          "imagen": "img/productos/skala/Trata-Skala1000g-Moranco-frutastica.webp"
+        },
+        {
+          "nombre": "Tratamiento abacate y aceite de ricino Skala",
+          "imagen": "img/productos/skala/Tratamiento-Skala-Aguacate-1000g.webp"
+        },
+        {
+          "nombre": "Tratamiento Skala Banana",
+          "imagen": "img/productos/skala/Tratamiento SKALA-BANANA-1.webp"
+        }
+      ],
+      "imagen": "img/productos/skala/Tratamiento SKALA-BANANA-1.webp",
+      "imagenes": [
+        "img/productos/skala/Tratamiento SKALA-BANANA-1.webp",
+        "img/productos/skala/Tratamiento-Capilar-Skala-2-en-1-Dona-x1.webp",
+        "img/productos/skala/Tratamiento-Capilar-Skala-Babosa-x1.webp",
+        "img/productos/skala/Tratamiento-Capilar-Skala-Mais-Cachos-.webp",
+        "img/productos/skala/Tratamiento-Capilar-Skala-Mais-Crespos-x1.webp",
+        "img/productos/skala/Tratamiento-Skala-Aguacate-1000g.webp",
+        "img/productos/skala/Tratamiento-Skala-Bomba-de-Vitaminas-x1.webp",
+        "img/productos/skala/Tratamiento-skala-divino-potao-x1000ml.webp",
+        "img/productos/skala/Tratamiento-Skala-Melancia-Frutastica-x1000gr_jpg.webp",
+        "img/productos/skala/Tratamiento-Uva-Frutastica-x1000g-Skala.webp",
+        "img/productos/skala/Trata-Skala1000g-Moranco-frutastica.webp",
+        "img/productos/skala/TRATA-SKALA-MAIS-LISOS-X1000GR.webp"
+      ],
+      "desc": "Los tratamientos capilares de Skala son mascarillas multifuncionales de origen brasileño, 100% veganas y libres de sulfatos, parabenos, siliconas y petrolatos.\n\nFormas de Uso\n\n• Tratamiento / Acondicionador: Aplicar en el cabello limpio de 3 a 5 minutos (o hasta 15 minutos con gorro térmico) y enjuagar.\n• Crema para peinar: Aplicar sin enjuague en cabello húmedo de medios a puntas para definir o controlar el frizz.\n• Pre-shampoo: Aplicar en seco por 15 minutos antes de lavar (en algunas versiones).\n• Co-wash: Para lavados suaves en cueros cabelludos no grasos"
+    },
+    {
+      "id": 1792876481817,
+      "nombre": "Kit shampoo + acondicionador MAIS CACHOS Skala",
+      "categoria": "Kit",
+      "categorias": [
+        "Kit",
+        "Capilar"
+      ],
+      "precio": 40000,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/skala/kit skala mais cacho  .webp",
+      "imagenes": [
+        "img/productos/skala/kit skala mais cacho  .webp",
+        "img/productos/skala/kit skala mais cacho .webp"
+      ],
+      "desc": "El Kit Shampoo + Acondicionador Skala Mais Cachos 325 ml fue desarrollado especialmente para cubrir las necesidades del cabello rizado, crespo, muy crespo o en transición. Su fórmula ayuda a limpiar delicadamente mientras hidrata, nutre y aporta definición para unos rizos más suaves, fuertes y llenos de vida.\n\nEl shampoo limpia el cuero cabelludo y el cabello sin resecar, mientras que el acondicionador facilita el desenredo, ayuda a controlar el frizz y aporta hidratación profunda. Enriquecido con ingredientes nutritivos, este dúo contribuye a fortalecer la fibra capilar, mejorar la elasticidad y dejar los rizos definidos, con brillo natural y volumen.\n\nBeneficios\n✨ Limpia suavemente sin resecar el cabello.\n\n✨ Hidrata y nutre profundamente la fibra capilar.\n\n✨ Facilita el desenredo y mejora la manejabilidad.\n\n✨ Ayuda a controlar el frizz.\n\n✨ Favorece rizos más definidos, suaves y con volumen.\n\n✨ Aporta brillo y fortalece el cabello.\n\n✨ Ideal para cabello rizado, crespo, muy crespo o en transición.\n\n✨ Perfecto para el uso diario.\n\nModo de uso\nShampoo: Aplica sobre el cabello húmedo, masajea suavemente el cuero cabelludo hasta formar espuma y enjuaga con abundante agua.\n\nAcondicionador: Después del shampoo, aplica de medios a puntas, deja actuar de 1 a 3 minutos y enjuaga completamente.\n\nIdeal para\nCabello rizado.\nCabello crespo.\nCabello muy crespo.\nCabello en transición.\nCabello con frizz o resequedad."
+    },
+    {
+      "id": 1792877239882,
+      "nombre": "Kit shampoo + acondicionador MAIS LISOS Skala",
+      "categoria": "Kit",
+      "categorias": [
+        "Kit",
+        "Capilar"
+      ],
+      "precio": 37000,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/skala/kit-lisos  .webp",
+      "imagenes": [
+        "img/productos/skala/kit-lisos  .webp",
+        "img/productos/skala/kit-lisos .webp"
+      ],
+      "desc": "Kit Shampoo + Acondicionador Mais Lisos Skala\n\nConsigue un cabello más liso, suave, ligero y con menos frizz con el Kit Mais Lisos de Skala Expert, una combinación ideal para complementar la rutina de cuidado del cabello liso.\n\nSu fórmula está enriquecida con proteínas de arroz, almidón de maíz y aminoácidos, ingredientes que ayudan a cuidar la fibra capilar y aportan un efecto más alineado, brillante y sedoso.\n\nBeneficios:\n\nAyuda a mantener el cabello más liso y alineado.\nControla el frizz.\nAporta suavidad y brillo.\nAyuda a remover la oleosidad dejando el cabello ligero.\nCon proteínas de arroz, almidón de maíz y aminoácidos.\nFórmula 100 % vegana."
+    },
+    {
+      "id": 1792877629089,
+      "nombre": "Kit shampoo + acondicionador Babosa Skala",
+      "categoria": "Kit",
+      "categorias": [
+        "Kit",
+        "Capilar"
+      ],
+      "precio": 37000,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/skala/Kit-Skala-babosa  .webp",
+      "imagenes": [
+        "img/productos/skala/Kit-Skala-babosa  .webp",
+        "img/productos/skala/Kit-Skala-babosa .webp"
+      ],
+      "desc": "La Crema de Tratamiento 2 en 1 Skala Babosa fue desarrollada especialmente para cuidar el cabello rizado, proporcionando la hidratación y nutrición que necesita para lucir saludable y lleno de vida. Su fórmula enriquecida con Aloe Vera (Babosa) ayuda a hidratar profundamente, controlar el frizz y aportar un brillo natural, dejando los rizos más suaves, definidos y fáciles de manejar.\n\nPuede utilizarse como tratamiento intensivo o crema para peinar, adaptándose a tu rutina de cuidado capilar. Además, su fórmula es 100% vegana, libre de parabenos, petrolatos, siliconas y aceite mineral, ideal para quienes buscan un cuidado más natural y respetuoso con el cabello."
+    },
+    {
+      "id": 1792953961994,
+      "nombre": "Kit shampoo + acondicionador MELANCIA Skala",
+      "categoria": "Kit",
+      "categorias": [
+        "Kit",
+        "Capilar"
+      ],
+      "precio": 37000,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/skala/Kit-Skala-Melancia  .webp",
+      "imagenes": [
+        "img/productos/skala/Kit-Skala-Melancia  .webp",
+        "img/productos/skala/Kit-Skala-Melancia .webp"
+      ],
+      "desc": "Dale a tu cabello una rutina de cuidado completa con el Kit Shampoo + Acondicionador Skala Sandía 325 ml, desarrollado para limpiar, hidratar y dejar el cabello más suave, brillante y fácil de manejar. Ideal para cabellos rizados, crespos o con tendencia a la resequedad.\n\nEl shampoo limpia delicadamente el cuero cabelludo y el cabello, eliminando impurezas sin resecar, mientras que el acondicionador aporta hidratación, facilita el desenredo y ayuda a controlar el frizz, dejando el cabello con un aspecto saludable y lleno de movimiento.\n\nCon el uso continuo, el cabello luce más nutrido, brillante y manejable, convirtiéndose en el complemento perfecto para tu rutina capilar.\n\nBeneficios\n✨ Limpia suavemente el cuero cabelludo y el cabello.\n\n✨ Ayuda a hidratar y suavizar la fibra capilar.\n\n✨ Facilita el desenredo y mejora la manejabilidad.\n\n✨ Contribuye a controlar el frizz.\n\n✨ Aporta brillo natural y suavidad.\n\n✨ Ideal para cabellos rizados, crespos o resecos.\n\n✨ Presentación práctica de 325 ml cada uno."
+    },
+    {
+      "id": 1792954104512,
+      "nombre": "Kit shampoo + acondicionador MORANGO Skala",
+      "categoria": "Kit",
+      "categorias": [
+        "Kit",
+        "Capilar"
+      ],
+      "precio": 37000,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/skala/kit skala morango .webp",
+      "imagenes": [
+        "img/productos/skala/kit skala morango .webp",
+        "img/productos/skala/kit skala morango.webp"
+      ],
+      "desc": "Dale a tu cabello una dosis de hidratación y brillo con el Kit Shampoo + Acondicionador Skala Frutástica Morango 325 ml, una rutina capilar diseñada para revitalizar el cabello seco, con frizz y sin brillo. Su deliciosa fragancia a fresa convierte cada lavado en una experiencia refrescante y llena de frescura.\n\nSu fórmula combina extracto de fresa, aceite de oliva, extracto de amaranto, canela china, cálamo y mirra, ingredientes que ayudan a nutrir la fibra capilar, restaurar el brillo natural y dejar el cabello más suave, sedoso y fácil de peinar.\n\nAdemás, es una fórmula dermatológicamente testeada, hipoalergénica, 100% vegana, libre de sulfatos, parabenos, cloruro de sodio y crueldad animal, ideal para una rutina de cuidado capilar más consciente.\n\nBeneficios\n✨ Limpia suavemente mientras hidrata y nutre el cabello.\n\n✨ Ayuda a restaurar el brillo natural.\n\n✨ Contribuye a controlar el frizz.\n\n✨ Favorece un cabello más suave, sedoso y manejable.\n\n✨ Con extracto de fresa, aceite de oliva y extracto de amaranto.\n\n✨ Ideal para cabellos secos, opacos o con frizz.\n\n✨ Fórmula dermatológicamente testeada e hipoalergénica.\n\n✨ 100% vegana y libre de sulfatos, parabenos y crueldad animal."
+    },
+    {
+      "id": 1792954721972,
+      "nombre": "Kit shampoo + acondicionador UVA Skala",
+      "categoria": "Kit",
+      "categorias": [
+        "Kit",
+        "Capilar"
+      ],
+      "precio": 37000,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/skala/kit skala uva .webp",
+      "imagenes": [
+        "img/productos/skala/kit skala uva .webp",
+        "img/productos/skala/kit skala uva.webp"
+      ],
+      "desc": "Llena tu rutina capilar de frescura con el Kit Shampoo + Acondicionador Skala Frutástica Uva 325 ml, un dúo diseñado para limpiar, hidratar y devolverle al cabello su brillo natural. Su deliciosa fragancia a uva convierte cada lavado en una experiencia sensorial única, dejando el cabello suave, perfumado y lleno de vida.\n\nEl shampoo limpia delicadamente el cuero cabelludo y el cabello sin resecar, mientras que el acondicionador ayuda a hidratar profundamente, facilitar el desenredo y mejorar la suavidad de la fibra capilar. Juntos trabajan para mantener el cabello más manejable, brillante y con una apariencia saludable.\n\nSu fórmula es dermatológicamente testeada, hipoalergénica, 100% vegana, libre de crueldad animal, libre de cloruro de sodio y libre de gluten, ideal para quienes buscan un cuidado capilar seguro y consciente.\n\nBeneficios\n✨ Limpia suavemente mientras hidrata el cabello.\n\n✨ Ayuda a devolver el brillo y la suavidad natural.\n\n✨ Facilita el desenredo y mejora la manejabilidad.\n\n✨ Con deliciosa fragancia a uva.\n\n✨ Ayuda a mantener el cabello hidratado y con aspecto saludable.\n\n✨ Dermatológicamente testeado e hipoalergénico.\n\n✨ Libre de cloruro de sodio y libre de gluten.\n\n✨ Fórmula 100% vegana y libre de crueldad animal."
+    },
+    {
+      "id": 1792956236368,
+      "nombre": "Kit shampoo + acondicionador COCO Skala",
+      "categoria": "Kit",
+      "categorias": [
+        "Kit",
+        "Capilar"
+      ],
+      "precio": 37000,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/skala/Kit-Skala-coco  .webp",
+      "imagenes": [
+        "img/productos/skala/Kit-Skala-coco  .webp",
+        "img/productos/skala/Kit-Skala-coco .webp"
+      ],
+      "desc": "Devuélvele la hidratación y suavidad a tu cabello con el Kit Shampoo + Acondicionador Skala Coco 325 ml, una rutina capilar diseñada para limpiar, nutrir y dejar el cabello más manejable desde el primer uso. Ideal para cabellos secos, con frizz o que necesitan un extra de hidratación.\n\nEl shampoo limpia delicadamente el cuero cabelludo y el cabello, eliminando impurezas sin resecar, mientras que el acondicionador ayuda a hidratar, suavizar y facilitar el desenredo, dejando el cabello más sedoso, brillante y con movimiento natural.\n\nCon el uso continuo, este kit contribuye a mantener el cabello hidratado, controlar el frizz y mejorar su apariencia, convirtiéndose en el complemento ideal para una rutina de cuidado diario.\n\nBeneficios\n✨ Limpia suavemente el cuero cabelludo y el cabello.\n\n✨ Ayuda a hidratar y nutrir la fibra capilar.\n\n✨ Facilita el desenredo y mejora la manejabilidad.\n\n✨ Contribuye a controlar el frizz.\n\n✨ Aporta suavidad y brillo natural.\n\n✨ Ideal para cabellos secos o con sensación de resequedad.\n\n✨ Presentación práctica de 325 ml cada uno."
+    },
+    {
+      "id": 1792956684303,
+      "nombre": "Kit shampoo + acondicionador CRESPO DIVINO Skala",
+      "categoria": "Kit",
+      "categorias": [
+        "Kit",
+        "Capilar"
+      ],
+      "precio": 37000,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/skala/kit skala crespo divino .webp",
+      "imagenes": [
+        "img/productos/skala/kit skala crespo divino .webp",
+        "img/productos/skala/kit skala crespo divino.webp"
+      ],
+      "desc": "El Kit Shampoo + Acondicionador Skala Crespo Divino 325 ml fue desarrollado especialmente para cubrir las necesidades del cabello crespo y afro, brindando una rutina completa de limpieza, hidratación y nutrición para mantener el cabello fuerte, definido y lleno de vida.\n\nEl shampoo limpia delicadamente el cuero cabelludo y el cabello sin resecar, mientras que el acondicionador ayuda a hidratar profundamente, facilitar el desenredo y mejorar la suavidad de la fibra capilar. Su uso continuo contribuye a controlar el frizz, aportar brillo natural y mantener los rizos más definidos y manejables.\n\nSu fórmula ayuda a nutrir el cabello desde la raíz hasta las puntas, dejando una sensación de hidratación, elasticidad y movimiento natural.\n\nBeneficios\n✨ Limpia suavemente sin resecar el cabello.\n\n✨ Ayuda a hidratar y nutrir profundamente.\n\n✨ Facilita el desenredo y mejora la manejabilidad.\n\n✨ Contribuye a controlar el frizz.\n\n✨ Favorece rizos más definidos y con movimiento.\n\n✨ Aporta brillo y suavidad al cabello.\n\n✨ Especialmente desarrollado para cabello crespo y afro.\n\n✨ Ideal para el cuidado diario."
+    },
+    {
+      "id": 1792956974919,
+      "nombre": "Kit shampoo + acondicionador BANANA Skala",
+      "categoria": "Kit",
+      "categorias": [
+        "Kit",
+        "Capilar"
+      ],
+      "precio": 37000,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/skala/kit skala banana  .webp",
+      "imagenes": [
+        "img/productos/skala/kit skala banana  .webp",
+        "img/productos/skala/kit skala banana .webp"
+      ],
+      "desc": "Dale a tu cabello una rutina de cuidado completa con el Kit Shampoo + Acondicionador Skala Banana 325 ml, diseñado para limpiar, hidratar y dejar el cabello más suave, brillante y fácil de manejar. Su fórmula ayuda a cuidar la fibra capilar, convirtiéndolo en una excelente opción para el uso diario y para todo tipo de cabello.\n\nEl shampoo limpia delicadamente el cuero cabelludo y el cabello, eliminando impurezas sin resecar, mientras que el acondicionador aporta suavidad, facilita el desenredo y ayuda a controlar el frizz, dejando el cabello con un aspecto saludable y lleno de movimiento.\n\nCon el uso continuo, este kit contribuye a mantener el cabello hidratado, manejable y con un brillo natural durante todo el día.\n\nBeneficios\n✨ Limpia suavemente el cuero cabelludo y el cabello.\n\n✨ Ayuda a hidratar y suavizar la fibra capilar.\n\n✨ Facilita el desenredo y mejora la manejabilidad.\n\n✨ Contribuye a controlar el frizz.\n\n✨ Aporta brillo natural y suavidad.\n\n✨ Ideal para todo tipo de cabello.\n\n✨ Presentación práctica de 325 ml cada uno.\n\nModo de uso\nShampoo: Aplica sobre el cabello húmedo, masajea suavemente el cuero cabelludo hasta formar espuma y enjuaga con abundante agua.\n\nAcondicionador: Después del shampoo, aplica de medios a puntas, deja actuar de 1 a 3 minutos y enjuaga completamente."
+    },
+    {
+      "id": 1792957668516,
+      "nombre": "Kit shampoo + acondicionador CRESPINHO DIVINO KIDS Skala",
+      "categoria": "Kit",
+      "categorias": [
+        "Kit",
+        "Capilar"
+      ],
+      "precio": 37000,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/skala/Kit-Skala-crespinho divino lids  .webp",
+      "imagenes": [
+        "img/productos/skala/Kit-Skala-crespinho divino lids  .webp",
+        "img/productos/skala/Kit-Skala-crespinho divino lids.webp"
+      ],
+      "desc": "Haz que la rutina de cuidado capilar de los más pequeños sea más fácil y divertida con el Kit Shampoo + Acondicionador Kids Skala Crespinho Divino 325 ml, especialmente desarrollado para cabellos rizados, crespos y ondulados.\n\nEl shampoo limpia delicadamente el cuero cabelludo y el cabello, ayudando a eliminar impurezas sin resecar, mientras que el acondicionador aporta suavidad, facilita el desenredo y ayuda a controlar el frizz, dejando el cabello más manejable y con un brillo natural.\n\nSu uso diario contribuye a mantener el cabello hidratado, suave y fácil de peinar, brindando una agradable sensación de confort durante toda la rutina capilar.\n\nBeneficios\n✨ Limpia suavemente el cuero cabelludo y el cabello.\n\n✨ Ayuda a hidratar y suavizar la fibra capilar.\n\n✨ Facilita el desenredo y el peinado.\n\n✨ Contribuye a controlar el frizz.\n\n✨ Aporta brillo natural y suavidad.\n\n✨ Ideal para cabellos rizados, crespos y ondulados.\n\n✨ Ayuda a mantener el cabello manejable y con movimiento.\n\n✨ Presentación práctica de 325 ml cada uno.\n\nModo de uso\nShampoo: Aplica sobre el cabello húmedo, masajea suavemente el cuero cabelludo hasta formar espuma y enjuaga con abundante agua."
+    },
+    {
+      "id": 1792959435265,
+      "nombre": "Gelatina Capilar Fruitastic Ref UVA GRAPE Skala",
+      "categoria": "Capilar",
+      "categorias": [
+        "Capilar",
+        "Tratamientos"
+      ],
+      "precio": 36600,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/skala/Gelatina uva skala .webp",
+      "imagenes": [
+        "img/productos/skala/Gelatina uva skala .webp"
+      ],
+      "desc": "Define tus rizos y llénalos de brillo con la Gelatina Capilar de Uva Skala Fruitastic. Su fórmula con extracto de semilla de uva ayuda a hidratar el cabello, controlar el frizz y proporcionar una definición duradera sin sacrificar el movimiento natural.\n\nOfrece hasta 72 horas de brillo duradero, además de fijación, protección térmica y UV, siendo ideal para cabellos ondulados, rizados y crespos.\n\nBeneficios:\n\nHasta 72 horas de brillo duradero.\nAporta definición y fijación.\nAyuda a hidratar y controlar el frizz.\nCon extracto de semilla de uva.\nProtección térmica y UV.\nIdeal para cabello ondulado, rizado y crespo.\n100 % vegana.\nLibre de parabenos, petrolato, siliconas y aceite mineral.\nPresentación de 550 g."
+    },
+    {
+      "id": 1792959658124,
+      "nombre": "Gelatina Capilar Fruitastic Ref SANDÍA WATERMELON Skala",
+      "categoria": "Capilar",
+      "categorias": [
+        "Capilar",
+        "Tratamientos"
+      ],
+      "precio": 36600,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/skala/Gelatina watermelon skala .webp",
+      "imagenes": [
+        "img/productos/skala/Gelatina watermelon skala .webp"
+      ],
+      "desc": "Consigue un cabello más definido y con el frizz bajo control con la Gelatina Capilar de Sandía Skala. Su fórmula proporciona fijación y definición, ayudando a mantener la forma del cabello por más tiempo sin perder movimiento.\n\nCuenta con protección térmica y un delicioso aroma refrescante a sandía. Puede utilizarse sola o combinada con tu crema Skala 2 en 1 para potenciar la definición.\n\nBeneficios:\n\nFijación y definición poderosa.\nAyuda a reducir y controlar el frizz.\nCon protección térmica.\nRefrescante aroma a sandía.\nIdeal para todo tipo de cabello.\nPuede utilizarse sola o combinada con crema para peinar."
+    },
+    {
+      "id": 1792961048890,
+      "nombre": "Gelatina Capilar Fruitastic Ref MARACUYÁ PASSION FRUIT Skala",
+      "categoria": "Capilar",
+      "categorias": [
+        "Capilar",
+        "Tratamientos"
+      ],
+      "precio": 36600,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/skala/Gelatina maracuya skala .webp",
+      "imagenes": [
+        "img/productos/skala/Gelatina maracuya skala .webp"
+      ],
+      "desc": "Dale a tus rizos definición, fijación y volumen con la Gelatina Capilar Passion Fruit de Skala. Su fórmula está enriquecida con maracuyá y aceite de pataua, ideal para estilizar el cabello ondulado, rizado y crespo mientras ayuda a controlar el frizz.\n\nOfrece volumen hasta por 72 horas y cuenta con protección térmica y UV, convirtiéndose en una excelente aliada para mantener tus rizos definidos y con movimiento.\n\nBeneficios:\n\nDefinición y fijación para los rizos.\nVolumen hasta por 72 horas.\nAyuda a controlar el frizz.\nCon maracuyá y aceite de pataua.\nProtección térmica y UV.\nIdeal para cabello ondulado, rizado y crespo.\n100 % vegana.\nLibre de petrolato, siliconas y aceite mineral.\nPresentación de 550 g."
     }
   ]
 }
