@@ -493,6 +493,151 @@
     .btn-cerrar-modal { background: none; border: none; font-size: 1.6rem; cursor: pointer; color: var(--text-muted); transition: color 0.2s; }
     .btn-cerrar-modal:hover { color: var(--text-main); }
 
+    /*BOTON FLOTANTE DE WP*/
+    .whatsapp-float-btn {
+      position: fixed;
+      bottom: 135px; /* Ubicado exactamente encima del botón ir-arriba */
+      right: 20px;
+      background-color: #25d366;
+      color: white;
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      z-index: 98;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      transition: transform 0.3s, background-color 0.3s;
+    }
+    .whatsapp-float-btn:hover {
+      background-color: #1ebe5d;
+      transform: scale(1.08);
+    }
+    .whatsapp-float-btn svg {
+      width: 26px;
+      height: 26px;
+      fill: white;
+    }
+    /* Definición de la animación del aura / resplandor */
+    @keyframes auraPulse {
+      0% {
+        box-shadow: 0 4px 15px rgba(124, 58, 237, 0.4), 0 0 0 0 rgba(124, 58, 237, 0.8);
+      }
+      70% {
+        box-shadow: 0 4px 15px rgba(124, 58, 237, 0.4), 0 0 0 16px rgba(124, 58, 237, 0);
+      }
+      100% {
+        box-shadow: 0 4px 15px rgba(124, 58, 237, 0.4), 0 0 0 0 rgba(124, 58, 237, 0);
+      }
+    }
+
+    @keyframes auraPulseWs {
+      0% {
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2), 0 0 0 0 rgba(37, 211, 102, 0.8);
+      }
+      70% {
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2), 0 0 0 16px rgba(37, 211, 102, 0);
+      }
+      100% {
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2), 0 0 0 0 rgba(37, 211, 102, 0);
+      }
+    }
+
+    /* Botón flotante del carrito con efecto de aura al pulsar */
+    .cart-float-btn { 
+      position: fixed; bottom: 20px; right: 20px; background-color: var(--primary); color: white; border: none; padding: 12px 20px; border-radius: 50px; font-weight: 700; font-size: 1rem; cursor: pointer; box-shadow: 0 4px 15px rgba(124, 58, 237, 0.4); z-index: 99; display: flex; align-items: center; gap: 8px; transition: var(--transition); 
+    }
+    .cart-float-btn:hover { background-color: var(--primary-dark); transform: scale(1.05); }
+    .cart-float-btn:active {
+      animation: auraPulse 0.8s ease-out;
+    }
+
+    /* Animación de Aura Continua (Verde WhatsApp) */
+    @keyframes auraInfinitaWs {
+      0% {
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2), 0 0 0 0 rgba(37, 211, 102, 0.7);
+      }
+      70% {
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2), 0 0 0 15px rgba(37, 211, 102, 0);
+      }
+      100% {
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2), 0 0 0 0 rgba(37, 211, 102, 0);
+      }
+    }
+
+    /* Animación de Aura Continua (Morada Carrito) */
+    @keyframes auraInfinitaCarrito {
+      0% {
+        box-shadow: 0 4px 15px rgba(124, 58, 237, 0.4), 0 0 0 0 rgba(124, 58, 237, 0.7);
+      }
+      70% {
+        box-shadow: 0 4px 15px rgba(124, 58, 237, 0.4), 0 0 0 15px rgba(124, 58, 237, 0);
+      }
+      100% {
+        box-shadow: 0 4px 15px rgba(124, 58, 237, 0.4), 0 0 0 0 rgba(124, 58, 237, 0);
+      }
+    }
+
+    /* Botón flotante de WhatsApp con Aura Permanente */
+    .whatsapp-float-btn {
+      position: fixed;
+      bottom: 200px;
+      right: 20px;
+      background-color: #25d366;
+      color: white;
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      z-index: 98;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      transition: transform 0.3s, background-color 0.3s;
+      /* Aura activada todo el tiempo (repite cada 2 segundos) */
+      animation: auraInfinitaWs 2s infinite;
+    }
+
+    .whatsapp-float-btn:hover {
+      background-color: #1ebe5d;
+      transform: scale(1.08);
+    }
+
+    .whatsapp-float-btn svg {
+      width: 26px;
+      height: 26px;
+      fill: white;
+    }
+
+    /* Botón flotante del Carrito con Aura Permanente */
+    .cart-float-btn { 
+      position: fixed; 
+      bottom: 20px; 
+      right: 20px; 
+      background-color: var(--primary); 
+      color: white; 
+      border: none; 
+      padding: 12px 20px; 
+      border-radius: 50px; 
+      font-weight: 700; 
+      font-size: 1rem; 
+      cursor: pointer; 
+      z-index: 99; 
+      display: flex; 
+      align-items: center; 
+      gap: 8px; 
+      transition: var(--transition);
+      /* Aura activada todo el tiempo (repite cada 2.5 segundos) */
+      animation: auraInfinitaCarrito 2.5s infinite;
+    }
+
+    .cart-float-btn:hover { 
+      background-color: var(--primary-dark); 
+      transform: scale(1.05); 
+    }
+
     /* MODAL DE DETALLES */
     .modal-detalle { background: var(--bg-card); width: 95%; max-width: 1050px; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.25); max-height: 90vh; display: flex; flex-direction: column; }
     
@@ -793,6 +938,13 @@
   </div>
 
   <button id="btn-ir-arriba" class="btn-ir-arriba" onclick="irArriba()" title="Ir arriba">⬆</button>
+
+  /* BOTON FLOTANTE DE WP*/
+  <a href="https://wa.me/573001263581?text=Hola,%20quisiera%20asesoría%20sobre%20los%20productos%20de%20Glow%20Purpose" target="_blank" class="whatsapp-float-btn" title="Escríbenos por WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+      <path d="M16 0c-8.837 0-16 7.163-16 16 0 2.825 0.735 5.493 2.025 7.848l-2.025 7.394 7.582-1.989c2.259 1.235 4.885 1.947 7.643 1.947 8.837 0 16-7.163 16-16s-7.163-16-16-16zM16 29.333c-2.437 0-4.707-0.686-6.641-1.875l-0.476-0.298-4.931 1.294 1.314-4.809-0.312-0.491c-1.282-2.016-2.019-4.425-2.019-6.963 0-7.364 5.969-13.333 13.333-13.333s13.333 5.969 13.333 13.333c0 7.364-5.969 13.333-13.333 13.333zM22.333 19.333c-0.364-0.182-2.155-1.063-2.491-1.185-0.336-0.122-0.582-0.182-0.827 0.182s-0.949 1.185-1.163 1.428c-0.214 0.243-0.428 0.274-0.792 0.091-0.364-0.182-1.535-0.565-2.924-1.804-1.082-0.965-1.811-2.155-2.025-2.519-0.214-0.364-0.023-0.561 0.159-0.743 0.163-0.163 0.364-0.428 0.545-0.642 0.182-0.214 0.243-0.364 0.364-0.606 0.122-0.243 0.061-0.455-0.030-0.636s-0.827-1.992-1.133-2.727c-0.299-0.718-0.604-0.62-0.827-0.632-0.214-0.011-0.459-0.011-0.704-0.011s-0.642 0.091-0.978 0.455c-0.336 0.364-1.282 1.253-1.282 3.058s1.313 3.551 1.495 3.794c0.182 0.243 2.583 3.943 6.262 5.529 0.875 0.377 1.558 0.603 2.088 0.772 0.878 0.279 1.677 0.24 2.305 0.146 0.704-0.105 2.155-0.881 2.461-1.733 0.306-0.852 0.306-1.583 0.214-1.733-0.091-0.152-0.336-0.243-0.7-0.425z"></path>
+    </svg>
+  </a>
 
   <button class="cart-float-btn" onclick="abrirCarrito()">
     🛒 Ver Carrito <span id="cart-badge-float" class="cart-badge">0</span>
