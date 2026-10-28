@@ -1039,7 +1039,7 @@
     },
     {
       "id": 1792546381821,
-      "nombre": "Polvo Suelto Traslúcido Banana",
+      "nombre": "Polvo Suelto Traslúcido Banana lula",
       "categoria": "Maquillaje",
       "categorias": [
         "Maquillaje",
@@ -1410,7 +1410,7 @@
     },
     {
       "id": 1792814767821,
-      "nombre": "Tratamientos skala 1000g",
+      "nombre": "Gelatina Capilar Fruitastic Ref Maracuya Skala",
       "categoria": "Capilar",
       "categorias": [
         "Capilar",
@@ -1419,68 +1419,12 @@
       "precio": 30000,
       "agotado": false,
       "estado": "disponible",
-      "variantes": [
-        {
-          "nombre": "Tratamiento mais cachos Skala",
-          "imagen": "img/productos/skala/Tratamiento-Capilar-Skala-Mais-Cachos-.webp"
-        },
-        {
-          "nombre": "Tratamiento babosa Skala",
-          "imagen": "img/productos/skala/Tratamiento-Capilar-Skala-Babosa-x1.webp"
-        },
-        {
-          "nombre": "Tratamiento mais lisos Skala",
-          "imagen": "img/productos/skala/TRATA-SKALA-MAIS-LISOS-X1000GR.webp"
-        },
-        {
-          "nombre": "Tratamiento Melancia (Watermelon) Skala",
-          "imagen": "img/productos/skala/Tratamiento-Skala-Melancia-Frutastica-x1000gr_jpg.webp"
-        },
-        {
-          "nombre": "Tratamiento divino potao Skala",
-          "imagen": "img/productos/skala/Tratamiento-skala-divino-potao-x1000ml.webp"
-        },
-        {
-          "nombre": "Tratamiento dona Skala",
-          "imagen": "img/productos/skala/Tratamiento-Capilar-Skala-2-en-1-Dona-x1.webp"
-        },
-        {
-          "nombre": "Tratamiento mais crespos Skala",
-          "imagen": "img/productos/skala/Tratamiento-Capilar-Skala-Mais-Crespos-x1.webp"
-        },
-        {
-          "nombre": "Tratamiento Skala Uva",
-          "imagen": "img/productos/skala/Tratamiento-Uva-Frutastica-x1000g-Skala.webp"
-        },
-        {
-          "nombre": "Tratamiento Skala Morango",
-          "imagen": "img/productos/skala/Trata-Skala1000g-Moranco-frutastica.webp"
-        },
-        {
-          "nombre": "Tratamiento abacate y aceite de ricino Skala",
-          "imagen": "img/productos/skala/Tratamiento-Skala-Aguacate-1000g.webp"
-        },
-        {
-          "nombre": "Tratamiento Skala Banana",
-          "imagen": "img/productos/skala/Tratamiento SKALA-BANANA-1.webp"
-        }
-      ],
-      "imagen": "img/productos/skala/Tratamiento SKALA-BANANA-1.webp",
+      "variantes": [],
+      "imagen": "img/productos/skala/Gelatina maracuya skala .webp",
       "imagenes": [
-        "img/productos/skala/Tratamiento SKALA-BANANA-1.webp",
-        "img/productos/skala/Tratamiento-Capilar-Skala-2-en-1-Dona-x1.webp",
-        "img/productos/skala/Tratamiento-Capilar-Skala-Babosa-x1.webp",
-        "img/productos/skala/Tratamiento-Capilar-Skala-Mais-Cachos-.webp",
-        "img/productos/skala/Tratamiento-Capilar-Skala-Mais-Crespos-x1.webp",
-        "img/productos/skala/Tratamiento-Skala-Aguacate-1000g.webp",
-        "img/productos/skala/Tratamiento-Skala-Bomba-de-Vitaminas-x1.webp",
-        "img/productos/skala/Tratamiento-skala-divino-potao-x1000ml.webp",
-        "img/productos/skala/Tratamiento-Skala-Melancia-Frutastica-x1000gr_jpg.webp",
-        "img/productos/skala/Tratamiento-Uva-Frutastica-x1000g-Skala.webp",
-        "img/productos/skala/Trata-Skala1000g-Moranco-frutastica.webp",
-        "img/productos/skala/TRATA-SKALA-MAIS-LISOS-X1000GR.webp"
+        "img/productos/skala/Gelatina maracuya skala .webp"
       ],
-      "desc": "Los tratamientos capilares de Skala son mascarillas multifuncionales de origen brasileño, 100% veganas y libres de sulfatos, parabenos, siliconas y petrolatos.\n\nFormas de Uso\n\n• Tratamiento / Acondicionador: Aplicar en el cabello limpio de 3 a 5 minutos (o hasta 15 minutos con gorro térmico) y enjuagar.\n• Crema para peinar: Aplicar sin enjuague en cabello húmedo de medios a puntas para definir o controlar el frizz.\n• Pre-shampoo: Aplicar en seco por 15 minutos antes de lavar (en algunas versiones).\n• Co-wash: Para lavados suaves en cueros cabelludos no grasos"
+      "desc": "Dale a tus rizos definición, fijación y volumen con la Gelatina Capilar Passion Fruit de Skala. Su fórmula está enriquecida con maracuyá y aceite de pataua, ideal para estilizar el cabello ondulado, rizado y crespo mientras ayuda a controlar el frizz.\n\nOfrece volumen hasta por 72 horas y cuenta con protección térmica y UV, convirtiéndose en una excelente aliada para mantener tus rizos definidos y con movimiento.\n\nBeneficios:\n\nDefinición y fijación para los rizos.\nVolumen hasta por 72 horas.\nAyuda a controlar el frizz.\nCon maracuyá y aceite de pataua.\nProtección térmica y UV.\nIdeal para cabello ondulado, rizado y crespo.\n100 % vegana.\nLibre de petrolato, siliconas y aceite mineral.\nPresentación de 550 g."
     },
     {
       "id": 1792876481817,
@@ -1709,22 +1653,640 @@
       "desc": "Consigue un cabello más definido y con el frizz bajo control con la Gelatina Capilar de Sandía Skala. Su fórmula proporciona fijación y definición, ayudando a mantener la forma del cabello por más tiempo sin perder movimiento.\n\nCuenta con protección térmica y un delicioso aroma refrescante a sandía. Puede utilizarse sola o combinada con tu crema Skala 2 en 1 para potenciar la definición.\n\nBeneficios:\n\nFijación y definición poderosa.\nAyuda a reducir y controlar el frizz.\nCon protección térmica.\nRefrescante aroma a sandía.\nIdeal para todo tipo de cabello.\nPuede utilizarse sola o combinada con crema para peinar."
     },
     {
-      "id": 1792961048890,
-      "nombre": "Gelatina Capilar Fruitastic Ref MARACUYÁ PASSION FRUIT Skala",
+      "id": 1792978158654,
+      "nombre": "Tratamiento mais lisos Skala 1000g",
       "categoria": "Capilar",
       "categorias": [
         "Capilar",
         "Tratamientos"
       ],
-      "precio": 36600,
+      "precio": 30000,
       "agotado": false,
       "estado": "disponible",
       "variantes": [],
-      "imagen": "img/productos/skala/Gelatina maracuya skala .webp",
+      "imagen": "img/productos/skala/TRATA-SKALA-MAIS-LISOS-X1000GR.webp",
       "imagenes": [
-        "img/productos/skala/Gelatina maracuya skala .webp"
+        "img/productos/skala/TRATA-SKALA-MAIS-LISOS-X1000GR.webp"
       ],
-      "desc": "Dale a tus rizos definición, fijación y volumen con la Gelatina Capilar Passion Fruit de Skala. Su fórmula está enriquecida con maracuyá y aceite de pataua, ideal para estilizar el cabello ondulado, rizado y crespo mientras ayuda a controlar el frizz.\n\nOfrece volumen hasta por 72 horas y cuenta con protección térmica y UV, convirtiéndose en una excelente aliada para mantener tus rizos definidos y con movimiento.\n\nBeneficios:\n\nDefinición y fijación para los rizos.\nVolumen hasta por 72 horas.\nAyuda a controlar el frizz.\nCon maracuyá y aceite de pataua.\nProtección térmica y UV.\nIdeal para cabello ondulado, rizado y crespo.\n100 % vegana.\nLibre de petrolato, siliconas y aceite mineral.\nPresentación de 550 g."
+      "desc": "Ayuda a disminuir el frizz y a dejar tú cabello liso por mucho tiempo. Es ideal para cabellos lisos naturales o post alisados. Se puede utilizar como tratamiento durante el baño o como crema de peinar."
+    },
+    {
+      "id": 1792978286687,
+      "nombre": "Tratamiento babosa Skala 1000g",
+      "categoria": "Capilar",
+      "categorias": [
+        "Capilar",
+        "Tratamientos"
+      ],
+      "precio": 30000,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/skala/Tratamiento-Capilar-Skala-Babosa-x1.webp",
+      "imagenes": [
+        "img/productos/skala/Tratamiento-Capilar-Skala-Babosa-x1.webp"
+      ],
+      "desc": "Aporta ultra hidratación a cabellos crespos y rizados. Se puede utilizar como tratamiento durante el baño o como crema de peinar."
+    },
+    {
+      "id": 1792978574717,
+      "nombre": "Tratamiento mais cachos Skala 1000g",
+      "categoria": "Capilar",
+      "categorias": [
+        "Capilar",
+        "Tratamientos"
+      ],
+      "precio": 30000,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/skala/Tratamiento-Capilar-Skala-Mais-Cachos-.webp",
+      "imagenes": [
+        "img/productos/skala/Tratamiento-Capilar-Skala-Mais-Cachos-.webp"
+      ],
+      "desc": "Aporta fuerza e hidratación a cabellos rizados o en transición a serlo. Se puede utilizar como tratamiento durante el baño o como crema de peinar."
+    },
+    {
+      "id": 1792979182355,
+      "nombre": "Tratamiento Cherry Cereza Skala 1000g",
+      "categoria": "Capilar",
+      "categorias": [
+        "Capilar",
+        "Tratamientos"
+      ],
+      "precio": 30000,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/skala/Traamiento Cherry Cereza Skala.webp",
+      "imagenes": [
+        "img/productos/skala/Traamiento Cherry Cereza Skala.webp"
+      ],
+      "desc": "Realza la belleza natural de tus rizos y ondas con Skala Frutástica Cereza, una crema de tratamiento, crema para peinar y activador de rizos 3 en 1, desarrollada especialmente para cabellos ondulados, rizados o con frizz.\n\nSu fórmula 100% vegana combina linaza dorada y un exclusivo mix de aceites vegetales, ingredientes que ayudan a reconstruir la fibra capilar, controlar el frizz y devolver el brillo natural al cabello. Además, proporciona hasta 72 horas de control del frizz, dejando el cabello suave, definido y lleno de movimiento.\n\nGracias a su fórmula multifuncional, puedes utilizarla como tratamiento hidratante, crema para peinar o activador de rizos, adaptándose a las necesidades de tu rutina capilar.\n\nBeneficios\n✨ Fórmula 3 en 1: tratamiento, crema para peinar y activador de rizos.\n\n✨ Ayuda a reconstruir la fibra capilar.\n\n✨ Controla el frizz hasta por 72 horas.\n\n✨ Aporta brillo, suavidad y definición.\n\n✨ Facilita el peinado y mejora la manejabilidad.\n\n✨ Ideal para cabellos ondulados, rizados o con frizz.\n\n✨ Libre de parabenos, petrolato, siliconas y aceite mineral.\n\n✨ Fórmula 100% vegana y no testada en animales."
+    },
+    {
+      "id": 1792979497743,
+      "nombre": "Tratamiento Cóctel de Frutas Skala 1000g",
+      "categoria": "Capilar",
+      "categorias": [
+        "Capilar",
+        "Tratamientos"
+      ],
+      "precio": 30000,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/skala/Tratamienti fruit mix Skala .webp",
+      "imagenes": [
+        "img/productos/skala/Tratamienti fruit mix Skala .webp"
+      ],
+      "desc": "Dale a tu cabello una dosis de nutrición y frescura con Skala Frutastic Fruit Mix, una crema de tratamiento y crema para peinar 2 en 1 formulada con una mezcla de sandía, coco y uva, ingredientes que ayudan a hidratar, suavizar y dejar el cabello con un delicioso aroma frutal de larga duración.\n\nSu fórmula multifuncional proporciona hidratación intensa, ayuda a desenredar y controlar el frizz sin dejar el cabello pesado. Además, puede utilizarse como tratamiento de hidratación o como crema para peinar, adaptándose fácilmente a tu rutina capilar.\n\nEs una fórmula 100% vegana, libre de petrolatos, siliconas y aceite mineral, ideal para todo tipo de cabello.\n\nBeneficios\n✨ Crema de tratamiento y crema para peinar 2 en 1.\n\n✨ Con extractos de sandía, coco y uva.\n\n✨ Ayuda a hidratar profundamente el cabello.\n\n✨ Facilita el desenredado y controla el frizz.\n\n✨ Deja el cabello suave, brillante y con movimiento.\n\n✨ Fragancia frutal de larga duración.\n\n✨ Fórmula 100% vegana.\n\n✨ Libre de petrolatos, siliconas y aceite mineral."
+    },
+    {
+      "id": 1792979771372,
+      "nombre": "Skala Cocoa",
+      "categoria": "Capilar",
+      "categorias": [
+        "Capilar",
+        "Tratamientos"
+      ],
+      "precio": 30000,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/skala/Tratamiento cocoa skala.webp",
+      "imagenes": [
+        "img/productos/skala/Tratamiento cocoa skala.webp"
+      ],
+      "desc": "Nutre y fortalece tu cabello con Skala Frutastic Cocoa, una crema multifuncional que funciona como tratamiento capilar y crema para peinar. Su fórmula, enriquecida con cacao y aceites vegetales, ayuda a fortalecer la fibra capilar, aportar brillo intenso y devolver la suavidad al cabello desde la primera aplicación.\n\nEspecialmente desarrollada para cabellos rizados, crespos y en transición, proporciona nutrición profunda, controla el frizz y ayuda a definir la textura natural del cabello sin dejar sensación pesada. Además, su fórmula 100% vegana está libre de petrolatos, siliconas y aceite mineral.\n\nBeneficios\n✨ Crema de tratamiento y crema para peinar 2 en 1.\n\n✨ Con cacao y aceites vegetales.\n\n✨ Ayuda a fortalecer la fibra capilar.\n\n✨ Nutre profundamente y aporta brillo intenso.\n\n✨ Controla el frizz y mejora la definición.\n\n✨ Deja el cabello suave, manejable y con movimiento.\n\n✨ Fórmula 100% vegana.\n\n✨ Libre de petrolatos, siliconas y aceite mineral."
+    },
+    {
+      "id": 1792979918066,
+      "nombre": "Tratamiento Melancia Skala 1000g",
+      "categoria": "Capilar",
+      "categorias": [
+        "Capilar",
+        "Tratamientos"
+      ],
+      "precio": 30000,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/skala/Tratamiento-Skala-Melancia-Frutastica-x1000gr_jpg.webp",
+      "imagenes": [
+        "img/productos/skala/Tratamiento-Skala-Melancia-Frutastica-x1000gr_jpg.webp"
+      ],
+      "desc": "PARA CABELLO AFRO Y CRESPO, DESNUTRIDO, CON FRIZZ Y FALTO DE DEFINICION.\n\nTengo extracto de sandía, aceite de argán y vitaminas A y C, la combinación perfecta para hidratar, controlar el frizz y darle brillo extra a tu pelo.\n\nLibre de parabenos, vaselina, siliconas y aceite mineral.\n\nSoy 2 en 1, así que me puedes aplicar como acondicionador o tratamiento, y como crema para peinar...\n\n¿Cómo me aplicas?\n\nTratamiento: Aplícame de medios a puntas, déjame actuar 20 minutos y enjuágame con abundante agua.\n\nAcondicionador: Aplícame de medios a puntas, desenreda con un cepillo suave o con los dedos, déjame actuar 3 minutos y enjuágame con abundante agua.\n\nCrema para peinar: Aplícame como finalizador para controlar el frizz de tu pelo."
+    },
+    {
+      "id": 1792980166792,
+      "nombre": "Tratamiento divino potao Skala 1000g",
+      "categoria": "Capilar",
+      "categorias": [
+        "Capilar",
+        "Tratamientos"
+      ],
+      "precio": 30000,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/skala/Tratamiento-skala-divino-potao-x1000ml.webp",
+      "imagenes": [
+        "img/productos/skala/Tratamiento-skala-divino-potao-x1000ml.webp"
+      ],
+      "desc": "Aporta hidratación y brillo al cabello, además ayuda a controlar el exceso de frizz. Se puede utilizar como tratamiento durante el baño o como crema de peinar."
+    },
+    {
+      "id": 1792980261139,
+      "nombre": "Tratamiento dona Skala 1000g",
+      "categoria": "Capilar",
+      "categorias": [
+        "Capilar",
+        "Tratamientos"
+      ],
+      "precio": 30000,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/skala/Tratamiento-Capilar-Skala-2-en-1-Dona-x1.webp",
+      "imagenes": [
+        "img/productos/skala/Tratamiento-Capilar-Skala-2-en-1-Dona-x1.webp"
+      ],
+      "desc": "Diseñado para cabellos ondulados, aporta vitalidad y brillo al cabello. Se puede utilizar como tratamiento durante el baño o como crema de peinar."
+    },
+    {
+      "id": 1792980364898,
+      "nombre": "Tratamiento Mango skala 1000g",
+      "categoria": "Capilar",
+      "categorias": [
+        "Capilar",
+        "Tratamientos"
+      ],
+      "precio": 30004,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/skala/Traamiento mango Skala.webp",
+      "imagenes": [
+        "img/productos/skala/Traamiento mango Skala.webp"
+      ],
+      "desc": "Crema capilar 2 en 1 con aroma a mango que hidrata, suaviza y aporta brillo al cabello. Puede utilizarse como tratamiento o crema para peinar. Dermatológicamente testeada, hipoalergénica y libre de crueldad animal."
+    },
+    {
+      "id": 1792980530070,
+      "nombre": "Tratamiento Uva Skala 1000g",
+      "categoria": "Capilar",
+      "categorias": [
+        "Capilar",
+        "Tratamientos"
+      ],
+      "precio": 30000,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/skala/Tratamiento-Uva-Frutastica-x1000g-Skala.webp",
+      "imagenes": [
+        "img/productos/skala/Tratamiento-Uva-Frutastica-x1000g-Skala.webp"
+      ],
+      "desc": "✅ Cabellos secos, opacos o dañados\nGracias a su fórmula enriquecida con vitamina E y extracto de uva, esta mascarilla ayuda a:\n\nHidratar profundamente\nAportar brillo y suavidad\nRevitalizar el cabello opaco o maltratado\n🧴 Textura y método:\nTiene una textura ligera, lo que la hace ideal incluso para técnicas como co-wash o no poo, sobre todo en cabellos ondulados, rizados y crespos.\n\n🧠 Ideal para:\nPersonas que hacen cronograma capilar (etapa de hidratación)\nQuienes buscan una mascarilla libre de sulfatos, siliconas y parabenos"
+    },
+    {
+      "id": 1792980663368,
+      "nombre": "Tratamiento Morango Skala 1000g",
+      "categoria": "Capilar",
+      "categorias": [
+        "Capilar",
+        "Tratamientos"
+      ],
+      "precio": 30000,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/skala/Trata-Skala1000g-Moranco-frutastica.webp",
+      "imagenes": [
+        "img/productos/skala/Trata-Skala1000g-Moranco-frutastica.webp"
+      ],
+      "desc": "Tengo extracto de fresa, aceite de oliva y amaranto, la combinación perfecta para nutrir, controlar el frizz y darle brillo extra a tu pelo.\n\nLibre de parabenos, vaselina, siliconas y aceite mineral.\n\nSoy 2 en 1, así que me puedes aplicar como acondicionador o tratamiento, y como crema para peinar...\n\n¿Cómo me aplicas?\n\nTratamiento: Aplícame de medios a puntas, déjame actuar 20 minutos y enjuágame con abundante agua.\n\nAcondicionador: Aplícame de medios a puntas, desenreda con un cepillo suave o con los dedos, déjame actuar 3 minutos y enjuágame con abundante agua.\nCrema para peinar: Aplícame como finalizador para controlar el frizz de tu pelo."
+    },
+    {
+      "id": 1792980718291,
+      "nombre": "Tratamiento bomba de vitaminas Skala 1000g",
+      "categoria": "Capilar",
+      "categorias": [
+        "Capilar",
+        "Tratamientos"
+      ],
+      "precio": 30000,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/skala/Tratamiento-Skala-Bomba-de-Vitaminas-x1.webp",
+      "imagenes": [
+        "img/productos/skala/Tratamiento-Skala-Bomba-de-Vitaminas-x1.webp"
+      ],
+      "desc": "Es ideal para todo tipo de cabello, gracias a sus múltiples componentes estimula la hebra capilar permitiendo que el cabello crezca más rápido y más sano. Se puede utilizar como tratamiento durante el baño o como crema de peinar."
+    },
+    {
+      "id": 1792980772298,
+      "nombre": "Tratamiento abacate y aceite de ricino Skala 1000g",
+      "categoria": "Capilar",
+      "categorias": [
+        "Capilar",
+        "Tratamientos"
+      ],
+      "precio": 30000,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/skala/Tratamiento-Skala-Aguacate-1000g.webp",
+      "imagenes": [
+        "img/productos/skala/Tratamiento-Skala-Aguacate-1000g.webp"
+      ],
+      "desc": "Tratamiento ideal para acelerar el crecimiento del cabello, además aporta fuerza y resistencia"
+    },
+    {
+      "id": 1792980874134,
+      "nombre": "Tratamiento Banana Skala 1000g",
+      "categoria": "Capilar",
+      "categorias": [
+        "Capilar",
+        "Tratamientos"
+      ],
+      "precio": 30000,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/skala/Tratamiento SKALA-BANANA-1.webp",
+      "imagenes": [
+        "img/productos/skala/Tratamiento SKALA-BANANA-1.webp"
+      ],
+      "desc": "PARA CABELLOS LISOS, CON TENDENCIA AL FRIZZ, DELGADOS O QUEBRADIZOS.\n\nRESUMIR Soy como el banano, bueno para todos... Tengo extracto de banano, manteca de bacuri, la combinación perfecta para reparar, hidratar profundamente, controlar el frizz y darle brillo extra a tu pelo.\nSoy 2 en 1, así que me puedes aplicar como acondicionador o tratamiento, y como crema para peinar...\n\n¿Cómo me aplicas?\nTratamiento: Aplícame de medios a puntas, déjame actuar 20 minutos y enjuágame con abundante agua.\n\nAcondicionador: Aplícame de medios a puntas, desenreda con un cepillo suave o con los dedos, déjame actuar 3 minutos y enjuágame con abundante agua.\nCrema para peinar: Aplícame como finalizador para controlar el frizz de tu pelo."
+    },
+    {
+      "id": 1792981284504,
+      "nombre": "Tratamiento mais crespos Skala 1000g",
+      "categoria": "Capilar",
+      "categorias": [
+        "Capilar",
+        "Tratamientos"
+      ],
+      "precio": 30000,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/skala/Tratamiento mais Crespos-Skala.webp",
+      "imagenes": [
+        "img/productos/skala/Tratamiento mais Crespos-Skala.webp"
+      ],
+      "desc": "Aporta múltiples beneficios a los cabellos crespos como fortalecer, hidratar y ayuda a desenredar. Se puede utilizar como tratamiento durante el baño o como crema de peinar."
+    },
+    {
+      "id": 1792981757520,
+      "nombre": "Mascarilla Fortalecedora Anticaida pocion",
+      "categoria": "Capilar",
+      "categorias": [
+        "Capilar",
+        "Tratamientos"
+      ],
+      "precio": 45900,
+      "agotado": false,
+      "estado": "nuevo",
+      "variantes": [],
+      "imagen": "img/productos/pocion/la pocion Mascarilla_Crecimeinto_PCN   .webp",
+      "imagenes": [
+        "img/productos/pocion/la pocion Mascarilla_Crecimeinto_PCN   .webp",
+        "img/productos/pocion/la pocion Mascarilla_Crecimeinto_PCN .webp"
+      ],
+      "desc": "Es una Mascarilla Fortalecedora Anti-Caída que protege, fortalece y ayuda al crecimiento de la fibra capilar. Actúa sobre la raíz y la hebra para disminuir la caída por rotura, mejorar la resistencia y facilitar el peinado. Brinda un 97% menos quiebre¹ y 3X menos caída."
+    },
+    {
+      "id": 1792981878283,
+      "nombre": "Acondicionador Crecimiento y Caida pocion",
+      "categoria": "acondicionador",
+      "categorias": [
+        "acondicionador",
+        "Capilar"
+      ],
+      "precio": 41900,
+      "agotado": false,
+      "estado": "nuevo",
+      "variantes": [],
+      "imagen": "img/productos/pocion/la pocion TratamientoCrecimientoPCN .webp",
+      "imagenes": [
+        "img/productos/pocion/la pocion TratamientoCrecimientoPCN .webp",
+        "img/productos/pocion/la pocion TratamientoCrecimientoPCN.webp"
+      ],
+      "desc": "Es un Tratamiento Acondicionador Anti-Caída que sella, repara y protege la fibra capilar sin dejar sensación pesada. Su fórmula combina proteínas y múltiples ingredientes que fortalecen el cabello desde la cutícula, reduciendo la caida y devolviendo su elasticidad, suavidad y manejabilidad desde el primer uso. Brinda un 97% menos caída y 3X más crecimiento."
+    },
+    {
+      "id": 1792982170985,
+      "nombre": "Shampoo Control Caspa pocion ",
+      "categoria": "shampoo",
+      "categorias": [
+        "shampoo",
+        "Capilar"
+      ],
+      "precio": 44900,
+      "agotado": false,
+      "estado": "nuevo",
+      "variantes": [],
+      "imagen": "img/productos/pocion/Shampoo_anticaspa .webp",
+      "imagenes": [
+        "img/productos/pocion/Shampoo_anticaspa .webp",
+        "img/productos/pocion/Shampoo_anticaspa _.webp"
+      ],
+      "desc": "Shampoo cosmético especializado diseñado para ayudar a controlar la caspa visible, equilibrar el cuero cabelludo y reducir la picazón, actuando sobre las causas más comunes de la descamación sin ser un producto medicado."
+    },
+    {
+      "id": 1792982460353,
+      "nombre": "Acondicionador Control Caspa pocion",
+      "categoria": "acondicionador",
+      "categorias": [
+        "acondicionador",
+        "Capilar"
+      ],
+      "precio": 41900,
+      "agotado": false,
+      "estado": "nuevo",
+      "variantes": [],
+      "imagen": "img/productos/pocion/acondicionador-back  .webp",
+      "imagenes": [
+        "img/productos/pocion/acondicionador-back  .webp",
+        "img/productos/pocion/acondicionador-back.webp"
+      ],
+      "desc": "Es un acondicionador capilar diseñado para complementar la rutina Control Caspa POCIÓN+ después del shampoo. Su fórmula acondicionadora ayuda a desenredar el cabello, aportar suavidad y mejorar la manejabilidad sin dejar una sensación pesada. Además, contribuye a mantener el equilibrio del cuero cabelludo y brinda una sensación de frescura y confort.\n\nEs ideal para personas con caspa seca o grasa que sienten el cabello seco, opaco o difícil de desenredar después de usar shampoo anticaspa."
+    },
+    {
+      "id": 1792982856310,
+      "nombre": "Tónico control caspa la Poción",
+      "categoria": "Capilar",
+      "categorias": [
+        "Capilar",
+        "Tratamientos"
+      ],
+      "precio": 41900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/pocion/Tonico_anticaspa_front  .webp",
+      "imagenes": [
+        "img/productos/pocion/Tonico_anticaspa_front  .webp",
+        "img/productos/pocion/Tonico_anticaspa_front .webp"
+      ],
+      "desc": "Tratamiento cosmético sin enjuague diseñado para complementar la rutina anticaspa, ayudando a prolongar el control de la descamación, equilibrar la grasa y mantener el cuero cabelludo en calma entre lavados."
+    },
+    {
+      "id": 1792983177983,
+      "nombre": "Ancestral Mascarilla de Reparación pocion",
+      "categoria": "Capilar",
+      "categorias": [
+        "Capilar",
+        "Tratamientos"
+      ],
+      "precio": 39900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/pocion/mascarilla-ancestral-la-pocion .webp",
+      "imagenes": [
+        "img/productos/pocion/mascarilla-ancestral-la-pocion .webp"
+      ],
+      "desc": "Es una mascarilla capilar formulada con ingredientes naturales de alto poder restaurador. Su función es reparar intensamente la fibra capilar, mejorar la elasticidad y devolver la vitalidad a cabellos dañados por procesos químicos, calor o exposición ambiental.\n\n"
+    },
+    {
+      "id": 1792983274999,
+      "nombre": "Tratamiento Acondicionador de Reparación pocion",
+      "categoria": "Capilar",
+      "categorias": [
+        "Capilar",
+        "Tratamientos"
+      ],
+      "precio": 38900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/pocion/tratamiento-capilar-reparador-la-pocion .webp",
+      "imagenes": [
+        "img/productos/pocion/tratamiento-capilar-reparador-la-pocion .webp"
+      ],
+      "desc": "Es un tratamiento 2 en 1 que actúa como acondicionador y tratamiento express. Su fórmula ligera desenreda, suaviza y aporta brillo sin dejar sensación pesada. Ideal para quienes buscan resultados inmediatos y cuidado diario del cabello. Contiene una fórmula especial con 15 proteínas y aminoácidos capaz de corregir daños ocasionados por procesos químicos."
+    },
+    {
+      "id": 1792983552622,
+      "nombre": "Shampoo de Reparación pocion",
+      "categoria": "shampoo",
+      "categorias": [
+        "shampoo",
+        "Capilar"
+      ],
+      "precio": 38900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/pocion/shampoo-la-pocion-sin-sal .webp",
+      "imagenes": [
+        "img/productos/pocion/shampoo-la-pocion-sin-sal .webp"
+      ],
+      "desc": "Es un shampoo nutritivo de uso diario diseñado para limpiar a profundidad el cuero cabelludo sin resecarlo, mientras fortalece e hidrata el cabello desde la raíz. Su fórmula equilibrada con ingredientes naturales como argán, jojoba y aloe vera lo hacen ideal para todo tipo de cabello, especialmente aquellos secos o con tendencia al quiebre."
+    },
+    {
+      "id": 1792983764269,
+      "nombre": "Shampoo Control Grasa pocion",
+      "categoria": "shampoo",
+      "categorias": [
+        "shampoo",
+        "Capilar"
+      ],
+      "precio": 39900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/pocion/4H5200-Shampoo-Control-Grasa Pocion .webp",
+      "imagenes": [
+        "img/productos/pocion/4H5200-Shampoo-Control-Grasa Pocion .webp"
+      ],
+      "desc": "Es un shampoo especializado para cueros cabelludos con tendencia a la grasa. Su fórmula combina Bicarbonato de Sodio y Bioactivos Marinos para regular el exceso de sebo, calmar irritaciones y brindar una limpieza profunda sin comprometer la salud del cabello. El resultado: un cuero cabelludo purificado, equilibrado y un cabello visiblemente más ligero y brillante."
+    },
+    {
+      "id": 1792983963083,
+      "nombre": "Dual Crema para Peinar de Reparación pocion",
+      "categoria": "Capilar",
+      "categorias": [
+        "Capilar",
+        "Tratamientos"
+      ],
+      "precio": 38900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/pocion/crema-de-peinar-la-pocion-dual .webp",
+      "imagenes": [
+        "img/productos/pocion/crema-de-peinar-la-pocion-dual .webp"
+      ],
+      "desc": "Una crema para peinar multifuncional diseñada para aportar hidratación, suavidad y control al cabello desde el primer uso. Su fórmula ligera y adaptativa permite usarla tanto en cueros cabelludos secos como grasos, ayudando a mejorar la definición, la manejabilidad y la salud capilar en la rutina diaria."
+    },
+    {
+      "id": 1793062836442,
+      "nombre": "Shampoo para Rizos Tongolé pocion",
+      "categoria": "shampoo",
+      "categorias": [
+        "shampoo",
+        "Capilar"
+      ],
+      "precio": 38900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/pocion/Shampoo-Tongole-La-Pocion.webp",
+      "imagenes": [
+        "img/productos/pocion/Shampoo-Tongole-La-Pocion.webp"
+      ],
+      "desc": "Es un shampoo nutritivo y sin sulfatos diseñado especialmente para cabellos rizados o deshidratados/resecos. Limpia suavemente sin eliminar los aceites naturales, mientras define los rizos, controla el frizz y aporta hidratación desde la raíz. Su fórmula está pensada para realzar la textura natural del cabello afro, rizado o crespo, respetando su estructura única."
+    },
+    {
+      "id": 1793062925427,
+      "nombre": "Tratamiento para Rizos Tongolé pocion",
+      "categoria": "Capilar",
+      "categorias": [
+        "Capilar",
+        "Tratamientos"
+      ],
+      "precio": 38900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/pocion/Tratamiento-Tongole-La-Pocion.webp",
+      "imagenes": [
+        "img/productos/pocion/Tratamiento-Tongole-La-Pocion.webp"
+      ],
+      "desc": "Es un acondicionador formulado para restaurar, suavizar y proteger el cabello rizado, crespo o afro. Su textura cremosa permite una fácil aplicación y una acción nutritiva profunda que combate el frizz, fortalece la fibra capilar y mejora la peinabilidad sin dejar residuos pesados."
+    },
+    {
+      "id": 1793063108412,
+      "nombre": "Crema para Peinar Leave On pocion",
+      "categoria": "Capilar",
+      "categorias": [
+        "Capilar",
+        "Tratamientos"
+      ],
+      "precio": 38900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/pocion/Crema-para-Peinar-Tongole-La-Pocion.webp",
+      "imagenes": [
+        "img/productos/pocion/Crema-para-Peinar-Tongole-La-Pocion.webp"
+      ],
+      "desc": "Es una crema de peinar formulada para definir, proteger y suavizar rizos. Ideal para controlar el frizz, facilitar el peinado y mantener los rizos hidratados durante todo el día sin apelmazarlos. Su fórmula liviana y rica en activos vegetales mejora la textura natural del cabello, dejando los rizos suaves, elásticos y con movimiento.."
+    },
+    {
+      "id": 1793063419327,
+      "nombre": "Gel Definidor de Rizos pocion",
+      "categoria": "Capilar",
+      "categorias": [
+        "Capilar",
+        "Tratamientos"
+      ],
+      "precio": 43900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/pocion/Gel-definidor-Rizos-Tongole-La-pocion.webp",
+      "imagenes": [
+        "img/productos/pocion/Gel-definidor-Rizos-Tongole-La-pocion.webp"
+      ],
+      "desc": "El Gel Definidor de Rizos es el aliado esencial para definir, hidratar y dar forma natural a rizos y ondas sin dejar residuos ni rigidez. Su fórmula avanzada garantiza una fijación media con 41% más definición y 40% más duración en comparación con otros geles, con efecto anti-frizz por 24 horas. Es perfecto para cabellos ondulados, rizados y crespos (tipos 2A a 3C) que buscan un acabado flexible y natural."
+    },
+    {
+      "id": 1793063632042,
+      "nombre": "Mascarilla para Rizos Tongolé pocion",
+      "categoria": "Capilar",
+      "categorias": [
+        "Capilar",
+        "Tratamientos"
+      ],
+      "precio": 39900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/pocion/Mascarilla-Tongole-La-Pocion.webp",
+      "imagenes": [
+        "img/productos/pocion/Mascarilla-Tongole-La-Pocion.webp"
+      ],
+      "desc": "Es un tratamiento intensivo diseñado para revitalizar los rizos resecos, dañados o con frizz. Su fórmula rica en aceites naturales y extractos botánicos brinda nutrición profunda, elasticidad y control, dejando el cabello suave, brillante y definido. \nIdeal para cabellos que necesitan un boost de hidratación."
+    },
+    {
+      "id": 1793064838859,
+      "nombre": "Spray capilar tratamiento constructor R3 la Poción",
+      "categoria": "Capilar",
+      "categorias": [
+        "Capilar",
+        "Tratamientos"
+      ],
+      "precio": 65000,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/pocion/Plex-Tratamiento-Constructor-Instantaneo-La-Pocion.webp",
+      "imagenes": [
+        "img/productos/pocion/Plex-Tratamiento-Constructor-Instantaneo-La-Pocion.webp",
+        "img/productos/pocion/Plex-Tratamiento-Constructor-Instantaneo-La-Pocion2.webp"
+      ],
+      "desc": "Es un tratamiento capilar que reconstruye los puentes artificiales de disulfuro, devolviendo fuerza, elasticidad y brillo a cabellos ultraprocesados. A diferencia de una mascarilla común, R3start Plex actúa en el interior de la hebra gracias a su fórmula de polímeros bioactivos y aminoácidos, similar a los utilizados en salones de alta gama, pero diseñado para usarse en casa. "
+    },
+    {
+      "id": 1793069073590,
+      "nombre": "Shampoo Nutricion y Proteccion AntiNudos Pocion",
+      "categoria": "shampoo",
+      "categorias": [
+        "shampoo",
+        "Capilar"
+      ],
+      "precio": 36900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/pocion/Shampoo-Nutricion-y-Proteccion-Anti-Nudos-La-Pocion-.webp",
+      "imagenes": [
+        "img/productos/pocion/Shampoo-Nutricion-y-Proteccion-Anti-Nudos-La-Pocion-.webp"
+      ],
+      "desc": "El Shampoo Poción Kids es una fórmula suave, sin sulfatos, parabenos ni sal (NaCl), desarrollada especialmente para el cuero cabelludo delicado de los niños. Limpia sin irritar, hidrata profundamente y fortalece la fibra capilar desde la raíz. Su textura cremosa y espumosa transforma el baño en un momento divertido y seguro.\n\nFórmula libre de sulfatos, parabenos y sal, con ingredientes de origen vegetal para un cuidado seguro.\n"
+    },
+    {
+      "id": 1793069185808,
+      "nombre": "Acondicionador Kids Poción",
+      "categoria": "acondicionador",
+      "categorias": [
+        "acondicionador",
+        "Capilar"
+      ],
+      "precio": 36900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/pocion/Acondicionador-Nutricion-y-Proteccion-Anti-Nudos-La-Pocion.webp",
+      "imagenes": [
+        "img/productos/pocion/Acondicionador-Nutricion-y-Proteccion-Anti-Nudos-La-Pocion.webp"
+      ],
+      "desc": "El Acondicionador Poción Kids es el complemento ideal del shampoo infantil. Diseñado para brindar hidratación, brillo y suavidad sin dejar sensación pesada, facilita el peinado sin tirones y protege la fibra capilar de los más pequeños. Su fórmula anti-nudos, libre de tóxicos, parabenos y siliconas, cuida el cabello infantil con la delicadeza que merece."
+    },
+    {
+      "id": 1793069395331,
+      "nombre": "Spray Anti-Nudos Poción Kids",
+      "categoria": "Capilar",
+      "categorias": [
+        "Capilar",
+        "Tratamientos"
+      ],
+      "precio": 28900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/pocion/Spray-Nutricion-y-Proteccion-AntiNudos-La-Pocion.webp",
+      "imagenes": [
+        "img/productos/pocion/Spray-Nutricion-y-Proteccion-AntiNudos-La-Pocion.webp"
+      ],
+      "desc": "El Spray Anti-Nudos Poción Kids es un tratamiento sin enjuague diseñado para desenredar el cabello infantil con facilidad, sin jalones ni maltrato. Su fórmula ligera hidrata, fortalece y protege la fibra capilar desde la primera aplicación. Puede usarse sobre cabello húmedo o seco, facilitando el peinado en cualquier momento del día. Es ideal para mantener el cabello suave, brillante y libre de frizz.\n\nFórmula ligera, sin enjuague, desarrollada con ingredientes de origen vegetal."
     }
   ]
 }
