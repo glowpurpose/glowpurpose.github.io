@@ -13,7 +13,6 @@
   <!-- Favicon mas grande para Glow Purpose -->
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 fill=%22%23ffffff%22/><text x=%2250%25%22 y=%2256%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-family=%22Segoe UI, sans-serif%22 font-weight=%22bold%22 font-size=%2260%22 fill=%22%237c3aed%22>GP</text></svg>">
   
-  
   <!-- LIBRERÍA DE CONFETI -->
   <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
 
@@ -36,7 +35,7 @@
     
     body { background-color: var(--bg-body); color: var(--text-main); padding-top: 115px; padding-bottom: 60px; overflow-x: hidden; }
     @media (max-width: 768px) {
-      body { padding-top: 100px; }
+      body { padding-top: 155px; }
     }
     
     /* CONTENEDOR HEADER FIJO UNIFICADO */
@@ -162,31 +161,27 @@
       gap: 10px;
     }
 
+    /* BUSCADOR FIJO BLANCO EN PC */
     .buscador-corto-container input {
-      width: 160px;
-      padding: 7px 14px;
-      border: 1px solid rgba(255, 255, 255, 0.3);
+      width: 220px;
+      padding: 8px 16px;
+      border: 1px solid var(--border);
       border-radius: 20px;
       font-size: 0.85rem;
       outline: none;
-      background: rgba(255, 255, 255, 0.15);
-      color: white;
-      transition: var(--transition);
+      background: #ffffff;
+      color: var(--text-main);
+      box-shadow: 0 2px 4px rgba(0,0,0,0.06);
     }
     .buscador-corto-container input::placeholder {
-      color: rgba(255, 255, 255, 0.7);
-    }
-    .buscador-corto-container input:focus {
-      width: 220px;
-      background: white;
-      color: var(--text-main);
-      border-color: white;
-    }
-    .buscador-corto-container input:focus::placeholder {
       color: var(--text-muted);
     }
+    .buscador-corto-container input:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 2px rgba(124, 58, 237, 0.2);
+    }
 
-    .btn-hamburguesa, .btn-lupa-mobile {
+    .btn-hamburguesa {
       display: none;
       background: none;
       border: none;
@@ -195,22 +190,47 @@
       color: white;
     }
 
+    /* BOTÓN CARRITO BLANCO */
     .header-cart-btn {
-      background: rgba(255, 255, 255, 0.2);
-      border: 1px solid rgba(255, 255, 255, 0.3);
-      color: white;
-      padding: 6px 14px;
+      background: #ffffff;
+      border: 1px solid #ffffff;
+      color: var(--primary-dark);
+      padding: 7px 16px;
       border-radius: 20px;
       cursor: pointer;
-      font-weight: bold;
+      font-weight: 700;
       font-size: 0.9rem;
       display: flex;
       align-items: center;
       gap: 6px;
       transition: var(--transition);
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     }
     .header-cart-btn:hover {
-      background: rgba(255, 255, 255, 0.35);
+      background: var(--primary-light);
+      transform: translateY(-1px);
+    }
+
+    /* BARRA DE BÚSQUEDA SECUNDARIA PARA MÓVILES */
+    .buscador-mobile-bar {
+      display: none;
+      background: #ffffff;
+      padding: 8px 12px;
+      border-bottom: 1px solid var(--border);
+    }
+    .buscador-mobile-bar input {
+      width: 100%;
+      padding: 8px 14px;
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      font-size: 0.88rem;
+      outline: none;
+      background: var(--bg-body);
+      color: var(--text-main);
+    }
+    .buscador-mobile-bar input:focus {
+      border-color: var(--primary);
+      background: #ffffff;
     }
 
     /* MENÚ HAMBURGUESA DESPLEGABLE MÓVIL */
@@ -254,20 +274,8 @@
       .nav-categorias-centro { display: none; }
       .nav-logo { position: absolute; left: 50%; transform: translateX(-50%); text-align: center; }
       
-      .buscador-corto-container input { display: none; }
-      .buscador-corto-container input.activo-mobile {
-        display: block;
-        position: absolute;
-        top: 65px;
-        left: 10px;
-        right: 10px;
-        width: calc(100% - 20px) !important;
-        z-index: 1050;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-        background: white !important;
-        color: var(--text-main) !important;
-      }
-      .btn-lupa-mobile { display: block; }
+      .buscador-corto-container { display: none; }
+      .buscador-mobile-bar { display: block; }
     }
 
     .container { max-width: 1200px; margin: 0 auto; padding: 0 15px; }
@@ -718,15 +726,19 @@
 
       <div class="nav-derecha">
         <div class="buscador-corto-container">
-          <input type="text" id="input-buscar-tienda" placeholder="Buscar producto..." oninput="manejarBusquedaYDesplazamiento()">
+          <input type="text" class="input-buscar-tienda" placeholder="Buscar producto..." oninput="manejarBusquedaYDesplazamiento(event)" onkeydown="manejarBusquedaYDesplazamiento(event)">
         </div>
-        <button class="btn-lupa-mobile" onclick="toggleBuscadorMobile()" aria-label="Buscar">🔍</button>
 
         <button class="header-cart-btn" onclick="abrirCarrito()">
           🛒 <span id="cart-badge" style="font-weight: bold;">0</span>
         </button>
       </div>
     </nav>
+
+    <!-- Barra de Búsqueda Móvil (Debajo del menú morado) -->
+    <div class="buscador-mobile-bar">
+      <input type="text" class="input-buscar-tienda" placeholder="🔍 Buscar producto en la tienda..." oninput="manejarBusquedaYDesplazamiento(event)" onkeydown="manejarBusquedaYDesplazamiento(event)">
+    </div>
   </div>
 
   <!-- Menú Hamburguesa Móvil -->
@@ -753,7 +765,7 @@
           <div class="nosotros-item">📍 <span><strong>Ubicación:</strong> Medellín, Antioquia (Envíos locales y nacionales)</span></div>
           <div class="nosotros-item">📲 <span><strong>Atención WhatsApp:</strong> +57 300 126 3581</span></div>
           <div class="nosotros-item">💳 <span><strong>Pagos:</strong> Efectivo, Transferencia o Tarjeta Débito/Crédito</span></div>
-          <a href="https://wa.me/573001263581?text=Hola,%20quisiera%20asesoría%20sobre%20los%20productos%20de%20Magalys%20Berna" target="_blank" class="btn-contacto-ws">
+          <a href="https://wa.me/573001263581?text=Hola,%20quisiera%20asesoría%20sobre%20los%20productos%20de%20Glow%20Purpose" target="_blank" class="btn-contacto-ws">
             💬 Escríbenos por WhatsApp
           </a>
         </div>
@@ -991,12 +1003,6 @@
       overlay.style.display = drawer.classList.contains('activo') ? 'block' : 'none';
     }
 
-    function toggleBuscadorMobile() {
-      const input = document.getElementById('input-buscar-tienda');
-      input.classList.toggle('activo-mobile');
-      if (input.classList.contains('activo-mobile')) input.focus();
-    }
-
     function dispararConfeti() {
       const canvasConfeti = document.createElement('canvas');
       canvasConfeti.style.position = 'fixed';
@@ -1158,10 +1164,31 @@
       desplazarParcialBanner();
     }
 
-    function manejarBusquedaYDesplazamiento() {
+    function obtenerTextoBusquedaActual() {
+      const inputs = document.querySelectorAll('.input-buscar-tienda');
+      for (let input of inputs) {
+        if (input.value.trim() !== '') return input.value.trim();
+      }
+      return '';
+    }
+
+    function manejarBusquedaYDesplazamiento(evento) {
       renderizarTienda();
-      const textoBusqueda = document.getElementById('input-buscar-tienda').value.trim();
-      if (textoBusqueda.length > 0) {
+      
+      const inputBuscar = evento ? evento.target : document.querySelector('.input-buscar-tienda');
+      const textoBusqueda = inputBuscar ? inputBuscar.value.trim() : '';
+
+      document.querySelectorAll('.input-buscar-tienda').forEach(input => {
+        if (input !== inputBuscar) input.value = textoBusqueda;
+      });
+
+      if (evento && (evento.key === 'Enter' || evento.keyCode === 13)) {
+        if (inputBuscar) inputBuscar.blur();
+        const catalogoEl = document.getElementById('catalogo-contenido');
+        if (catalogoEl) {
+          catalogoEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      } else if (textoBusqueda.length > 0) {
         desplazarParcialBanner();
       }
     }
@@ -1198,7 +1225,7 @@
 
     function renderizarTienda() {
       const contenedor = document.getElementById('catalogo-contenido');
-      const textoBusqueda = document.getElementById('input-buscar-tienda').value.toLowerCase().trim();
+      const textoBusqueda = obtenerTextoBusquedaActual().toLowerCase();
       contenedor.innerHTML = '';
 
       if (productos.length === 0) {
@@ -1436,8 +1463,8 @@
       if (!productoDetalleActual) return;
       
       const urlProducto = window.location.origin + window.location.pathname + '?id=' + productoDetalleActual.id;
-      const titulo = productoDetalleActual.nombre + " - Magalys Berna";
-      const texto = `¡Mira este producto en Magalys Berna!: ${productoDetalleActual.nombre}`;
+      const titulo = productoDetalleActual.nombre + " - Glow purpose";
+      const texto = `¡Mira este producto en Glow purpose!: ${productoDetalleActual.nombre}`;
 
       if (navigator.share) {
         navigator.share({
@@ -1823,7 +1850,7 @@
       const montoDescuento = subtotal * porcentajeDescuento;
       const totalFinal = subtotal - montoDescuento + costoEnvio;
 
-      let mensaje = `*¡Hola Magalys Berna! Nuevo Pedido 🛍️*\n\n`;
+      let mensaje = `*¡Hola Glow purpose! Nuevo Pedido 🛍️*\n\n`;
       mensaje += `👤 *Cliente:* ${nombre}\n`;
       mensaje += `📍 *Dirección:* ${direccion}\n`;
       mensaje += `🛵 *Zona Envío:* ${nombreZona}\n`;
@@ -1857,7 +1884,7 @@
 
     document.addEventListener('visibilitychange', () => {
       if (document.hidden) {
-        document.title = "¡Vuelve pronto! ✨ Magalys Berna te espera";
+        document.title = "¡Vuelve pronto! ✨ Glow Purpose te espera";
       } else {
         document.title = "¡Qué bueno que volviste! ❤️ - " + tituloOriginal;
         
