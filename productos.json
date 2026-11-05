@@ -31,7 +31,8 @@
     "Cejas",
     "Rubor",
     "polvo",
-    "Iluminador"
+    "Iluminador",
+    "jabon de baño"
   ],
   "marcas": [
     "skala",
@@ -41,7 +42,9 @@
     "milagros",
     "lula",
     "atenea",
-    "pocion"
+    "la-poción",
+    "clickhair",
+    "lluviadeestrellas"
   ],
   "productos": [
     {
@@ -799,7 +802,7 @@
       "categoria": "Corporal",
       "categorias": [
         "Corporal",
-        "Locion"
+        "Cremas"
       ],
       "precio": 19000,
       "agotado": false,
@@ -1942,7 +1945,7 @@
     },
     {
       "id": 1792981757520,
-      "nombre": "Mascarilla Fortalecedora Anticaida pocion",
+      "nombre": "Mascarilla Fortalecedora Anticaida la Poción",
       "categoria": "Capilar",
       "categorias": [
         "Capilar",
@@ -1961,7 +1964,7 @@
     },
     {
       "id": 1792981878283,
-      "nombre": "Acondicionador Crecimiento y Caida pocion",
+      "nombre": "Acondicionador Crecimiento y Caida la Poción",
       "categoria": "acondicionador",
       "categorias": [
         "acondicionador",
@@ -1980,7 +1983,7 @@
     },
     {
       "id": 1792982170985,
-      "nombre": "Shampoo Control Caspa pocion ",
+      "nombre": "Shampoo Control Caspa la Poción",
       "categoria": "shampoo",
       "categorias": [
         "shampoo",
@@ -1999,7 +2002,7 @@
     },
     {
       "id": 1792982460353,
-      "nombre": "Acondicionador Control Caspa pocion",
+      "nombre": "Acondicionador Control Caspa la Poción",
       "categoria": "acondicionador",
       "categorias": [
         "acondicionador",
@@ -2037,7 +2040,7 @@
     },
     {
       "id": 1792983177983,
-      "nombre": "Ancestral Mascarilla de Reparación pocion",
+      "nombre": "Ancestral Mascarilla de Reparación la Poción",
       "categoria": "Capilar",
       "categorias": [
         "Capilar",
@@ -2055,7 +2058,7 @@
     },
     {
       "id": 1792983274999,
-      "nombre": "Tratamiento Acondicionador de Reparación pocion",
+      "nombre": "Tratamiento Acondicionador de Reparación la Poción",
       "categoria": "Capilar",
       "categorias": [
         "Capilar",
@@ -2073,7 +2076,7 @@
     },
     {
       "id": 1792983552622,
-      "nombre": "Shampoo de Reparación pocion",
+      "nombre": "Shampoo de Reparación la Poción",
       "categoria": "shampoo",
       "categorias": [
         "shampoo",
@@ -2091,7 +2094,7 @@
     },
     {
       "id": 1792983764269,
-      "nombre": "Shampoo Control Grasa pocion",
+      "nombre": "Shampoo Control Grasa la Poción",
       "categoria": "shampoo",
       "categorias": [
         "shampoo",
@@ -2109,7 +2112,7 @@
     },
     {
       "id": 1792983963083,
-      "nombre": "Dual Crema para Peinar de Reparación pocion",
+      "nombre": "Dual Crema para Peinar de Reparación la Poción",
       "categoria": "Capilar",
       "categorias": [
         "Capilar",
@@ -2127,7 +2130,7 @@
     },
     {
       "id": 1793062836442,
-      "nombre": "Shampoo para Rizos Tongolé pocion",
+      "nombre": "Shampoo para Rizos Tongolé la Poción",
       "categoria": "shampoo",
       "categorias": [
         "shampoo",
@@ -2145,7 +2148,7 @@
     },
     {
       "id": 1793062925427,
-      "nombre": "Tratamiento para Rizos Tongolé pocion",
+      "nombre": "Tratamiento para Rizos Tongolé la Poción",
       "categoria": "Capilar",
       "categorias": [
         "Capilar",
@@ -2163,7 +2166,7 @@
     },
     {
       "id": 1793063108412,
-      "nombre": "Crema para Peinar Leave On pocion",
+      "nombre": "Crema para Peinar Leave On la Poción",
       "categoria": "Capilar",
       "categorias": [
         "Capilar",
@@ -2181,7 +2184,7 @@
     },
     {
       "id": 1793063419327,
-      "nombre": "Gel Definidor de Rizos pocion",
+      "nombre": "Gel Definidor de Rizos la Poción",
       "categoria": "Capilar",
       "categorias": [
         "Capilar",
@@ -2199,7 +2202,7 @@
     },
     {
       "id": 1793063632042,
-      "nombre": "Mascarilla para Rizos Tongolé pocion",
+      "nombre": "Mascarilla para Rizos Tongolé la Poción",
       "categoria": "Capilar",
       "categorias": [
         "Capilar",
@@ -2236,7 +2239,7 @@
     },
     {
       "id": 1793069073590,
-      "nombre": "Shampoo Nutricion y Proteccion AntiNudos Pocion",
+      "nombre": "Shampoo Nutricion y Proteccion AntiNudos la Poción",
       "categoria": "shampoo",
       "categorias": [
         "shampoo",
@@ -2254,7 +2257,7 @@
     },
     {
       "id": 1793069185808,
-      "nombre": "Acondicionador Kids Poción",
+      "nombre": "Acondicionador Kids la Poción",
       "categoria": "acondicionador",
       "categorias": [
         "acondicionador",
@@ -2272,7 +2275,7 @@
     },
     {
       "id": 1793069395331,
-      "nombre": "Spray Anti-Nudos Poción Kids",
+      "nombre": "Spray Anti-Nudos Kids la Poción",
       "categoria": "Capilar",
       "categorias": [
         "Capilar",
@@ -2287,6 +2290,449 @@
         "img/productos/pocion/Spray-Nutricion-y-Proteccion-AntiNudos-La-Pocion.webp"
       ],
       "desc": "El Spray Anti-Nudos Poción Kids es un tratamiento sin enjuague diseñado para desenredar el cabello infantil con facilidad, sin jalones ni maltrato. Su fórmula ligera hidrata, fortalece y protege la fibra capilar desde la primera aplicación. Puede usarse sobre cabello húmedo o seco, facilitando el peinado en cualquier momento del día. Es ideal para mantener el cabello suave, brillante y libre de frizz.\n\nFórmula ligera, sin enjuague, desarrollada con ingredientes de origen vegetal."
+    },
+    {
+      "id": 1793648300011,
+      "nombre": "Shampoo de miel brillo intenso clik hair",
+      "categoria": "shampoo",
+      "categorias": [
+        "shampoo",
+        "Capilar"
+      ],
+      "precio": 45900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/clickhair/shampoodemielbrollointenso.webp",
+      "imagenes": [
+        "img/productos/clickhair/shampoodemielbrollointenso.webp"
+      ],
+      "desc": "Shampoo de Miel Brillo Intenso · Limpieza suave\nEl Shampoo de Miel Brillo Intenso de Click Hair ofrece limpieza suave y brillo intenso. Limpia el cabello sin resecar y ayuda a devolverle la hidratación, suavidad y luminosidad al cabello maltratado, opaco o tratado químicamente."
+    },
+    {
+      "id": 1793648756631,
+      "nombre": "Shampoo de ají click hair",
+      "categoria": "shampoo",
+      "categorias": [
+        "shampoo",
+        "Capilar"
+      ],
+      "precio": 45900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/clickhair/shampoo-de-aji.webp",
+      "imagenes": [
+        "img/productos/clickhair/shampoo-de-aji.webp"
+      ],
+      "desc": "Shampoo de Ají · Anticaída y control de grasa\nEl Shampoo de Ají de Click Hair es una fórmula diseñada para fortalecer el cabello desde la raíz, estimular su crecimiento y controlar el exceso de grasa. Su combinación de extractos botánicos, aminoácidos y activos purificantes proporciona una limpieza profunda del cuero cabelludo, dejando el cabello limpio, suave y con brillo saludable, mientras favorece un crecimiento extremo."
+    },
+    {
+      "id": 1793648847372,
+      "nombre": "Shampoo de Leche y Proteínas click hair",
+      "categoria": "shampoo",
+      "categorias": [
+        "shampoo",
+        "Capilar"
+      ],
+      "precio": 52900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/clickhair/Shampoo-de-Leche-y-Proteinas.jpg",
+      "imagenes": [
+        "img/productos/clickhair/Shampoo-de-Leche-y-Proteinas.jpg"
+      ],
+      "desc": "Shampoo de Leche & Proteínas · Reparación desde la raíz\nEl Shampoo de Leche & Proteínas de Click Hair es el primer paso de la rutina de reparación intensiva para el cabello muy dañado, quebradizo y poroso. Limpia suavemente mientras empieza a repararlo desde la raíz, gracias a su fórmula con leche, péptidos, aminoácidos y ceramidas, desarrollada con tecnología capilar coreana.\n\nSi tu cabello está muy maltratado, aquí empieza tu rescate: cabello limpio, suave y listo para seguir con el resto de la rutina de reparación."
+    },
+    {
+      "id": 1793649166759,
+      "nombre": "Acondicionador de miel click hair",
+      "categoria": "acondicionador",
+      "categorias": [
+        "acondicionador",
+        "Capilar"
+      ],
+      "precio": 44900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/clickhair/acondicionador-miel-cabello-saludable1.webp",
+      "imagenes": [
+        "img/productos/clickhair/acondicionador-miel-cabello-saludable1.webp",
+        "img/productos/clickhair/acondicionador-miel-cabello-saludable2.webp"
+      ],
+      "desc": "Acondicionador de Miel Brillo Intenso · Suavidad y control de frizz\nEl Acondicionador de Miel de Click Hair deja el cabello súper suave y controla el frizz. Facilita el desenredado y sella la fibra capilar para dejar el cabello suave, manejable y con menos frizz. Ideal para cabellos secos, opacos o tratados químicamente que buscan recuperar su suavidad y brillo."
+    },
+    {
+      "id": 1793649391859,
+      "nombre": "Acondicionador de ají 4 en 1 click hair",
+      "categoria": "acondicionador",
+      "categorias": [
+        "acondicionador",
+        "Capilar"
+      ],
+      "precio": 44900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/clickhair/acondicionador-aji-1.webp",
+      "imagenes": [
+        "img/productos/clickhair/acondicionador-aji-1.webp",
+        "img/productos/clickhair/acondicionador-aji-2.webp"
+      ],
+      "desc": "Acondicionador de Ají 4 en 1 · Suavidad extrema\nEl Acondicionador de Ají 4 en 1 de Click Hair sella la fibra y controla el frizz, mientras mantiene la humedad para conservar el cabello hidratado. Su fórmula con ají, arroz y avena deja el cabello ultra suave y brillante."
+    },
+    {
+      "id": 1793649574607,
+      "nombre": "Acondicionador de Leche y Proteínas click hair",
+      "categoria": "acondicionador",
+      "categorias": [
+        "acondicionador",
+        "Capilar"
+      ],
+      "precio": 52900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/clickhair/Acondicionador-de-Leche-y-Proteinas1.jpg",
+      "imagenes": [
+        "img/productos/clickhair/Acondicionador-de-Leche-y-Proteinas1.jpg",
+        "img/productos/clickhair/Acondicionador-de-Leche-y-Proteinas2.webp"
+      ],
+      "desc": "condicionador de Leche & Proteínas · Sella la reparación\nEl Acondicionador de Leche & Proteínas de Click Hair es el último paso de la rutina de reparación intensiva para el cabello muy dañado, quebradizo y con frizz. Sella la cutícula y atrapa en la fibra todos los activos de reparación de la rutina. Su fórmula con leche, proteínas, aminoácidos y ceramidas, desarrollada con tecnología capilar coreana, deja el cabello sin frizz, súper suave y fácil de peinar.\n\nTermina tu rutina de reparación intensiva y logra un cabello reparado, fortalecido y con suavidad extrema."
+    },
+    {
+      "id": 1793649779291,
+      "nombre": "Mascarilla de miel brillo intenso clilck hair",
+      "categoria": "Capilar",
+      "categorias": [
+        "Capilar",
+        "Tratamientos"
+      ],
+      "precio": 51900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/clickhair/mascarilla-de-miel-brillo-intenso1.webp",
+      "imagenes": [
+        "img/productos/clickhair/mascarilla-de-miel-brillo-intenso1.webp",
+        "img/productos/clickhair/mascarilla-de-miel-brillo-intenso2.webp"
+      ],
+      "desc": "Mascarilla de Miel Brillo Intenso · Reparación capilar profunda\nLa Mascarilla de Miel Brillo Intenso de Click Hair es un tratamiento intensivo para devolver el brillo, la suavidad y la hidratación al cabello seco, opaco o tratado químicamente. Su fórmula con miel de abejas natural potencia la luminosidad y deja el cabello ultra suave, hidratado y con un brillo intenso."
+    },
+    {
+      "id": 1793649928392,
+      "nombre": "Kit Mascarilla y Booster de Proteínas click hair",
+      "categoria": "Capilar",
+      "categorias": [
+        "Capilar",
+        "Tratamientos"
+      ],
+      "precio": 59900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/clickhair/Kit-Mascarilla-y-Booster-de-Proteinas1.webp",
+      "imagenes": [
+        "img/productos/clickhair/Kit-Mascarilla-y-Booster-de-Proteinas1.webp",
+        "img/productos/clickhair/Kit-Mascarilla-y-Booster-de-Proteinas2.webp"
+      ],
+      "desc": "Mascarilla de Leche & Proteínas + Booster de Proteínas · Reparación intensiva\nLa Mascarilla de Leche & Proteínas de Click Hair es el rescate intensivo que tu cabello en emergencia estaba esperando. Su fórmula de reparación profesional reconstruye y recupera la fibra capilar muy dañada y porosa, devolviéndole la suavidad y una apariencia renovada. Con leche, proteínas, aminoácidos y ceramidas, y desarrollada con tecnología de reparación de enlaces y tecnología capilar coreana, lleva la reparación a los cabellos que necesitan un verdadero rescate.\n\nY aquí empieza la magia: potencia el poder reparador de la mascarilla con el Booster de Proteínas. Al mezclarlo, una dosis extra de proteínas transforma la mascarilla en una cremosa fórmula rosada que intensifica la reparación y lleva el rescate a otro nivel. El ritual SOS para devolverle vida a tu cabello en emergencia."
+    },
+    {
+      "id": 1793650458946,
+      "nombre": "Miel Capilar con Argán grande click hair",
+      "categoria": "Capilar",
+      "categorias": [
+        "Capilar",
+        "Tratamientos"
+      ],
+      "precio": 60900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/clickhair/producto-proteccion-capilar-miel_0_1.webp",
+      "imagenes": [
+        "img/productos/clickhair/producto-proteccion-capilar-miel_0_1.webp",
+        "img/productos/clickhair/producto-protector-capilar-miel__0_2.webp"
+      ],
+      "desc": "Elixir de brillo y suavidad que combina las maravillosas propiedades de la miel 100% natural, el aceite de macadamia y el de argán. Con solo unas gotas revivirás tu cabello, cambiando totalmente la textura y aportando un brillo incomparable, mientras lo nutres y retienes su humedad, evitando que se rompa.\n\nBeneficios:\n\nBrillo espejo instantáneo\nHidratación y nutrición profunda\nRestauración total\nSellado y recuperación de puntas\nSuavidad extrema\nDisminuye el frizz\nAroma delicioso"
+    },
+    {
+      "id": 1793650519986,
+      "nombre": "Miel Capilar con Argán mini click hair",
+      "categoria": "Capilar",
+      "categorias": [
+        "Capilar",
+        "Tratamientos"
+      ],
+      "precio": 29900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/clickhair/producto-proteccion-capilar-miel1.webp",
+      "imagenes": [
+        "img/productos/clickhair/producto-proteccion-capilar-miel1.webp",
+        "img/productos/clickhair/producto-proteccion-capilar-miel2.webp"
+      ],
+      "desc": "Miel para el Cabello · Sellado de puntas y brillo inmediato\nLa Miel para el Cabello de Click Hair sella las puntas y deja un brillo inmediato, mientras ayuda a recuperar la suavidad, controlar el frizz y devolver la hidratación al cabello. Su fórmula con miel de abejas natural, aceite de argán y aceite de macadamia ayuda a retener la humedad, suavizar el cabello y facilitar el peinado. Un tratamiento concentrado que transforma el cabello desde la primera aplicación."
+    },
+    {
+      "id": 1793650687500,
+      "nombre": "Termoprotector Bifásico Leche y Miel Click Hair",
+      "categoria": "Capilar",
+      "categorias": [
+        "Capilar",
+        "Tratamientos"
+      ],
+      "precio": 49900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/clickhair/Termoprotector-Bifasico-Leche-y-Miel_1.webp",
+      "imagenes": [
+        "img/productos/clickhair/Termoprotector-Bifasico-Leche-y-Miel_1.webp"
+      ],
+      "desc": "Termoprotector Bifásico Leche y Miel · Antifrizz y antihumedad\nEl Termoprotector Bifásico de Leche y Miel de Click Hair protege el cabello del calor mientras controla el frizz, la humedad y el esponjamiento. Su fórmula bifásica facilita el desenredo y deja el cabello suave, ligero y con movimiento. Ideal para usar antes de herramientas de calor."
+    },
+    {
+      "id": 1793651616284,
+      "nombre": "Perfume para el cabello 120 ml click hair",
+      "categoria": "Capilar",
+      "categorias": [
+        "Capilar",
+        "Splah"
+      ],
+      "precio": 47900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [
+        {
+          "nombre": "Naranjado",
+          "imagen": "img/productos/clickhair/1perfume-para-el-cabello-naranjado.jpg"
+        },
+        {
+          "nombre": "Azul",
+          "imagen": "img/productos/clickhair/2perfume-para-el-cabello-azul_0.jpg"
+        },
+        {
+          "nombre": "Morado",
+          "imagen": "img/productos/clickhair/3perfume-para-el-cabello-morado_0.jpg"
+        },
+        {
+          "nombre": "Amarillo",
+          "imagen": "img/productos/clickhair/4perfume-para-el-cabello-amarillo_0.jpg"
+        },
+        {
+          "nombre": "ROSADO",
+          "imagen": "img/productos/clickhair/5perfume-para-el-cabello-rosado_0.jpg"
+        },
+        {
+          "nombre": "Transparente",
+          "imagen": "img/productos/clickhair/6perfume-para-el-cabello-transparentel_0.jpg"
+        }
+      ],
+      "imagen": "img/productos/clickhair/1perfume-para-el-cabello-naranjado.jpg",
+      "imagenes": [
+        "img/productos/clickhair/1perfume-para-el-cabello-naranjado.jpg",
+        "img/productos/clickhair/2perfume-para-el-cabello-azul_0.jpg",
+        "img/productos/clickhair/3perfume-para-el-cabello-morado_0.jpg",
+        "img/productos/clickhair/4perfume-para-el-cabello-amarillo_0.jpg",
+        "img/productos/clickhair/5perfume-para-el-cabello-rosado_0.jpg",
+        "img/productos/clickhair/6perfume-para-el-cabello-transparentel_0.jpg"
+      ],
+      "desc": "Tu cabello oliendo delicioso con nuestro perfume por más de 24 horas.\n\nBeneficios\n\nAporta brillo y suavidad\nCon termoprotector\nDisminuye el frizz\nNutre el cabello con aceite de argán y queratina\nContiene purpurina\nNo engrasa tu cabello\n\n🌸🍬🦄 ROSA: Fragancia floral con notas frescas y dulces\n\n🍭🪵🍓 AZUL: Fragancia dulce con notas frutales y amaderadas.\n\n🍉🍇🌴 MORADO: Fragancia frutal, con notas tropicales y de caramelo.\n\n🥭🌷🧁 AMARILLO: Frutal con notas de mango, vainilla, granada y rosas.\n\n🧁🍭🍋 TRANSPARENTE: Vainilla glow: fragancia de vainilla con notas de limón y caramelo"
+    },
+    {
+      "id": 1793659639646,
+      "nombre": "Perfume para el cabello Click Hair",
+      "categoria": "Capilar",
+      "categorias": [
+        "Capilar",
+        "Splah"
+      ],
+      "precio": 39900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [
+        {
+          "nombre": "Golden Toffee",
+          "imagen": "img/productos/clickhair/25perfume para el cabello golden toffee.webp"
+        },
+        {
+          "nombre": "Mocca Shake",
+          "imagen": "img/productos/clickhair/26perfume para el cabello mocca shake1.webp"
+        },
+        {
+          "nombre": "Vanilla Glaze",
+          "imagen": "img/productos/clickhair/27perfume para el cabello vainilla glaza.webp"
+        },
+        {
+          "nombre": "Tropical Crush",
+          "imagen": "img/productos/clickhair/28perfume para el cabello tropical crush.webp"
+        }
+      ],
+      "imagen": "img/productos/clickhair/25perfume para el cabello golden toffee.webp",
+      "imagenes": [
+        "img/productos/clickhair/25perfume para el cabello golden toffee.webp",
+        "img/productos/clickhair/26perfume para el cabello mocca shake1.webp",
+        "img/productos/clickhair/27perfume para el cabello vainilla glaza.webp",
+        "img/productos/clickhair/28perfume para el cabello tropical crush.webp"
+      ],
+      "desc": "Disponibles en 4 aromas:\n\nMocca Shake: chocolate blanco, avellana tostada y fondo cremoso. 🍫🌰🤎\nGolden Toffee: toffee dorado, miel caliente y galleta crujiente. 🍪🍯🍒\nVanilla Glaze: galleta glaseada, caramelo salado, suave y elegante. 🧁🍰🍨\nTropical Crush: sandía jugosa, caramelo tostado y vainilla solar. 🍉🍇🌴"
+    },
+    {
+      "id": 1793661510518,
+      "nombre": "Tónico capilar anticaída Pelinex 60 ML click hair",
+      "categoria": "Capilar",
+      "categorias": [
+        "Capilar",
+        "Tratamientos"
+      ],
+      "precio": 39900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/clickhair/tonico-capilar-de-aji-1.webp",
+      "imagenes": [
+        "img/productos/clickhair/tonico-capilar-de-aji-1.webp",
+        "img/productos/clickhair/tonico-capilar-de-aji-2.webp"
+      ],
+      "desc": "Tónico Capilar de Ají · Crecimiento de 3 meses en 1\nEl Tónico Capilar de Ají de Click Hair ofrece crecimiento de 3 meses en 1, actuando directamente sobre el cuero cabelludo para ayudar a frenar la caída, estimular el crecimiento y fortalecer el folículo desde la raíz. Su fórmula con extracto de ají, café y menta revitaliza la raíz y potencia el crecimiento."
+    },
+    {
+      "id": 1793662048808,
+      "nombre": "Mantequilla corporal Click Hair",
+      "categoria": "Corporal",
+      "categorias": [
+        "Corporal",
+        "Cremas"
+      ],
+      "precio": 58900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/clickhair/mantequilla-corporal-con-glitter1.jpg",
+      "imagenes": [
+        "img/productos/clickhair/mantequilla-corporal-con-glitter1.jpg",
+        "img/productos/clickhair/mantequilla-corporal-con-glitter2.webp"
+      ],
+      "desc": "Mantequilla Corporal con Glitter \nLa Mantequilla Corporal con Glitter de Click Hair hidrata y nutre profundamente la piel, dejándola súper suave, elástica y luminosa. Su fórmula con lichi, rosa mosqueta, miel, manteca de karité, vitamina E y cacao hidrata y nutre la piel mientras el extra glitter potencia el glow y deja un acabado extra brillante."
+    },
+    {
+      "id": 1793662406221,
+      "nombre": "Exfoliante corporal Click Hair",
+      "categoria": "Corporal",
+      "categorias": [
+        "Corporal",
+        "Exfoliantes"
+      ],
+      "precio": 59000,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/clickhair/crema-exfoliante-corporal-volcanica_01.webp",
+      "imagenes": [
+        "img/productos/clickhair/crema-exfoliante-corporal-volcanica_01.webp",
+        "img/productos/clickhair/crema-exfoliante-corporal-volcanica_02.webp"
+      ],
+      "desc": "Exfoliante de Piedra Volcánica y Rosas\nEl Exfoliante de Piedra Volcánica y Rosas de Click Hair realiza una exfoliación suave y delicada que remueve las células muertas y estimula la regeneración celular. Su fórmula con piedra volcánica, lichis y rosa mosqueta deja la piel súper suave, elástica y luminosa, mientras favorece la producción de colágeno."
+    },
+    {
+      "id": 1793663301627,
+      "nombre": "Jabón cremoso corporal Click Hair",
+      "categoria": "Corporal",
+      "categorias": [
+        "Corporal",
+        "jabon de baño"
+      ],
+      "precio": 48900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/clickhair/jabon-con-aroma-rosa-mosqueta_0_01.webp",
+      "imagenes": [
+        "img/productos/clickhair/jabon-con-aroma-rosa-mosqueta_0_01.webp",
+        "img/productos/clickhair/jabon-cremoso-aroma-agradable_0_02.webp"
+      ],
+      "desc": "Jabón Cremoso\nEl Jabón Cremoso de Rosa y Lichis de Click Hair limpia suavemente sin resecar la piel. Su fórmula con manteca de karité, vitamina E, aceite de rosa mosqueta y extracto de lichis hidrata profundamente y deja la piel radiante, luminosa y ultrasuave, mientras la envuelve en un aroma delicioso."
+    },
+    {
+      "id": 1793664381790,
+      "nombre": "Shampoo miel rosada Lluvia de estrellas",
+      "categoria": "shampoo",
+      "categorias": [
+        "shampoo",
+        "Capilar"
+      ],
+      "precio": 36900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/lluviadeestrellas/shapoo miel rosada1.webp",
+      "imagenes": [
+        "img/productos/lluviadeestrellas/shapoo miel rosada1.webp",
+        "img/productos/lluviadeestrellas/shapoo miel rosada2.webp"
+      ],
+      "desc": "Limpieza profunda con nutrición y brillo desde la raíz ✨🍯\n\nEl Shampoo Miel Rosada Lluvia de Estrellas transforma tu rutina en un ritual de cuidado capilar, limpiando profundamente sin resecar y devolviéndole vida, suavidad y brillo a tu cabello desde el primer uso.\n\nSu fórmula, inspirada en la riqueza de la colmena, combina ingredientes naturales que nutren y revitalizan cada hebra:\n🍯 Miel: hidrata y suaviza la fibra capilar\n🌿 Aloe vera: equilibra y refresca el cuero cabelludo\n🌱 Romero: aporta vitalidad y fuerza\n🍑 Papaya: ayuda a mejorar el brillo y la apariencia saludable\n\nSu espuma suave limpia eficazmente mientras prepara el cabello para recibir hidratación, dejándolo ligero, fresco y visiblemente más saludable.\n\nAdemás, su fragancia dulce y fresca con notas cítricas, frutales y florales crea una experiencia sensorial deliciosa que perdura durante el día.\n\n✨ Limpieza profunda sin resecar\n✨ Hidratación y nutrición desde la raíz\n✨ Cabello más suave, brillante y saludable\n✨ Sensación fresca y ligera\n✨ Aroma dulce y duradero"
+    },
+    {
+      "id": 1793664801891,
+      "nombre": "Shampoo chocolate rosado Lluvia de estrellas",
+      "categoria": "shampoo",
+      "categorias": [
+        "shampoo",
+        "Capilar"
+      ],
+      "precio": 38900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/lluviadeestrellas/shampoo chocolate rosado1.webp",
+      "imagenes": [
+        "img/productos/lluviadeestrellas/shampoo chocolate rosado1.webp",
+        "img/productos/lluviadeestrellas/shampoo chocolate rosado2.webp"
+      ],
+      "desc": "Chocolate Rosado Shampoo Nutritivo e Hidratante\n\nDirecto del mundo más dulce llega Chocolate Rosado, una línea capilar diseñada para transformar tu rutina de cuidado en una experiencia deliciosa, nutritiva y llena de brillo. Su fórmula combina ingredientes reconocidos por sus propiedades hidratantes y fortalecedoras para ayudar a que el cabello luzca más suave, manejable y saludable desde el primer uso.\n\nEnriquecido con extracto de cacao, romero, papaya y ácido hialurónico, este shampoo limpia delicadamente mientras ayuda a aportar nutrición profunda, hidratación intensa y suavidad a la fibra capilar. Su acción contribuye a reducir la sensación de resequedad, mejorar la apariencia del cabello opaco y dejar una sensación sedosa sin aportar peso.\n\nEl extracto de cacao ayuda a nutrir y suavizar el cabello, favoreciendo una apariencia más fuerte y brillante. El romero aporta vitalidad y ayuda a mantener el cabello con un aspecto saludable, mientras que la papaya contribuye a mejorar la suavidad y el brillo natural. Por su parte, el ácido hialurónico ayuda a retener la hidratación, dejando el cabello con una apariencia más flexible, suave y luminosa."
+    },
+    {
+      "id": 1793665120629,
+      "nombre": "Acondicionador miel rosada Lluvia de estrellas",
+      "categoria": "acondicionador",
+      "categorias": [
+        "acondicionador",
+        "Capilar"
+      ],
+      "precio": 37500,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/lluviadeestrellas/acondicionador-miel-rosada1.jpg",
+      "imagenes": [
+        "img/productos/lluviadeestrellas/acondicionador-miel-rosada1.jpg",
+        "img/productos/lluviadeestrellas/Acondicionador-Miel-Rosada-2.webp"
+      ],
+      "desc": "Su textura cremosa facilita el desenredo mientras restaura la hidratación natural de cada hebra, dejando el cabello más manejable, sedoso y visiblemente saludable desde la primera aplicación.\n\nEnriquecido con una poderosa mezcla de ingredientes naturales:\n🍯 Miel: retiene la hidratación y nutre profundamente\n🌿 Aloe vera: calma y revitaliza el cabello\n🌱 Romero: fortalece y estimula\n✨ Aceite de argán + vitamina E: aportan brillo, suavidad y protección\n\nAdemás, su aroma dulce y fresco con notas cítricas, frutales y florales deja una fragancia deliciosa que perdura durante el día.\n\n✨ Hidratación profunda y nutrición intensa\n✨ Cabello más suave, sedoso y manejable\n✨ Facilita el desenredo\n✨ Aporta brillo y suavidad extrema\n✨ Fragancia dulce, fresca y duradera\n\n"
+    },
+    {
+      "id": 1793665299613,
+      "nombre": "Acondicionador chocolate rosado Lluvia de estrellas",
+      "categoria": "acondicionador",
+      "categorias": [
+        "acondicionador",
+        "Capilar"
+      ],
+      "precio": 37500,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/lluviadeestrellas/acondicionador-chocolate-rosado1.webp",
+      "imagenes": [
+        "img/productos/lluviadeestrellas/acondicionador-chocolate-rosado1.webp",
+        "img/productos/lluviadeestrellas/acondicionador-chocolate-rosado2.webp"
+      ],
+      "desc": "Enriquecido con extracto de cacao, romero, papaya y aceite de argán, este acondicionador ayuda a nutrir profundamente la fibra capilar mientras suaviza cada hebra para facilitar el peinado y reducir la sensación de resequedad. Su textura ultra cremosa se distribuye fácilmente sobre el cabello, proporcionando una sensación inmediata de suavidad y acondicionamiento.\n\nEl extracto de cacao ayuda a aportar nutrición y brillo, favoreciendo una apariencia saludable y luminosa. El aceite de argán contribuye a mejorar la suavidad, controlar el frizz y dejar el cabello más manejable. Por su parte, el romero y la papaya complementan la fórmula aportando vitalidad, sedosidad y una apariencia más saludable al cabello.\n\nDesde la primera aplicación, el cabello se siente más suave, desenredado y fácil de manejar, con un acabado ligero y sedoso que no aporta sensación pesada. Además, su delicioso aroma dulce y cremoso permanece durante el día, convirtiendo tu rutina capilar en una experiencia irresistible."
     }
   ]
 }
