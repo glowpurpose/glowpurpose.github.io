@@ -13,6 +13,13 @@
   <!-- Favicon mas grande para Glow Purpose -->
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 fill=%22%23ffffff%22/><text x=%2250%25%22 y=%2256%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-family=%22Segoe UI, sans-serif%22 font-weight=%22bold%22 font-size=%2260%22 fill=%22%237c3aed%22>GP</text></svg>">
   
+  <!-- CONFIGURACIÓN PWA -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#7c3aed">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="apple-touch-icon" href="img/icon-192.png">
+
   <!-- LIBRERÍA DE CONFETI -->
   <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
 
@@ -289,12 +296,12 @@
       margin-left: -50vw;
       margin-right: -50vw;
       height: auto;
-      aspect-ratio: 16 / 9; /* Proporción estándar adaptable */
+      aspect-ratio: 16 / 9;
       max-height: 450px;
       overflow: hidden;
       margin-bottom: 25px;
       box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-      background: #ffffff; /* Fondo limpio para rellenar sutilmente si la imagen varía */
+      background: #ffffff;
       display: none;
     }
     .seccion-banner.activo { display: block; }
@@ -312,12 +319,11 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      background: #ffffff; /* Fondo claro de respaldo */
+      background: #ffffff;
       position: relative;
       overflow: hidden;
     }
 
-    /* Truco visual: Ponemos una copia difuminada de la misma imagen al fondo para rellenar los bordes con elegancia */
     .banner-slide::before {
       content: "";
       position: absolute;
@@ -333,10 +339,10 @@
     .banner-slide img, .banner-slide video {
       width: 100%;
       height: 100%;
-      object-fit: contain; /* Muestra la imagen completa sin recortarla */
+      object-fit: contain;
       object-position: center center;
       position: relative;
-      z-index: 2; /* Se coloca por encima del fondo difuminado */
+      z-index: 2;
       display: block;
     }
 
@@ -476,10 +482,6 @@
     }
     .btn-agregar.btn-deshabilitado::after { display: none; }
 
-    .cart-float-btn { position: fixed; bottom: 20px; right: 20px; background-color: var(--primary); color: white; border: none; padding: 12px 20px; border-radius: 50px; font-weight: 700; font-size: 1rem; cursor: pointer; box-shadow: 0 4px 15px rgba(124, 58, 237, 0.4); z-index: 99; display: flex; align-items: center; gap: 8px; transition: var(--transition); }
-    .cart-float-btn:hover { background-color: var(--primary-dark); transform: scale(1.05); }
-    .cart-badge { background: white; color: var(--primary-dark); border-radius: 50%; width: 22px; height: 22px; display: inline-flex; justify-content: center; align-items: center; font-size: 0.85rem; font-weight: bold; }
-
     .btn-ir-arriba { position: fixed; bottom: 75px; right: 20px; background-color: #4b5563; color: white; border: none; width: 45px; height: 45px; border-radius: 50%; font-size: 1.2rem; font-weight: bold; cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.2); z-index: 98; opacity: 0; visibility: hidden; transition: opacity 0.3s, visibility 0.3s, background 0.2s; display: flex; justify-content: center; align-items: center; }
     .btn-ir-arriba.visible { opacity: 1; visibility: visible; }
     .btn-ir-arriba:hover { background-color: var(--text-main); }
@@ -493,65 +495,65 @@
     .btn-cerrar-modal { background: none; border: none; font-size: 1.6rem; cursor: pointer; color: var(--text-muted); transition: color 0.2s; }
     .btn-cerrar-modal:hover { color: var(--text-main); }
 
-    /*BOTON FLOTANTE DE WP*/
-    .whatsapp-float-btn {
+    /* BOTÓN / TARJETA FLOTANTE DE OFERTA FLASH */
+    .oferta-float-card {
       position: fixed;
-      bottom: 135px; /* Ubicado exactamente encima del botón ir-arriba */
-      right: 20px;
-      background-color: #25d366;
+      bottom: 20px;
+      left: 20px;
+      background: linear-gradient(135deg, #7c3aed 0%, #581c87 100%);
       color: white;
-      width: 45px;
-      height: 45px;
-      border-radius: 50%;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-      z-index: 98;
+      padding: 10px 16px;
+      border-radius: 50px;
+      box-shadow: 0 4px 15px rgba(124, 58, 237, 0.35);
+      z-index: 97;
       display: flex;
-      justify-content: center;
       align-items: center;
-      text-decoration: none;
-      transition: transform 0.3s, background-color 0.3s;
-    }
-    .whatsapp-float-btn:hover {
-      background-color: #1ebe5d;
-      transform: scale(1.08);
-    }
-    .whatsapp-float-btn svg {
-      width: 26px;
-      height: 26px;
-      fill: white;
-    }
-    /* Definición de la animación del aura / resplandor */
-    @keyframes auraPulse {
-      0% {
-        box-shadow: 0 4px 15px rgba(124, 58, 237, 0.4), 0 0 0 0 rgba(124, 58, 237, 0.8);
-      }
-      70% {
-        box-shadow: 0 4px 15px rgba(124, 58, 237, 0.4), 0 0 0 16px rgba(124, 58, 237, 0);
-      }
-      100% {
-        box-shadow: 0 4px 15px rgba(124, 58, 237, 0.4), 0 0 0 0 rgba(124, 58, 237, 0);
-      }
+      gap: 10px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      transition: transform 0.3s ease;
+      cursor: pointer;
     }
 
-    @keyframes auraPulseWs {
-      0% {
-        box-shadow: 0 4px 10px rgba(0,0,0,0.2), 0 0 0 0 rgba(37, 211, 102, 0.8);
-      }
-      70% {
-        box-shadow: 0 4px 10px rgba(0,0,0,0.2), 0 0 0 16px rgba(37, 211, 102, 0);
-      }
-      100% {
-        box-shadow: 0 4px 10px rgba(0,0,0,0.2), 0 0 0 0 rgba(37, 211, 102, 0);
-      }
+    .oferta-float-card:hover {
+      transform: scale(1.04);
     }
 
-    /* Botón flotante del carrito con efecto de aura al pulsar */
-    .cart-float-btn { 
-      position: fixed; bottom: 20px; right: 20px; background-color: var(--primary); color: white; border: none; padding: 12px 20px; border-radius: 50px; font-weight: 700; font-size: 1rem; cursor: pointer; box-shadow: 0 4px 15px rgba(124, 58, 237, 0.4); z-index: 99; display: flex; align-items: center; gap: 8px; transition: var(--transition); 
+    .oferta-badge-icono {
+      background: #ef4444;
+      color: white;
+      padding: 3px 8px;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      animation: pulsoOferta 1.5s infinite;
     }
-    .cart-float-btn:hover { background-color: var(--primary-dark); transform: scale(1.05); }
-    .cart-float-btn:active {
-      animation: auraPulse 0.8s ease-out;
+
+    @keyframes pulsoOferta {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+      100% { transform: scale(1); }
+    }
+
+    .oferta-timer {
+      font-family: monospace;
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: #fef08a;
+      background: rgba(0, 0, 0, 0.25);
+      padding: 2px 8px;
+      border-radius: 12px;
+    }
+
+    @media (max-width: 600px) {
+      .oferta-float-card {
+        bottom: 15px;
+        left: 15px;
+        padding: 8px 12px;
+        font-size: 0.8rem;
+      }
     }
 
     /* Animación de Aura Continua (Verde WhatsApp) */
@@ -596,7 +598,6 @@
       align-items: center;
       text-decoration: none;
       transition: transform 0.3s, background-color 0.3s;
-      /* Aura activada todo el tiempo (repite cada 2 segundos) */
       animation: auraInfinitaWs 2s infinite;
     }
 
@@ -629,7 +630,6 @@
       align-items: center; 
       gap: 8px; 
       transition: var(--transition);
-      /* Aura activada todo el tiempo (repite cada 2.5 segundos) */
       animation: auraInfinitaCarrito 2.5s infinite;
     }
 
@@ -637,6 +637,8 @@
       background-color: var(--primary-dark); 
       transform: scale(1.05); 
     }
+
+    .cart-badge { background: white; color: var(--primary-dark); border-radius: 50%; width: 22px; height: 22px; display: inline-flex; justify-content: center; align-items: center; font-size: 0.85rem; font-weight: bold; }
 
     /* MODAL DE DETALLES */
     .modal-detalle { background: var(--bg-card); width: 95%; max-width: 1050px; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.25); max-height: 90vh; display: flex; flex-direction: column; }
@@ -894,7 +896,7 @@
       </div>
     </nav>
 
-    <!-- Barra de Búsqueda Móvil (Debajo del menú morado) -->
+    <!-- Barra de Búsqueda Móvil -->
     <div class="buscador-mobile-bar">
       <input type="text" class="input-buscar-tienda" placeholder="🔍 Buscar producto en la tienda..." oninput="manejarBusquedaYDesplazamiento(event)" onkeydown="manejarBusquedaYDesplazamiento(event)">
     </div>
@@ -922,9 +924,9 @@
           <h3>Sobre Glow Purpose ✨</h3>
           <p>Somos una tienda online de cosméticos y belleza enfocada en brindarte la mejor experiencia y productos seleccionados de alta calidad para resaltar tu cuidado personal.</p>
           <div class="nosotros-item">📍 <span><strong>Ubicación:</strong> Medellín, Antioquia (Envíos locales y nacionales)</span></div>
-          <div class="nosotros-item">📲 <span><strong>Atención WhatsApp:</strong> +57 300 126 3581</span></div>
+          <div class="nosotros-item">📲 <span><strong>Atención WhatsApp:</strong> +57 304 351 1345</span></div>
           <div class="nosotros-item">💳 <span><strong>Pagos:</strong> Efectivo, Transferencia o Tarjeta Débito/Crédito</span></div>
-          <a href="https://wa.me/573001263581?text=Hola,%20quisiera%20asesoría%20sobre%20los%20productos%20de%20Glow%20Purpose" target="_blank" class="btn-contacto-ws">
+          <a href="https://wa.me/573043511345?text=Hola,%20quisiera%20asesoría%20sobre%20los%20productos%20de%20Glow%20Purpose" target="_blank" class="btn-contacto-ws">
             💬 Escríbenos por WhatsApp
           </a>
         </div>
@@ -939,13 +941,20 @@
 
   <button id="btn-ir-arriba" class="btn-ir-arriba" onclick="irArriba()" title="Ir arriba">⬆</button>
 
-  /* BOTON FLOTANTE DE WP*/
-  <a href="https://wa.me/573001263581?text=Hola,%20quisiera%20asesoría%20sobre%20los%20productos%20de%20Glow%20Purpose" target="_blank" class="whatsapp-float-btn" title="Escríbenos por WhatsApp">
+  <!-- Botón Flotante de WhatsApp -->
+  <a href="https://wa.me/573043511345?text=Hola,%20quisiera%20asesoría%20sobre%20los%20productos%20de%20Glow%20Purpose" target="_blank" class="whatsapp-float-btn" title="Escríbenos por WhatsApp">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
       <path d="M16 0c-8.837 0-16 7.163-16 16 0 2.825 0.735 5.493 2.025 7.848l-2.025 7.394 7.582-1.989c2.259 1.235 4.885 1.947 7.643 1.947 8.837 0 16-7.163 16-16s-7.163-16-16-16zM16 29.333c-2.437 0-4.707-0.686-6.641-1.875l-0.476-0.298-4.931 1.294 1.314-4.809-0.312-0.491c-1.282-2.016-2.019-4.425-2.019-6.963 0-7.364 5.969-13.333 13.333-13.333s13.333 5.969 13.333 13.333c0 7.364-5.969 13.333-13.333 13.333zM22.333 19.333c-0.364-0.182-2.155-1.063-2.491-1.185-0.336-0.122-0.582-0.182-0.827 0.182s-0.949 1.185-1.163 1.428c-0.214 0.243-0.428 0.274-0.792 0.091-0.364-0.182-1.535-0.565-2.924-1.804-1.082-0.965-1.811-2.155-2.025-2.519-0.214-0.364-0.023-0.561 0.159-0.743 0.163-0.163 0.364-0.428 0.545-0.642 0.182-0.214 0.243-0.364 0.364-0.606 0.122-0.243 0.061-0.455-0.030-0.636s-0.827-1.992-1.133-2.727c-0.299-0.718-0.604-0.62-0.827-0.632-0.214-0.011-0.459-0.011-0.704-0.011s-0.642 0.091-0.978 0.455c-0.336 0.364-1.282 1.253-1.282 3.058s1.313 3.551 1.495 3.794c0.182 0.243 2.583 3.943 6.262 5.529 0.875 0.377 1.558 0.603 2.088 0.772 0.878 0.279 1.677 0.24 2.305 0.146 0.704-0.105 2.155-0.881 2.461-1.733 0.306-0.852 0.306-1.583 0.214-1.733-0.091-0.152-0.336-0.243-0.7-0.425z"></path>
     </svg>
   </a>
 
+  <!-- Botón Flotante de Oferta Flash -->
+  <div class="oferta-float-card" onclick="filtrarCategoria('Nuevos lanzamientos ✨')">
+    <span class="oferta-badge-icono">🔥 Oferta</span>
+    <span>10% OFF termina en:</span>
+    <span id="timer-oferta" class="oferta-timer">00:00:00</span>
+  </div>
+  
   <button class="cart-float-btn" onclick="abrirCarrito()">
     🛒 Ver Carrito <span id="cart-badge-float" class="cart-badge">0</span>
   </button>
@@ -1113,7 +1122,7 @@
   </div>
 
   <script>
-    const NUMERO_WHATSAPP = "573001263581";
+    const NUMERO_WHATSAPP = "573043511345";
     
     const CATEGORIAS_MENU = [
       "Todos",
@@ -2060,6 +2069,49 @@
         }, 3500);
       }
     });
+
+    // TEMPORIZADOR REGRESIVO DE OFERTA FLASH
+    function iniciarTemporizadorOferta() {
+      const ahora = new Date();
+      const finOferta = new Date(ahora.getFullYear(), ahora.getMonth(), ahora.getDate(), 23, 59, 59);
+
+      function actualizarTimer() {
+        const tiempoActual = new Date().getTime();
+        const diferencia = finOferta.getTime() - tiempoActual;
+
+        if (diferencia <= 0) {
+          document.getElementById('timer-oferta').innerText = "00:00:00";
+          return;
+        }
+
+        const horas = Math.floor((diferencia % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutos = Math.floor((diferencia % (1000 * 60 * 60)) / (1000 * 60));
+        const segundos = Math.floor((diferencia % (1000 * 60)) / 1000);
+
+        const hStr = horas < 10 ? '0' + horas : horas;
+        const mStr = minutos < 10 ? '0' + minutos : minutos;
+        const sStr = segundos < 10 ? '0' + segundos : segundos;
+
+        const timerEl = document.getElementById('timer-oferta');
+        if (timerEl) {
+          timerEl.innerText = `${hStr}:${mStr}:${sStr}`;
+        }
+      }
+
+      actualizarTimer();
+      setInterval(actualizarTimer, 1000);
+    }
+
+    iniciarTemporizadorOferta();
+
+    // REGISTRO DE SERVICE WORKER PARA PWA
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js')
+          .then(reg => console.log('Service Worker de Glow Purpose registrado con éxito', reg.scope))
+          .catch(err => console.log('Error al registrar el Service Worker', err));
+      });
+    }
   </script>
 </body>
 </html>
