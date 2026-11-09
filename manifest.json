@@ -1,0 +1,21 @@
+{
+  "name": "Glow Purpose | Cosméticos & Cuidado Personal",
+  "short_name": "Glow Purpose",
+  "description": "Tienda de cosméticos y cuidado personal en Medellín.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#7c3aed",
+  "icons": [
+    {
+      "src": "https://glowpurpose.github.io/img/tarjeta-glow-purpose.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://glowpurpose.github.io/img/tarjeta-glow-purpose.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
