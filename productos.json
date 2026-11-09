@@ -32,7 +32,8 @@
     "Rubor",
     "polvo",
     "Iluminador",
-    "jabon de baño"
+    "jabon de baño",
+    "Keratinas"
   ],
   "marcas": [
     "skala",
@@ -44,7 +45,9 @@
     "atenea",
     "la-poción",
     "clickhair",
-    "lluviadeestrellas"
+    "lluviadeestrellas",
+    "origenbotanico",
+    "cocopink"
   ],
   "productos": [
     {
@@ -497,11 +500,11 @@
     {
       "id": 1791859714441,
       "nombre": "Kit Miniperfumes x 5 Milagros",
-      "categoria": "Corporal",
+      "categoria": "Kit",
       "categorias": [
-        "Corporal",
         "Kit",
-        "Capilar"
+        "Capilar",
+        "Splah"
       ],
       "precio": 49900,
       "agotado": false,
@@ -873,43 +876,43 @@
     {
       "id": 1792543406518,
       "nombre": "Perfume milagros",
-      "categoria": "Corporal",
+      "categoria": "Capilar",
       "categorias": [
-        "Corporal",
-        "Capilar"
+        "Capilar",
+        "Splah"
       ],
       "precio": 33900,
       "agotado": false,
       "estado": "disponible",
       "variantes": [
         {
-          "nombre": "Gold",
-          "imagen": "img/productos/milagros/Perfume gold 1.webp"
-        },
-        {
-          "nombre": "Martina",
-          "imagen": "img/productos/milagros/Perfume martina 1.webp"
-        },
-        {
-          "nombre": "Irresistible",
-          "imagen": "img/productos/milagros/Perfume irresistible 1.webp"
-        },
-        {
           "nombre": "Bali",
-          "imagen": "img/productos/milagros/Perfume bali 1.webp"
+          "imagen": "img/productos/milagros/1Perfume bali 1.webp"
+        },
+        {
+          "nombre": "martina",
+          "imagen": "img/productos/milagros/2Perfume martina 1.webp"
+        },
+        {
+          "nombre": "irresistible",
+          "imagen": "img/productos/milagros/3Perfume irresistible 1.webp"
+        },
+        {
+          "nombre": "sublime",
+          "imagen": "img/productos/milagros/4Perfume sublime 1.webp"
         },
         {
           "nombre": "majestuosa",
-          "imagen": "img/productos/milagros/Perfume majestuosa 1.webp"
+          "imagen": "img/productos/milagros/5Perfume majestuosa 1.webp"
         }
       ],
-      "imagen": "img/productos/milagros/Perfume bali 1.webp",
+      "imagen": "img/productos/milagros/1Perfume bali 1.webp",
       "imagenes": [
-        "img/productos/milagros/Perfume bali 1.webp",
-        "img/productos/milagros/Perfume gold 1.webp",
-        "img/productos/milagros/Perfume irresistible 1.webp",
-        "img/productos/milagros/Perfume majestuosa 1.webp",
-        "img/productos/milagros/Perfume martina 1.webp"
+        "img/productos/milagros/1Perfume bali 1.webp",
+        "img/productos/milagros/2Perfume martina 1.webp",
+        "img/productos/milagros/3Perfume irresistible 1.webp",
+        "img/productos/milagros/4Perfume sublime 1.webp",
+        "img/productos/milagros/5Perfume majestuosa 1.webp"
       ],
       "desc": "Perfumes Milagros, fragancias cautivadoras que acompañan tu estilo con frescura, dulzura y elegancia."
     },
@@ -1401,8 +1404,8 @@
         "Capilar"
       ],
       "precio": 48900,
-      "agotado": false,
-      "estado": "disponible",
+      "agotado": true,
+      "estado": "agotado",
       "variantes": [],
       "imagen": "img/productos/pocion/la  pocion shampoo crecimiento y control caida front .webp",
       "imagenes": [
@@ -1952,8 +1955,8 @@
         "Tratamientos"
       ],
       "precio": 45900,
-      "agotado": false,
-      "estado": "nuevo",
+      "agotado": true,
+      "estado": "agotado",
       "variantes": [],
       "imagen": "img/productos/pocion/la pocion Mascarilla_Crecimeinto_PCN   .webp",
       "imagenes": [
@@ -1971,8 +1974,8 @@
         "Capilar"
       ],
       "precio": 41900,
-      "agotado": false,
-      "estado": "nuevo",
+      "agotado": true,
+      "estado": "agotado",
       "variantes": [],
       "imagen": "img/productos/pocion/la pocion TratamientoCrecimientoPCN .webp",
       "imagenes": [
@@ -2525,7 +2528,7 @@
           "imagen": "img/productos/clickhair/4perfume-para-el-cabello-amarillo_0.jpg"
         },
         {
-          "nombre": "ROSADO",
+          "nombre": "Rosado",
           "imagen": "img/productos/clickhair/5perfume-para-el-cabello-rosado_0.jpg"
         },
         {
@@ -2733,6 +2736,519 @@
         "img/productos/lluviadeestrellas/acondicionador-chocolate-rosado2.webp"
       ],
       "desc": "Enriquecido con extracto de cacao, romero, papaya y aceite de argán, este acondicionador ayuda a nutrir profundamente la fibra capilar mientras suaviza cada hebra para facilitar el peinado y reducir la sensación de resequedad. Su textura ultra cremosa se distribuye fácilmente sobre el cabello, proporcionando una sensación inmediata de suavidad y acondicionamiento.\n\nEl extracto de cacao ayuda a aportar nutrición y brillo, favoreciendo una apariencia saludable y luminosa. El aceite de argán contribuye a mejorar la suavidad, controlar el frizz y dejar el cabello más manejable. Por su parte, el romero y la papaya complementan la fórmula aportando vitalidad, sedosidad y una apariencia más saludable al cabello.\n\nDesde la primera aplicación, el cabello se siente más suave, desenredado y fácil de manejar, con un acabado ligero y sedoso que no aporta sensación pesada. Además, su delicioso aroma dulce y cremoso permanece durante el día, convirtiendo tu rutina capilar en una experiencia irresistible."
+    },
+    {
+      "id": 1793844571943,
+      "nombre": "Shampoo SOS con cebolla y argán Ritual Botánico",
+      "categoria": "shampoo",
+      "categorias": [
+        "shampoo",
+        "Capilar"
+      ],
+      "precio": 35900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/origenbotanico/shampoo-sos-de-cebollay argan-rosada.webp",
+      "imagenes": [
+        "img/productos/origenbotanico/shampoo-sos-de-cebollay argan-rosada.webp"
+      ],
+      "desc": "Experimenta la excelencia en cuidado capilar con nuestro Shampoo Ultra Reparador S.O.S con Cebolla y argán. Esta fórmula avanzada, libre de sal y sulfatos, se adapta a todas las fibras capilares, desde naturales hasta aquellas sometidas a tratamientos químicos intensivos como tinturas, decoloraciones o alisados.\n\nBeneficios\n- Crecimiento extremo del cabello\n- Previene la caída del cabello\n- Repara los cabellos quimicamente dañados\n- Restauración, protección y proporciona mayor fuerza y resistencia al cabello - Fortalecimiento capilar\n- Hidratación intensiva\n- Engrosamiento, brillo y suavidad\n- Termoprotección\n- Activo comprobado científicamente\n\nCaracteristicas destacadas\n- Desarrollado con activos científicamente probados para reparar cabellos altamente maltratados o resecos.\n- Contiene fibroína, una potente proteína que mejora las propiedades mecánicas y aumenta la resistencia del cabello.\n- Enriquecido con ingredientes naturales como maíz, semillas de linaza, semillas de chía, arginina, salvia y provitamina B-5. - Compatible con cabellos tratados químicamente\n- Prevención y tratamiento de la pérdida de pelo\n- Sin siliconas ni dimeticonas\n- Sin sal ni sulfatos"
+    },
+    {
+      "id": 1793844789203,
+      "nombre": "Shampoo control caspa con menta y ají Ritual Botánico",
+      "categoria": "shampoo",
+      "categorias": [
+        "shampoo",
+        "Capilar"
+      ],
+      "precio": 35900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/origenbotanico/shampoo-control- caspa-con-menta-y-Aji-1.webp",
+      "imagenes": [
+        "img/productos/origenbotanico/shampoo-control- caspa-con-menta-y-Aji-1.webp"
+      ],
+      "desc": "Descubre la innovación en cuidado capilar con nuestro Shampoo Control Caspa enriquecido con menta y ají, que logra el equilibrio perfecto entre suavidad en el lavado y eficaz control de la caspa. Libre de sal y sulfatos, proporciona una limpieza efectiva sin resecar la fibra capilar.\n\nBeneficios\n- Previene la caída del cabello\n- Estimula el crecimiento del cabello\n- Elimina la descamación del cuero cabelludo con una acción de 72 horas\n- Control de sebo\n- Reequilibra la bacteriobiota y la microbiota del cuero cabelludo\n- Promueve un cuero cabelludo más saludable\n- Compatible con pelos tratados químicamente\n- No reseca el cuero cabelludo\n- Tiene un efecto antimicrobiano, antiirritante y antiinflamatorio que reduce el prurito\n- Este ritual purificante no solo controla la caspa, sino que fortalece y mejora la salud de tu cuero cabelludo, proporcionando\nuna experiencia de limpieza avanzada y efectiva\nCaracteristicas destacadas\n- Fórmula sin sal y sin sulfatos para una limpieza suave y efectiva.\n- Activo control caspa científicamente probado, reduciendo el sebo y controlando la caspa desde el primer día. - Sin Sal ni sulfatos\n- Activo comprobado científicamente\n\nRecomendaciones\nLava tu pelo con agua a temperatura ambiente para evitar debilitarlo y prevenir irritaciones en el cuero cabelludo\nUtiliza nuestro shampoo al menos 3 veces a la semana. Evita mezclarlo con otros productos, ya que esto puede reducir la eficacia de los activos anticaspa al eliminarlos\nAplica el shampoo exclusivamente en el cuero cabelludo, masajeándolo suavemente. Lava el resto del pelo con el exceso de espuma, siguiendo la dirección de la cutícula\nSé gentil al lavar tu cabello; evita enredos, torsiones y masajes excesivamente fuertes que puedan estimular la glándula sebácea Seque el pelo con una toalla de algodón o microfibra para preservar la hidratación y evitar la eliminación excesiva de humedad. Evita tratamientos desde la raíz, especialmente aquellos que contienen siliconas.\nEvita el contacto con los ojos, ya que el producto puede irritar"
+    },
+    {
+      "id": 1793844957393,
+      "nombre": "Shampoo control grasa con romero y eucalipto Ritual Botánico",
+      "categoria": "shampoo",
+      "categorias": [
+        "shampoo",
+        "Capilar"
+      ],
+      "precio": 35900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/origenbotanico/shampoo-control-caspa-de-romero-y-eucalipto-1.webp",
+      "imagenes": [
+        "img/productos/origenbotanico/shampoo-control-caspa-de-romero-y-eucalipto-1.webp"
+      ],
+      "desc": "Descubre la excelencia en el cuidado capilar con nuestro Shampoo Control Grasa enriquecido con romero y eucalipto.\nEsta fórmula sin sal ni sulfatos, compuesta por xilitol, regula de manera eficaz la producción excesiva de grasa sin comprometer la salud de la fibra capilar, especialmente en procesos como tinturas y alisados.\n\nBeneficios\n- Crecimiento acelerado del cabello\n- Previene la caída del cabello\n- Engrosamiento del cabello\n- Reequilibra la bacteriobiota y la microbiota del cuero cabelludo\n- Elimina la descamación del cuero cabelludo con una acción de 72 horas - Control efectivo del sebo\n- Promueve un cuero cabelludo más saludable - Activo comprobado científicamente\n\nCaracteristicas destacadas\n\nFormulado con activos vegetales y biodegradables obtenidos de fuentes naturales y renovables.\nEl romero, reconocido estimulante capilar, actúa como regulador del exceso de sebo en el cuero cabelludo, mejorando la textura, brillo, suavidad y volumen del cabello.\nCompatible con cabellos tratados químicamente Prevención y tratamiento de la pérdida de cabello Sin siliconas ni dimeticonas.\nSin sal, ni sulfatos\n\nRecomendaciones\n- Lava tu pelo día por medio o cada 2 días para resultados efectivos a partir de la tercera lavada.\n- Evita shampoos con sal o sulfatos, que pueden resecar tu cabello y estimular la producción excesiva de grasa. - Sé gentil con el lavado, evitando enredos y masajes fuertes que estimulen la glándula sebácea.\n- Seca tu pelo con una toalla de algodón o microfibra para retener la hidratación\n- Evita tratamientos desde la raíz y productos con siliconas.\n- Utiliza agua templada en lugar de caliente para mantener la salud del cuero cabelludo y la fibra capilar."
+    },
+    {
+      "id": 1793845529731,
+      "nombre": "Shampoo Jalea Real Ritual Botánico",
+      "categoria": "shampoo",
+      "categorias": [
+        "shampoo",
+        "Capilar"
+      ],
+      "precio": 38900,
+      "agotado": true,
+      "estado": "agotado",
+      "variantes": [],
+      "imagen": "img/productos/origenbotanico/Shampoo-jalea-real.webp",
+      "imagenes": [
+        "img/productos/origenbotanico/Shampoo-jalea-real.webp"
+      ],
+      "desc": "Shampoo de Jalea Real que limpia el cabello sin resecar mientras ayuda a nutrirlo, fortalecerlo y devolverle el brillo y la suavidad. Ideal para cabellos secos, maltratados, opacos o con frizz, ya que ayuda a que se vean más suaves, manejables y con vida. Su fórmula con provitamina B5, aminoácidos y aceite de microalgas aporta hidratación y ayuda a fortalecer la fibra capilar desde la raíz. Además, es libre de sulfatos, parabenos, siliconas y sal."
+    },
+    {
+      "id": 1793846410265,
+      "nombre": "Tratamiento Jalea Real Ritual Botánico",
+      "categoria": "Capilar",
+      "categorias": [
+        "Capilar",
+        "Tratamientos"
+      ],
+      "precio": 38800,
+      "agotado": true,
+      "estado": "agotado",
+      "variantes": [],
+      "imagen": "img/productos/origenbotanico/Tratamiento-jalea-real.webp",
+      "imagenes": [
+        "img/productos/origenbotanico/Tratamiento-jalea-real.webp"
+      ],
+      "desc": "Tratamiento capilar con Jalea Real y Miel que ayuda a nutrir profundamente el cabello mientras aporta brillo, suavidad e hidratación. Su fórmula con aminoácidos, provitamina B5 y aceite de microalgas ayuda a fortalecer la fibra capilar, controlar el frizz y dejar el pelo más suave, manejable y con vida. Puede usarse como pre-shampoo, tratamiento o acondicionador según lo que necesite tu cabello."
+    },
+    {
+      "id": 1793846765341,
+      "nombre": "Termoprotector Ritual Botánico 120 ml Rosado",
+      "categoria": "Capilar",
+      "categorias": [
+        "Capilar",
+        "Tratamientos"
+      ],
+      "precio": 24900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/origenbotanico/Termoprotectoe-desenredante_Rosado-1.webp",
+      "imagenes": [
+        "img/productos/origenbotanico/Termoprotectoe-desenredante_Rosado-1.webp"
+      ],
+      "desc": "El Perfume Termoprotector Ritual Botánico es la solución perfecta para mantener tu pelo suave, fresco y brillante mientras lo protege de agresiones externas que pueden generar daños irreparables en tu pelo, acelerando su envejecimiento y provocando un pelo quebradizo, débil y áspero."
+    },
+    {
+      "id": 1793846881763,
+      "nombre": "Termoprotector Ritual Botánico 120 ml Azul",
+      "categoria": "Capilar",
+      "categorias": [
+        "Capilar",
+        "Tratamientos"
+      ],
+      "precio": 24900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/origenbotanico/Termoprotectoe-desenredante_azul-1.webp",
+      "imagenes": [
+        "img/productos/origenbotanico/Termoprotectoe-desenredante_azul-1.webp"
+      ],
+      "desc": "El Perfume Termoprotector Desenredante es un perfume capilar 3 en 1, sin alcohol, enriquecido con feromonas y una irresistible fragancia sensual, suave y duradera que convierte cada movimiento de tu cabello en una experiencia de atracción.\n\nSu fórmula con activos de origen botánico, a base de múltiples aminoácidos y antioxidantes, ayuda a proteger la fibra capilar frente a las agresiones del día a día, como el calor, la radiación solar, la contaminación, la sal y el cloro. Además, facilita el desenredo en cabello húmedo y seco, ayuda a controlar el frizz y aporta brillo, suavidad y una apariencia más saludable.\n\nSu sistema de protección antioxidante ayuda a cuidar el cabello frente al estrés ambiental y las agresiones externas, contribuyendo a preservar la calidad de la fibra capilar, mientras perfuma, protege y desenreda."
+    },
+    {
+      "id": 1793847017353,
+      "nombre": "Duo mini perfumes Ritual Botánico",
+      "categoria": "Capilar",
+      "categorias": [
+        "Capilar",
+        "Tratamientos"
+      ],
+      "precio": 20500,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/origenbotanico/Termoprotector_Mini_Duo.webp",
+      "imagenes": [
+        "img/productos/origenbotanico/Termoprotector_Mini_Duo.webp"
+      ],
+      "desc": "Un dúo irresistible para perfumar y cuidar tu cabello. Dos perfumes capilares 3 en 1 con feromonas y sin alcohol que ayudan a controlar el frizz, proteger del calor y facilitar el desenredado, dejando una estela de aroma que enamora.\n\nSu fórmula con activos de origen botánico, a base de múltiples aminoácidos y antioxidantes, ayuda a proteger la fibra capilar frente a las agresiones del día a día, como el calor, la radiación solar, la contaminación, la sal y el cloro. Además, facilita el desenredo en cabello húmedo y seco, ayuda a controlar el frizz y aporta brillo, suavidad y una apariencia más saludable.\n\nSu sistema de protección antioxidante ayuda a cuidar el cabello frente al estrés ambiental y las agresiones externas, contribuyendo a preservar la calidad de la fibra capilar, mientras perfuma, protege y desenreda."
+    },
+    {
+      "id": 1793847295576,
+      "nombre": "Keratina 120 ml nuevo método flexible ritual botánico",
+      "categoria": "Capilar",
+      "categorias": [
+        "Capilar",
+        "Keratinas"
+      ],
+      "precio": 36500,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/origenbotanico/kit-keratina-evolucion-mini.webp",
+      "imagenes": [
+        "img/productos/origenbotanico/kit-keratina-evolucion-mini.webp"
+      ],
+      "desc": "La Keratina Orgánica Ritual Botánico es un sistema de alisado capilar. No contiene formol ni amoníaco, es de origen orgánico y vegano. Su fórmula completamente vegana es apta para embarazadas y niñas\n\n- 120 Ml de keratina orgánica\n- Ideal para 1 persona"
+    },
+    {
+      "id": 1793847483536,
+      "nombre": "Keratina 250 ml nuevo método flexible ritual botánico",
+      "categoria": "Capilar",
+      "categorias": [
+        "Capilar",
+        "Keratinas"
+      ],
+      "precio": 60000,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/origenbotanico/kit-keratina-de-alisado-250ml.webp",
+      "imagenes": [
+        "img/productos/origenbotanico/kit-keratina-de-alisado-250ml.webp"
+      ],
+      "desc": "La Keratina Orgánica Ritual Botánico es un sistema de alisado capilar. No contiene formol ni amoníaco, es de origen orgánico y vegano. Su fórmula completamente vegana es apta para embarazadas y niñas\n\n- 250 Ml de keratina orgánica\n- Ideal para 2 personas"
+    },
+    {
+      "id": 1793847804686,
+      "nombre": "Keratina 1 litro nuevo método flexible ritual botánico",
+      "categoria": "Capilar",
+      "categorias": [
+        "Capilar",
+        "Keratinas"
+      ],
+      "precio": 150000,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/origenbotanico/kit-keratina-de-alisado-1-litro.webp",
+      "imagenes": [
+        "img/productos/origenbotanico/kit-keratina-de-alisado-1-litro.webp"
+      ],
+      "desc": "La Keratina Orgánica Ritual Botánico es un sistema de alisado capilar. No contiene formol ni amoníaco, es de origen orgánico y vegano. Su fórmula completamente vegana es apta para embarazadas y niñas\n\n- Ideal para 8 personas"
+    },
+    {
+      "id": 1793848098810,
+      "nombre": "Mantequilla perfumada corporal Ritual botánico",
+      "categoria": "Corporal",
+      "categorias": [
+        "Corporal",
+        "Cremas"
+      ],
+      "precio": 27500,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/origenbotanico/Mantequilla-perfumada-corporal-1.webp",
+      "imagenes": [
+        "img/productos/origenbotanico/Mantequilla-perfumada-corporal-1.webp"
+      ],
+      "desc": "La Mantequilla Corporal Ritual Botánico hidrata la piel al instante, suaviza y la mantiene joven en todo momento, contiene antioxidantes, posee activos orgánicos para una mayor nutrición, libre de petrolatos y parabenos. Efecto GLOW durante todo el día"
+    },
+    {
+      "id": 1794173170923,
+      "nombre": "Miel rosada para el cabello Lluvia de estrellas",
+      "categoria": "Capilar",
+      "categorias": [
+        "Capilar",
+        "Tratamientos"
+      ],
+      "precio": 41900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/lluviadeestrellas/1trataniento-miel-rosada-.webp",
+      "imagenes": [
+        "img/productos/lluviadeestrellas/1trataniento-miel-rosada-.webp",
+        "img/productos/lluviadeestrellas/2trataniento-miel-rosada-.webp"
+      ],
+      "desc": "Inspirado en la magia de la colmena, nuestro Tratamiento Miel Rosada ayuda a reparar, nutrir e hidratar profundamente el cabello, devolviéndole suavidad, brillo y vitalidad.\n\nEnriquecido con miel pura, aloe vera, aceite de argán y manzanilla, fortalece la fibra capilar, facilita el desenredado y deja el cabello más sedoso, ligero y saludable. Su aroma dulce y floral permanece durante el día, convirtiendo cada aplicación en un verdadero ritual de cuidado."
+    },
+    {
+      "id": 1794173686822,
+      "nombre": "Mascarilla capilar chocolate rosado Lluvia de estrellas",
+      "categoria": "Capilar",
+      "categorias": [
+        "Capilar",
+        "Tratamientos"
+      ],
+      "precio": 41900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/lluviadeestrellas/3Portada_chocolate_rosado.webp",
+      "imagenes": [
+        "img/productos/lluviadeestrellas/3Portada_chocolate_rosado.webp",
+        "img/productos/lluviadeestrellas/4chocolate-rosado.webp"
+      ],
+      "desc": "Creada para ayudar a restaurar, nutrir e hidratar profundamente el cabello, devolviéndole suavidad, brillo y una apariencia mucho más saludable.\n\nSu fórmula con cacao, leche de karité y bambú ayuda a fortalecer la fibra capilar, mientras su textura cremosa deja el cabello sedoso, ligero y con un aroma dulce que vas a amar. 🤎✨\n\nUsala junto con toda la línea Chocolate Rosado de Lluvia de Estrella"
+    },
+    {
+      "id": 1794174256431,
+      "nombre": "Mantequillas corporal Lluvia de estrellas",
+      "categoria": "Corporal",
+      "categorias": [
+        "Corporal",
+        "Cremas"
+      ],
+      "precio": 41900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [
+        {
+          "nombre": "Fresa",
+          "imagen": "img/productos/lluviadeestrellas/5Portada_mantequilla_fresa.webp"
+        },
+        {
+          "nombre": "Sandia",
+          "imagen": "img/productos/lluviadeestrellas/7Portada_mantequilla_sandia_1.jpg"
+        },
+        {
+          "nombre": "Durazno",
+          "imagen": "img/productos/lluviadeestrellas/9Portada_mantequilla_durazno.webp"
+        }
+      ],
+      "imagen": "img/productos/lluviadeestrellas/5Portada_mantequilla_fresa.webp",
+      "imagenes": [
+        "img/productos/lluviadeestrellas/5Portada_mantequilla_fresa.webp",
+        "img/productos/lluviadeestrellas/6Portada_mantequilla_fresa.webp",
+        "img/productos/lluviadeestrellas/7Portada_mantequilla_sandia_1.jpg",
+        "img/productos/lluviadeestrellas/8Portada_mantequilla_sandia.webp",
+        "img/productos/lluviadeestrellas/9Portada_mantequilla_durazno.webp",
+        "img/productos/lluviadeestrellas/10Portada_mantequilla_sandia.webp"
+      ],
+      "desc": "Mantequilla corporal esta vez sin bronceo! Obtén todos los hermosos brillos de la mantequilla corporal en tres deliciosos aromas, fresa, sandia y durazno. Una explosión de aromas y destellos que no te puedes perder."
+    },
+    {
+      "id": 1794174503722,
+      "nombre": "Mantequilla corporal lluvia de estrella",
+      "categoria": "Corporal",
+      "categorias": [
+        "Corporal",
+        "Cremas"
+      ],
+      "precio": 43900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [],
+      "imagen": "img/productos/lluviadeestrellas/11Portada_mantequilla_color.webp",
+      "imagenes": [
+        "img/productos/lluviadeestrellas/11Portada_mantequilla_color.webp",
+        "img/productos/lluviadeestrellas/12Portada_mantequilla_color.webp"
+      ],
+      "desc": "Nuestra Mantequilla Corporal con Colo realza el tono natural de tu piel con un efecto canela y destellos dorados al instante, mientras la hidrata y nutre profundamente. Su fórmula deja un acabado luminoso, uniforme y sedoso, ideal para lucir una piel radiante todos los días.\n\nEnriquecida con aceite de almendras, aceite de jojoba y aceite de macadamia, ayuda a suavizar, proteger y mejorar la apariencia de la piel. No es un autobronceador: su color se retira fácilmente con agua y jabón.\n\nDeja secar durante 20 minutos antes de vestirte. Para retirarla, simplemente lava con agua y jabón."
+    },
+    {
+      "id": 1794178645363,
+      "nombre": "Perfume para el cabello lluvia de estrellas ",
+      "categoria": "Capilar",
+      "categorias": [
+        "Capilar",
+        "Splah"
+      ],
+      "precio": 39900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [
+        {
+          "nombre": "Mil deseos",
+          "imagen": "img/productos/lluviadeestrellas/18-Portada-mildeseos_2.webp"
+        },
+        {
+          "nombre": "Candy",
+          "imagen": "img/productos/lluviadeestrellas/14-Perfume-Candy_3.webp"
+        },
+        {
+          "nombre": "Explosión frutal",
+          "imagen": "img/productos/lluviadeestrellas/20Portada-expl-frutan_2.webp"
+        },
+        {
+          "nombre": "Ari",
+          "imagen": "img/productos/lluviadeestrellas/16-Perfume-Ari.webp"
+        }
+      ],
+      "imagen": "img/productos/lluviadeestrellas/13-Perfume-Candy_3.webp",
+      "imagenes": [
+        "img/productos/lluviadeestrellas/13-Perfume-Candy_3.webp",
+        "img/productos/lluviadeestrellas/14-Perfume-Candy_3.webp",
+        "img/productos/lluviadeestrellas/15-Perfume-Ari.webp",
+        "img/productos/lluviadeestrellas/16-Perfume-Ari.webp",
+        "img/productos/lluviadeestrellas/17-Portada-mildeseos_2.webp",
+        "img/productos/lluviadeestrellas/18-Portada-mildeseos_2.webp",
+        "img/productos/lluviadeestrellas/19Portada-expl-frutan_2.webp",
+        "img/productos/lluviadeestrellas/20Portada-expl-frutan_2.webp"
+      ],
+      "desc": "Proporciona un aroma delicioso a tu cabello con ingredientes totalmente naturales los cuales nutren y fortalecen tu cabello además de generar una barrera protectora contra las altas temperaturas. Contiene una poderosa y exclusiva formula con activos como\nACEITE DE ARGAN,\nVITAMINA E,\nKERATINA, \nEXTRACTO DE ROMERO \nY TERMOPROTECTOR,"
+    },
+    {
+      "id": 1794180440568,
+      "nombre": "Perfume MINI lluvia de estrellas",
+      "categoria": "Capilar",
+      "categorias": [
+        "Capilar",
+        "Splah"
+      ],
+      "precio": 26500,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [
+        {
+          "nombre": "Ari",
+          "imagen": "img/productos/lluviadeestrellas/22Portada_mini_ary_2.webp"
+        },
+        {
+          "nombre": "Candy",
+          "imagen": "img/productos/lluviadeestrellas/24PerfumeMiniCandy.webp"
+        },
+        {
+          "nombre": "Mil desos",
+          "imagen": "img/productos/lluviadeestrellas/26Portada_mini_mildeseos_2.webp"
+        },
+        {
+          "nombre": "Explosión tropical",
+          "imagen": "img/productos/lluviadeestrellas/28Portada_mini_explo_frutal_2.webp"
+        }
+      ],
+      "imagen": "img/productos/lluviadeestrellas/21Portada_mini_ary_2.webp",
+      "imagenes": [
+        "img/productos/lluviadeestrellas/21Portada_mini_ary_2.webp",
+        "img/productos/lluviadeestrellas/22Portada_mini_ary_2.webp",
+        "img/productos/lluviadeestrellas/23Portada_mini_candy_2.webp",
+        "img/productos/lluviadeestrellas/24PerfumeMiniCandy.webp",
+        "img/productos/lluviadeestrellas/25Portada_mini_mildeseos_2.webp",
+        "img/productos/lluviadeestrellas/26Portada_mini_mildeseos_2.webp",
+        "img/productos/lluviadeestrellas/27Portada_mini_explo_frutal_2.webp",
+        "img/productos/lluviadeestrellas/28Portada_mini_explo_frutal_2.webp"
+      ],
+      "desc": "Proporciona un aroma delicioso a tu cabello con ingredientes totalmente naturales los cuales nutren y fortalecen tu cabello además de generar una barrera protectora contra las altas temperaturas. Contiene una poderosa y exclusiva formula con activos como\nACEITE DE ARGAN,\nVITAMINA E,\nKERATINA,\nEXTRACTO DE ROMERO\nY TERMOPROTECTOR,"
+    },
+    {
+      "id": 1794180991971,
+      "nombre": "Splash Corporal Lluvia de estrellas",
+      "categoria": "Corporal",
+      "categorias": [
+        "Corporal",
+        "Splah"
+      ],
+      "precio": 41600,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [
+        {
+          "nombre": "Rossy",
+          "imagen": "img/productos/lluviadeestrellas/29Splash-Rossy.webp"
+        },
+        {
+          "nombre": "Amby",
+          "imagen": "img/productos/lluviadeestrellas/30Splash-Amby.webp"
+        },
+        {
+          "nombre": "Gummy",
+          "imagen": "img/productos/lluviadeestrellas/31Splash-Gummy.webp"
+        },
+        {
+          "nombre": "Plopy",
+          "imagen": "img/productos/lluviadeestrellas/32Splash-Plopy.webp"
+        }
+      ],
+      "imagen": "img/productos/lluviadeestrellas/29Splash-Rossy.webp",
+      "imagenes": [
+        "img/productos/lluviadeestrellas/29Splash-Rossy.webp",
+        "img/productos/lluviadeestrellas/30Splash-Amby.webp",
+        "img/productos/lluviadeestrellas/31Splash-Gummy.webp",
+        "img/productos/lluviadeestrellas/32Splash-Plopy.webp"
+      ],
+      "desc": "El Splash Corporal Lluvia de Estrellas reúne 4 aromas inspirados en la alta perfumería oriental, pensados para acompañarte en cada momento de tu día. Disfruta de la frescura amaderada de Amby, el toque romántico y floral de Rossy, la dulzura exótica de Gummy y la calidez avainillada de Plopy. Una colección exclusiva que refleja todas tus facetas."
+    },
+    {
+      "id": 1794181649146,
+      "nombre": "Tinta de labios Lollipop lluvia de estrellas",
+      "categoria": "Maquillaje",
+      "categorias": [
+        "Maquillaje",
+        "labios"
+      ],
+      "precio": 22900,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [
+        {
+          "nombre": "Cherry",
+          "imagen": "img/productos/lluviadeestrellas/33Portada-tinta-cherry.webp"
+        },
+        {
+          "nombre": "Berry",
+          "imagen": "img/productos/lluviadeestrellas/34Portada-tinta-berry.webp"
+        }
+      ],
+      "imagen": "img/productos/lluviadeestrellas/33Portada-tinta-cherry.webp",
+      "imagenes": [
+        "img/productos/lluviadeestrellas/33Portada-tinta-cherry.webp",
+        "img/productos/lluviadeestrellas/34Portada-tinta-berry.webp"
+      ],
+      "desc": "Las tintas !LOLLIPOP! Tintas con ÁCIDO HIALURONICO disponibles en dos hermosos tonos: CHERRY Y BERRY. Su aroma a bon bon bum es delicioso. Tiene una suavidad increíble, pigmentación al 100% y duración de todo el día\nAdemás se puede utilizar como rubor líquido."
+    },
+    {
+      "id": 1794183359067,
+      "nombre": "Splash Corporal Rolita Fresca con aroma a Menta 200 ml Coco Pink",
+      "categoria": "Corporal",
+      "categorias": [
+        "Corporal",
+        "Splah"
+      ],
+      "precio": 27500,
+      "agotado": false,
+      "estado": "disponible",
+      "variantes": [
+        {
+          "nombre": "rolita fresca",
+          "imagen": "img/productos/cocopink/2splash-rolita-fresca.jpeg"
+        },
+        {
+          "nombre": "cafeterita encantadora",
+          "imagen": "img/productos/cocopink/4splash-cafeterita-encantadora.jpeg"
+        },
+        {
+          "nombre": "costeñita tropical",
+          "imagen": "img/productos/cocopink/6splash-costeñita-tropical.jpeg"
+        },
+        {
+          "nombre": "llanerita jugosa",
+          "imagen": "img/productos/cocopink/8splash-llanerita-jugosa.jpeg"
+        },
+        {
+          "nombre": "paisita dulce",
+          "imagen": "img/productos/cocopink/10splash-paisa-dulce.jpeg"
+        },
+        {
+          "nombre": "isleñita coqueta",
+          "imagen": "img/productos/cocopink/12isleñita-coqueta.jpeg"
+        }
+      ],
+      "imagen": "img/productos/cocopink/1splash-rolita-fresca.jpeg",
+      "imagenes": [
+        "img/productos/cocopink/1splash-rolita-fresca.jpeg",
+        "img/productos/cocopink/2splash-rolita-fresca.jpeg",
+        "img/productos/cocopink/3splash-cafeterita-encantadora.jpeg",
+        "img/productos/cocopink/4splash-cafeterita-encantadora.jpeg",
+        "img/productos/cocopink/5splash-costeñita-tropical.jpeg",
+        "img/productos/cocopink/6splash-costeñita-tropical.jpeg",
+        "img/productos/cocopink/7splash-llanerita-jugosa.jpeg",
+        "img/productos/cocopink/8splash-llanerita-jugosa.jpeg",
+        "img/productos/cocopink/9splash-paisa-dulce.jpeg",
+        "img/productos/cocopink/10splash-paisa-dulce.jpeg",
+        "img/productos/cocopink/11isleñita-coqueta.jpeg",
+        "img/productos/cocopink/12isleñita-coqueta.jpeg"
+      ],
+      "desc": "¡Fresca, auténtica y con toda la actitud de una rolita! 🌿💙❄️\n\nDéjate conquistar por Rolita Fresca de Coco Pink, un splash corporal inspirado en la personalidad, el estilo y la frescura de las mujeres de la región Andina colombiana. Su revitalizante aroma a menta fresca combina notas herbales, refrescantes y ligeras para envolverte en una fragancia llena de energía, frescura y personalidad.\n\nSu fórmula está diseñada para refrescar y perfumar la piel, dejando una agradable sensación de frescura y un aroma encantador. Es ideal para acompañarte durante el día y transportarte a las mañanas frías de Bogotá, sus calles llenas de vida y la brisa fresca de las montañas andinas con cada aplicación"
     }
   ]
 }
