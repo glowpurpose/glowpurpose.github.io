@@ -1334,6 +1334,12 @@
 
     function filtrarCategoria(cat) {
       categoriaSeleccionada = cat;
+
+      // Limpiar el texto de todos los buscadores (PC y Móvil)
+      document.querySelectorAll('.input-buscar-tienda').forEach(input => {
+        input.value = '';
+      });
+
       renderizarFiltros();
       renderizarTienda();
       desplazarParcialBanner();
