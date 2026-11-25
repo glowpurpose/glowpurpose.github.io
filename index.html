@@ -588,6 +588,88 @@
 
     .cart-badge { background: white; color: var(--primary-dark); border-radius: 50%; width: 22px; height: 22px; display: inline-flex; justify-content: center; align-items: center; font-size: 0.85rem; font-weight: bold; }
 
+    /* BANNER PWA INSTALACIÓN */
+    .pwa-install-banner {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      z-index: 1500;
+      background: var(--bg-card);
+      color: var(--text-main);
+      border: 1px solid rgba(124, 58, 237, 0.25);
+      border-left: 4px solid var(--primary);
+      border-radius: 12px;
+      padding: 12px 14px;
+      max-width: 370px;
+      width: calc(100% - 40px);
+      box-shadow: 0 10px 25px rgba(88, 28, 135, 0.18);
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+    }
+    .pwa-install-banner.activo {
+      display: flex;
+    }
+    .pwa-install-info {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      line-height: 1.3;
+    }
+    .pwa-install-title {
+      font-size: 0.92rem;
+      font-weight: 700;
+      color: var(--primary-dark);
+    }
+    .pwa-install-desc {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+    }
+    .pwa-install-actions {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-shrink: 0;
+    }
+    .btn-pwa-instalar {
+      background: var(--primary);
+      color: #ffffff;
+      border: none;
+      padding: 7px 12px;
+      border-radius: 8px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: var(--transition);
+    }
+    .btn-pwa-instalar:hover {
+      background: var(--primary-dark);
+    }
+    .btn-pwa-cerrar {
+      background: transparent;
+      color: var(--text-muted);
+      border: none;
+      font-size: 1.2rem;
+      line-height: 1;
+      cursor: pointer;
+      padding: 4px 6px;
+      border-radius: 6px;
+    }
+    .btn-pwa-cerrar:hover {
+      color: var(--text-main);
+      background: var(--primary-light);
+    }
+    @media (max-width: 768px) {
+      .pwa-install-banner {
+        bottom: 78px;
+        left: 15px;
+        right: 15px;
+        width: auto;
+        max-width: none;
+      }
+    }
+
     /* MODAL DE DETALLES */
     .modal-detalle { background: var(--bg-card); width: 95%; max-width: 1050px; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.25); max-height: 90vh; display: flex; flex-direction: column; }
     
@@ -806,16 +888,16 @@
     <div id="cintaPromocional" class="cinta-promocional">
       <div class="cinta-track">
         <div class="cinta-grupo">
-          <span>ENVIO GRATIS por compras superiores a $150.000 🚚  •  Envíos a todo Colombia 👌🏻  •  10% OFF por compras superiores a $200.000 🎁</span>
+          <span>ENVIO GRATIS por compras superiores a $150.000 🚚  •  Envíos a todo Colombia 👌🏻  •  10% OFF por compras superiores a $200.000 🎁</span>
         </div>
         <div class="cinta-grupo" aria-hidden="true">
-          <span>ENVIO GRATIS por compras superiores a $150.000 🚚  •  Envíos a todo Colombia 👌🏻  •  10% OFF por compras superiores a $200.000 🎁</span>
+          <span>ENVIO GRATIS por compras superiores a $150.000 🚚  •  Envíos a todo Colombia 👌🏻  •  10% OFF por compras superiores a $200.000 🎁</span>
         </div>
         <div class="cinta-grupo" aria-hidden="true">
-          <span>ENVIO GRATIS por compras superiores a $150.000 🚚  •  Envíos a todo Colombia 👌🏻  •  10% OFF por compras superiores a $200.000 🎁</span>
+          <span>ENVIO GRATIS por compras superiores a $150.000 🚚  •  Envíos a todo Colombia 👌🏻  •  10% OFF por compras superiores a $200.000 🎁</span>
         </div>
         <div class="cinta-grupo" aria-hidden="true">
-          <span>ENVIO GRATIS por compras superiores a $150.000 🚚  •  Envíos a todo Colombia 👌🏻  •  10% OFF por compras superiores a $200.000 🎁</span>
+          <span>ENVIO GRATIS por compras superiores a $150.000 🚚  •  Envíos a todo Colombia 👌🏻  •  10% OFF por compras superiores a $200.000 🎁</span>
         </div>
       </div>
     </div>
@@ -902,6 +984,18 @@
   <button class="cart-float-btn" onclick="abrirCarrito()">
     🛒 Ver Carrito <span id="cart-badge-float" class="cart-badge">0</span>
   </button>
+
+  <!-- AVISO PWA INSTALACIÓN -->
+  <div id="pwaInstallBanner" class="pwa-install-banner" role="region" aria-label="Instalar aplicación Glow Purpose">
+    <div class="pwa-install-info">
+      <span class="pwa-install-title">✨ Instala Glow Purpose</span>
+      <span id="pwaInstallText" class="pwa-install-desc">Agrégala a tu inicio para pedir más rápido.</span>
+    </div>
+    <div class="pwa-install-actions">
+      <button id="btnInstalarPwa" type="button" class="btn-pwa-instalar">Instalar</button>
+      <button id="btnCerrarPwa" type="button" class="btn-pwa-cerrar" aria-label="Cerrar aviso">×</button>
+    </div>
+  </div>
 
   <!-- MODAL DETALLE -->
   <div id="modal-detalle-prod" class="modal-overlay">
@@ -2073,6 +2167,64 @@
         }, 3500);
       }
     });
+
+    // AVISO DE INSTALACIÓN PWA
+    (() => {
+      const bannerPwa = document.getElementById('pwaInstallBanner');
+      const btnInstalarPwa = document.getElementById('btnInstalarPwa');
+      const btnCerrarPwa = document.getElementById('btnCerrarPwa');
+      const textoPwa = document.getElementById('pwaInstallText');
+      if (!bannerPwa || !btnInstalarPwa || !btnCerrarPwa) return;
+
+      const CLAVE_CERRADO_PWA = 'glow_purpose_pwa_dismissed';
+      const yaInstalada =
+        window.matchMedia('(display-mode: standalone)').matches ||
+        window.navigator.standalone === true;
+
+      if (yaInstalada || localStorage.getItem(CLAVE_CERRADO_PWA) === '1') return;
+
+      let eventoInstalacionDiferido = null;
+      const esIos = /iphone|ipad|ipod/i.test(window.navigator.userAgent);
+
+      if (esIos) {
+        btnInstalarPwa.style.display = 'none';
+        if (textoPwa) {
+          textoPwa.textContent = 'Toca Compartir y luego "Agregar a inicio" para instalarla.';
+        }
+        bannerPwa.classList.add('activo');
+      }
+
+      window.addEventListener('beforeinstallprompt', (e) => {
+        e.preventDefault();
+        eventoInstalacionDiferido = e;
+        btnInstalarPwa.style.display = 'inline-block';
+        if (textoPwa) {
+          textoPwa.textContent = 'Agrégala a tu inicio para pedir más rápido.';
+        }
+        bannerPwa.classList.add('activo');
+      });
+
+      btnInstalarPwa.addEventListener('click', async () => {
+        if (!eventoInstalacionDiferido) return;
+        eventoInstalacionDiferido.prompt();
+        const resultado = await eventoInstalacionDiferido.userChoice;
+        eventoInstalacionDiferido = null;
+        bannerPwa.classList.remove('activo');
+        if (resultado && resultado.outcome === 'accepted') {
+          localStorage.setItem(CLAVE_CERRADO_PWA, '1');
+        }
+      });
+
+      btnCerrarPwa.addEventListener('click', () => {
+        bannerPwa.classList.remove('activo');
+        localStorage.setItem(CLAVE_CERRADO_PWA, '1');
+      });
+
+      window.addEventListener('appinstalled', () => {
+        bannerPwa.classList.remove('activo');
+        eventoInstalacionDiferido = null;
+      });
+    })();
 
     // REGISTRO DE SERVICE WORKER PARA PWA
     if ('serviceWorker' in navigator) {
